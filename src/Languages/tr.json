@@ -17,5 +17,13 @@
 
 
     "footer-contact": "Bize Ulaşın! İşbirliği yapmaktan onur duyarız",
-    "footer-file": "Sponsorluk Dosyamıza Göz Atın"
+    "footer-file": "Sponsorluk Dosyamıza Göz Atın",
+
+    "home-content-title-1": "Biz Kimiz?",
+    "home-content-title-2": "FRC Nedir?",
+
+    "home-content-content-1": "İstanbul Erkek Lisesi Robotik Kulübü olarak, teknoloji, yazılım ve mühendislik kültürünü lise düzeyinde öğrencilerimize kazandırmaya adanmış bir öğrenci kulübüyüz. Bu yıl Türkiye'nin dört bir yanından gelen lise öğrencileri ile ulusal ve uluslararası yarışmalarda okulumuzu temsil ederek hedefimize bir adım daha yaklaştık.\n\n IEL ROBOTICS, robotik, havacılık, uzay ve daha birçok teknik alanda kendi projelerini geliştirmekte ve yarışmalara katılmaktadır. Bu proje ve yarışmaların yanı sıra okulumuzdan ve diğer okullardan gelen öğrencilere teknik alanlarda eğitimler verilmektedir. Son yıllarda her yıl 60'tan fazla öğrencinin katıldığı bu etkinliklerde yazılım, elektronik ve 3D tasarım eğitimleri verildi ve verilmeye devam ediyor. Ayrıca robotik kültürünü yaygınlaştırmak ve profesyonelliği sevdirmek amacıyla her yaş ve gruba yönelik STEP, DoDo Kitap Okuyor ve Give a Hand gibi projeler düzenledik ve YouTube kanalımızda FIRST® Inspirations ve Team Inspires gibi serilerle doğrudan ve dolaylı olarak 5.000'den fazla öğrenciye ulaştık.",
+    "home-content-content-2": "FRC, yılda bir kez uluslararası düzeyde düzenlenen ve NASA, Google, Boeing, 3M ve Apple gibi dünyaca ünlü şirketler tarafından finanse edilen dünyanın en prestijli lise robot yarışmasıdır ve gençlerin teknik, matematiksel ve mühendislik becerilerini yaratıcı ve çözüm odaklı bir şekilde geliştirmeyi ve beslemeyi amaçlamaktadır. \n\nYarışmaya katılan ekipler, her yıl yarışmadan iki ay önce duyurulan görevleri tamamlayan yaklaşık bir metre uzunluğunda ve genişliğinde robotlar yapmaya çalışmaktadır. Bu yarışma sayesinde öğrenciler takım oyuncusu, duyarlı ve yaratıcı bireyler olarak uluslararası FRC topluluğunun bir parçası haline geliyor ve hayatlarının geri kalanında kendilerine eşlik edecek bir sosyal çevre ve bilgi birikimine sahip oluyorlar."     
+
+    ,"dümen": "bla bla"
 }

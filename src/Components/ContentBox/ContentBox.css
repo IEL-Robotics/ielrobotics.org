@@ -1,0 +1,46 @@
+.content-holder {
+    margin: 2%;
+    border: solid 10px rgba(224, 224, 224, 0.559);
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns:30% 70%;
+}
+
+.image-container {
+    margin-right: 5%;
+    align-self: center;
+}
+
+.image {
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: inherit;
+    white-space: pre-line;
+    
+}
+
+
+@media screen and (max-width: 1000px) {
+    .content-holder{
+        grid-template-columns: 100%;
+        
+    }
+
+    .image-container{
+        margin-right: 0%;
+    }
+
+    .image{
+        margin-bottom: 5%;
+    }
+    
+}

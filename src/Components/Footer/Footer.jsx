@@ -87,10 +87,14 @@ export const Footer = ({scrollRef}) => {
                 </div>
             
             </div>
-            <div style={{height: "20vh"}}></div>
+            <div style={{height: "10vh"}}></div>
+            {/* <div style={{height: "8vh", backgroundColor: 'black', textAlign: 'center'}}>
+                <div style={{height: "2vh"}}></div> Gradient ekle, yukarıdan aşağıya kararsın, copyright
+                <div> Proudly powered by our own developers ;)</div>
+            </div> */}
         </div>
         </>
     )
 }
 
-// DESIGN THE BOTTOM, COPYRIGHTS BLA BLA
+// DESIGN THE BOTTOM, COPYRIGHTS BLA BLA, SPONSORSHIP FILE

@@ -2,12 +2,12 @@ import './Navbar.css'
 import '../../index.css'
 import { toggleMenu } from './Navbar'
 
-import { useState, useContext, useRef } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useContext, useRef, useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 import LanguageContext from '../../Context/LanguageContext'
 
-export const Navbar = ({handleScroll}) => {
+export const Navbar = ({ handleScroll }) => {
     const languages = ['en', 'tr', 'de'];
     const [currentLanguage, setCurrentLanguage] = useState('en');
 
@@ -21,48 +21,61 @@ export const Navbar = ({handleScroll}) => {
         console.log(language);
     };
 
-    const handleScrollAbove = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+    const navigate = useNavigate();
+
+    const handleNavigation = () => {
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 0);
     };
+
+    const handleClick2 = (loc) => {
+        handleNavigation();
+        navigate(loc);
+    };
+
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, []);
 
     return (
         <header className="header" id="header">
             <nav className="navbar container">
                 <div className='page-name'>
-                    <Link to="/"><h2 className="logo">İELRobotics</h2></Link>
+                    <a onClick={() => handleClick2("/")}><h2 className="logo">İELRobotics</h2></a>
                 </div>
 
                 <div className="menu" id="menu">
                     <ul className="list">
                         <li className="list-item">
-                            <Link to="/" onClick={handleScrollAbove}>
+                            <a onClick={() => handleClick2("/")}>
                                 {getTranslation("home")}
-                            </Link>
+                            </a>
                         </li>
                         <li className="list-item">
-                            <Link to="/news" onClick={handleScrollAbove}>
+                            <a onClick={() => handleClick2("/news")}>
                                 {getTranslation("news")}
-                            </Link>
+                            </a>
                         </li>
                         <li className="list-item">
-                            <Link to="/sponsors" onClick={handleScrollAbove}>
+                            <a onClick={() => handleClick2("/sponsors")}>
                                 {getTranslation("sponsor")}
-                            </Link>
+                            </a>
                         </li>
                         <li className="list-item">
-                            <Link to="/achievements" onClick={handleScrollAbove}>
+                            <a onClick={() => handleClick2("/achievements")}>
                                 {getTranslation("success")}
-                            </Link>
+                            </a>
                         </li>
                         <li className="list-item">
-                            <Link to="/team" onClick={handleScrollAbove}>
+                            <a onClick={() => handleClick2("/team")}>
                                 {getTranslation("team")}
-                            </Link>
+                            </a>
                         </li>
-                        <li className="list-item">       
+                        <li className="list-item">
                             <Link onClick={handleScroll}>
                                 {getTranslation("contact")}
-                            </Link>             
+                            </Link>
                         </li>
                     </ul>
                 </div>

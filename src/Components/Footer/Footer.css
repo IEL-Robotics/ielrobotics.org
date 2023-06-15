@@ -25,7 +25,7 @@ strong {
 }
 
 #btn-sponsor {
-    border-radius: 2%;
+    border-radius: 10px;
     border: 0.2rem solid rgb(202, 202, 255);
     font-size: 120%;
     color: rgb(202, 202, 202);

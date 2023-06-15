@@ -17,7 +17,16 @@
     "news-slogan": "Don't Miss Out",
 
     "footer-contact": "Contact Us! We'd love to cooperate",
-    "footer-file": "Check Out Our Sponsorship File"
+    "footer-file": "Check Out Our Sponsorship File",
+
+    "home-content-title-1": "Who Are We?",
+    "home-content-title-2": "What Is FRC?",
+
+    "home-content-content-1": "As the Robotics Club of Istanbul Erkek High School, we are a student club dedicated to bringing the culture of technology, software and engineering to our students at the high school level. This year we have taken a step closer to our goal by representing our school in national and international competitions with high school students from all over Turkey. \n\n IEL ROBOTICS develops its own projects and participates in competitions in robotics, aeronautics, space and many other technical fields. In addition to these projects and competitions, students from our school and other schools are trained in technical fields. In recent years, more than 60 students have participated in these events each year, and training in software, electronics and 3D design has been and continues to be provided. We have also organised projects such as STEP, DoDo Reads Books and Give a Hand for all ages and groups of people to spread the culture of robotics and engaging professionalism, and we have reached more than 5,000 students directly and indirectly with series such as FIRST® Inspirations and Team Inspires on our YouTube channel.",
+    "home-content-content-2": "FRC is the world's most prestigious high school robotics competition, held internationally once a year and funded by world-renowned companies such as NASA, Google, Boeing, 3M and Apple, and aims to develop and nurture young people's technical, mathematical and engineering skills in a creative and solution-focused way. \n\nTeams participating in the competition attempt to build robots approximately one metre long and wide that complete tasks announced two months before the competition each year. Through this competition, the students become part of the international FRC community as team players, sensitive and creative individuals, and have a social environment and knowledge that will accompany them for the rest of their lives."      
+
+    ,"dümen": "bla bla"
+
 
 }
 

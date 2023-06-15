@@ -16,6 +16,14 @@
     "success-slogan": "Wir schaffen",
     "news-slogan": "Verpass Nichts",
 
-    "footer-contact": "Kontaktiere uns! Wir würden gerne kooperieren",
-    "footer-file": "Schau auf unsere Sponsoring Datei"
+    "footer-contact": "Erreich uns! Wir würden gerne kooperieren",
+    "footer-file": "Schau auf unsere Sponsoring Datei",
+
+    "home-content-title-1": "Wer Sind Wir?",
+    "home-content-title-2": "Was ist denn FRC?",
+
+    "home-content-content-1": "Als Robotik-Club des Istanbuler Erkek-Gymnasiums sind wir ein Schülerclub, der es sich zur Aufgabe gemacht hat, unseren Schülerinnen und Schülern die Kultur der Technologie, der Software und des Ingenieurwesens auf Gymnasialebene zu vermitteln. In diesem Jahr sind wir unserem Ziel einen Schritt näher gekommen, indem wir unsere Schule bei nationalen und internationalen Wettbewerben mit Gymnasiasten aus der ganzen Türkei vertreten haben. \n\nIEL ROBOTICS entwickelt eigene Projekte und nimmt an Wettbewerben in den Bereichen Robotik, Luftfahrt, Raumfahrt und vielen anderen technischen Bereichen teil. Zusätzlich zu diesen Projekten und Wettbewerben werden Schüler unserer Schule und anderer Schulen in technischen Bereichen ausgebildet. In den vergangenen Jahren haben jedes Jahr mehr als 60 Schüler an diesen Veranstaltungen teilgenommen, und es wurden und werden weiterhin Schulungen in den Bereichen Software, Elektronik und 3D-Design durchgeführt. Darüber hinaus haben wir Projekte wie STEP, DoDo Reads Books und Give a Hand für alle Alters- und Personengruppen organisiert, um die Kultur der Robotik und der ansprechenden Professionalität zu verbreiten, und wir haben mehr als 5000 Schüler direkt und indirekt mit Serien wie FIRST® Inspirations und Team Inspires auf unserem Youtube-Kanal erreicht.",
+    "home-content-content-2": "FRC ist der weltweit prestigeträchtigste Highschool-Robotikwettbewerb, der einmal im Jahr international ausgetragen und von weltbekannten Unternehmen wie der NASA, Google, Boeing, 3M und Apple finanziert wird und darauf abzielt, die technischen, mathematischen und ingenieurwissenschaftlichen Fähigkeiten junger Menschen auf kreative und lösungsorientierte Weise zu entwickeln und zu fördern. \n\nDie Teams, die an diesem Wettbewerb teilnehmen, versuchen, Roboter mit einer Länge und Breite von etwa einem Meter zu bauen, die die jedes Jahr zwei Monate vor dem Wettbewerb angekündigten Aufgaben erfüllen. Durch diesen Wettbewerb werden die Schülerinnen und Schüler als teamfähige, sensible und kreative Persönlichkeiten Teil der internationalen FRC-Gemeinschaft und verfügen über ein soziales Umfeld und Wissen, das sie für den Rest ihres Lebens begleiten wird."                                                                                                                                                                                                                                                                                               
+
+    ,"dümen": "bla bla"
 }
