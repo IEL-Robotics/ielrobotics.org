@@ -5,28 +5,36 @@
     "success": "Achievements",
     "team": "Our Team",
     "contact": "Contact Us",
-
-    "homepage": "This is Home Page",
-    "sponsorpage": "This is the Page for our Sponsors",
-    "teampage": "This is the page for our team members",
-    "successpage": "This is the page for our achievements",
-
     "home-slogan": "We are 8058",
     "team-slogan": "We're A Team",
+    "sponsor-slogan": "Join Us",
     "success-slogan": "We Succeed",
     "news-slogan": "Don't Miss Out",
-
     "footer-contact": "Contact Us! We'd love to cooperate",
     "footer-file": "Check Out Our Sponsorship File",
-
     "home-content-title-1": "Who Are We?",
     "home-content-title-2": "What Is FRC?",
-
     "home-content-content-1": "As the Robotics Club of Istanbul Erkek High School, we are a student club dedicated to bringing the culture of technology, software and engineering to our students at the high school level. This year we have taken a step closer to our goal by representing our school in national and international competitions with high school students from all over Turkey. \n\n IEL ROBOTICS develops its own projects and participates in competitions in robotics, aeronautics, space and many other technical fields. In addition to these projects and competitions, students from our school and other schools are trained in technical fields. In recent years, more than 60 students have participated in these events each year, and training in software, electronics and 3D design has been and continues to be provided. We have also organised projects such as STEP, DoDo Reads Books and Give a Hand for all ages and groups of people to spread the culture of robotics and engaging professionalism, and we have reached more than 5,000 students directly and indirectly with series such as FIRST® Inspirations and Team Inspires on our YouTube channel.",
-    "home-content-content-2": "FRC is the world's most prestigious high school robotics competition, held internationally once a year and funded by world-renowned companies such as NASA, Google, Boeing, 3M and Apple, and aims to develop and nurture young people's technical, mathematical and engineering skills in a creative and solution-focused way. \n\nTeams participating in the competition attempt to build robots approximately one metre long and wide that complete tasks announced two months before the competition each year. Through this competition, the students become part of the international FRC community as team players, sensitive and creative individuals, and have a social environment and knowledge that will accompany them for the rest of their lives."      
+    "home-content-content-2": "FRC is the world's most prestigious high school robotics competition, held internationally once a year and funded by world-renowned companies such as NASA, Google, Boeing, 3M and Apple, and aims to develop and nurture young people's technical, mathematical and engineering skills in a creative and solution-focused way. \n\nTeams participating in the competition attempt to build robots approximately one metre long and wide that complete tasks announced two months before the competition each year. Through this competition, the students become part of the international FRC community as team players, sensitive and creative individuals, and have a social environment and knowledge that will accompany them for the rest of their lives.",
+    "dümen": "bla bla",
 
-    ,"dümen": "bla bla"
-
+    "sponsor-title-why":"WHY SHOULD YOU EVEN SUPPORT US?",
+    "sponsor-content-why":"As an association, we have made it our mission to familiarise young people with technology, software and engineering culture, and we are constantly working towards this goal. In this direction, any kind of support from our sponsors is very important for us to represent our team and our sponsors in the best possible way.",
+    "sponsor-title-ielev": "İELEV",
+    "sponsor-content-ielev": "Istanbul Erkek Liseliler Education Foundation was established on 21 December 1982 by the graduates of Istanbul Erkek High School. The Foundation is a non-governmental organisation that aims to raise the educational standards of Istanbul Erkek Lisesi. It aims to support the strengthening of the school and the development of the country in the field of education by providing the necessary contributions in the field of education. It also aims to contribute to the strengthening of solidarity and solidarity and to ensure that children benefit from the opportunities of the Foundation.",
+    "sponsor-title-birikim": "Birikim Engineering",
+    "sponsor-content-birikim": "Birikim Engineering and Industrial Contracting Ltd. was founded in 2003 and currently provides industrial contracting services including engineering, manufacturing, installation, commissioning in mining, bulk material handling, cement, energy, ceramics, glass and steel structure construction sectors.",
+    "sponsor-title-bulutistan": "Bulutistan",
+    "sponsor-content-bulutistan": "Bulutistan is a leading cloud computing operator in Turkey. The company is a leader in Turkey and offers innovative cloud computing services. It serves customers from many countries based on its data centres in Turkey. Specialising in SAP solutions, Bulutistan offers high performance and managed SAP services. The company provides cloud services to many large companies and organisations. The rapidly growing company has received significant investments and won various awards. Working with an experienced team, Bulutistan focuses especially on the manufacturing, distribution, retail, education and energy sectors. Cloud computing services support the digital transformation of companies.",
+    "sponsor-title-ergin": "Ergin Machinery",
+    "sponsor-content-ergin": "Ergin Machinery, with 20 years of experience in the food industry, provides solutions for food quality, automation, and software. Founded in 2007 as Ergin Automation, the company has grown rapidly, increasing employment by 200% annually and contributing significantly to the economy. It has become a preferred choice for established food firms and aims to expand internationally through participation in fairs and promotional activities. The company focuses on innovation and scientific development through its R&D center, collaborating with universities and government institutions. Collaboration with other industrial organizations is also a priority."
+    ,"sponsor-title-hastavuk":"HasTavuk"
+    ,"sponsor-content-hastavuk": "Established in 1972, HasTavuk is a leading poultry company in Turkey. It offers a wide range of poultry services, from breeding to feed production. HasTavuk supplies 70% of Turkey's layer chick production and is Europe and Turkey's largest breeding company. It has pioneered live animal exports and achieved top position in the industry. Recognized with quality awards, HasTavuk contributes significantly to the national economy. Multiple-time winner of the Excellence Award, it is a distinguished company in Turkey."
+    , "sponsor-title-idealpak":"İdeal-Pak"
+    , "sponsor-content-idealpak": "Ideal-Pak® has a rich history that spans over sixty years since its establishment in 1949. Initially a custom machinery manufacturer, it transitioned into creating liquid filling machines and packaging line solutions through innovation and experienced engineering staff. Their mission was to provide high-performance equipment tailored to customers' specific needs, incorporating advanced technology and patented functionality. Ideal-Pak has gained recognition in the paints and coatings, chemicals, lubricants, and food and beverage industries. In 2018, Ideal-Pak joined the Massman LLC Companies, offering integrated solutions alongside the PASE Group and EDL. All Ideal-Pak® machines are proudly made in the USA, and the company is a member of PMMI."
+    , "sponsor-title-ozata": "Özata Shipyard"
+    , "sponsor-content-ozata": "Özata Shipyard, established in 1985, is a renowned ship construction company. With a strong presence in Altınova, it has delivered 63 successful projects, including yachts, passenger vessels, and carbon fiber catamaran ferries. Özata specializes in steel, aluminum, and carbon construction, making it a distinguished player in Turkey and globally. Their commitment to innovation and quality sets them apart in the industry."
+    , "sponsor-title-pemaks": "Pemaks Pneumatics"
+, "sponsor-content-pemaks": "Erdoğan and Mehmet BEŞER started with bolts and nuts, evolving into pioneers of pneumatic cylinder production at Pemaks. Today, they export globally, chosen by leading manufacturers. With TSEK and ISO 9001 certifications, Pemaks ensures top quality and long-lasting partnerships. Pemaks thrives by blending cutting-edge technology, modern manufacturing, and customer-centric focus, positioning themselves as a top choice for pneumatic cylinders worldwide."
 
 }
-

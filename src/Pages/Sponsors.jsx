@@ -1,7 +1,11 @@
 import { useContext } from "react";
 import LanguageContext from "../Context/LanguageContext"
 import { ContentBox } from "../Components/ContentBox/ContentBox";
+import { TheImage } from "../Components/TheImage/TheImage";
 
+import sponsor_image from '../Media/Images/Sponsor.png'
+
+import qmark from '../Media/Images/Sponsors/qmark.png'
 import birikim from '../Media/Images/Sponsors/birikim.png'
 import bulutistan from '../Media/Images/Sponsors/bulutistan.png'
 import ergin from '../Media/Images/Sponsors/ergin.png'
@@ -16,15 +20,16 @@ export const Sponsors = () => {
 
     return(
         <div className="SponsorPage" style={{marginTop: "5rem"}}> 
-            {getTranslation("sponsorpage")} 
-            <ContentBox image={ielev} title={"home-content-title-1"} content={"dümen"}/>
-            <ContentBox image={birikim} title={"home-content-title-1"} content={"dümen"}/>
-            <ContentBox image={bulutistan} title={"home-content-title-1"} content={"dümen"}/>
-            <ContentBox image={ergin} title={"home-content-title-1"} content={"dümen"}/>
-            <ContentBox image={hastavuk} title={"home-content-title-1"} content={"dümen"}/>
-            <ContentBox image={idealpak} title={"home-content-title-1"} content={"dümen"}/>
-            <ContentBox image={ozata} title={"home-content-title-1"} content={"dümen"}/>
-            <ContentBox image={pemaks} title={"home-content-title-1"} content={"dümen"}/>
+            <TheImage source={sponsor_image} text={getTranslation("sponsor-slogan")}/>
+            <ContentBox image={qmark} title={"sponsor-title-why"} content={"sponsor-content-why"}/>
+            <ContentBox image={ielev} title={"sponsor-title-ielev"} content={"sponsor-content-ielev"}/>
+            <ContentBox image={birikim} title={"sponsor-title-birikim"} content={"sponsor-content-birikim"}/>
+            <ContentBox image={bulutistan} title={"sponsor-title-bulutistan"} content={"sponsor-content-bulutistan"}/>
+            <ContentBox image={ergin} title={"sponsor-title-ergin"} content={"sponsor-content-ergin"}/>
+            <ContentBox image={hastavuk} title={"sponsor-title-hastavuk"} content={"sponsor-content-hastavuk"}/>
+            <ContentBox image={idealpak} title={"sponsor-title-idealpak"} content={"sponsor-content-idealpak"}/>
+            <ContentBox image={ozata} title={"sponsor-title-ozata"} content={"sponsor-content-ozata"}/>
+            <ContentBox image={pemaks} title={"sponsor-title-pemaks"} content={"sponsor-content-pemaks"}/>
         </div>
     )
 }
