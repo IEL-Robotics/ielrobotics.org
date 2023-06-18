@@ -21,6 +21,9 @@ export const Sponsors = () => {
     return(
         <div className="SponsorPage" style={{marginTop: "5rem"}}> 
             <TheImage source={sponsor_image} text={getTranslation("sponsor-slogan")}/>
+            <div className='team-title-holder'>
+                <h1 className='team-title'> OUR SPONSORS </h1>
+            </div>
             <ContentBox image={qmark} title={"sponsor-title-why"} content={"sponsor-content-why"}/>
             <ContentBox image={ielev} title={"sponsor-title-ielev"} content={"sponsor-content-ielev"}/>
             <ContentBox image={birikim} title={"sponsor-title-birikim"} content={"sponsor-content-birikim"}/>

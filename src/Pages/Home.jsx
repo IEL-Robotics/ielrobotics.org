@@ -16,6 +16,9 @@ export const Home = () => {
         // <div style={{marginTop: "8rem"}}> {getTranslation("homepage")} </div>
         <div style={{marginTop: "5rem"}}>
             <TheImage source={home_image} text={getTranslation("home-slogan")}/>
+            <div className='team-title-holder'>
+                <h1 className='team-title'> #FAQ </h1>
+            </div>
             <ContentBox image={logo} title={"home-content-title-1"} content={"home-content-content-1"} />
             <ContentBox image={frc} title={"home-content-title-2"} content={"home-content-content-2"} />
             <ContentBox image={hundred} title={"home-content-title-2"} content={"dümen"} />

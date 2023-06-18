@@ -1,4 +1,5 @@
 import '../ContentBox/ContentBox.css'
+
 import { useContext } from 'react';
 
 import LanguageContext from '../../Context/LanguageContext';
@@ -16,7 +17,7 @@ export const ContentBox = (Props) => {
                 <img src={imageAdress} className="image"/>
             </div>
             <div className="text-content">
-                <h2 style={{marginBottom: "10px"}}> {getTranslation(boxTitle)} </h2>
+                <h2 style={{marginBottom: "10px", padding: "0"}}> {getTranslation(boxTitle)} </h2>
                 {getTranslation(boxContent)}
             </div>
         </div>

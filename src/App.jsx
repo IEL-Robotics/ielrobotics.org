@@ -7,7 +7,7 @@ import { Navbar } from './Components/Navbar/Navbar.jsx'
 import { Home } from "./Pages/Home"
 import { Sponsors } from "./Pages/Sponsors"
 import { Achievements } from "./Pages/Achievements"
-import { Team } from "./Pages/Team"
+import { Team } from "./Pages/Team/Team.jsx"
 import { News } from "./Pages/News.jsx"
 import { Footer } from "./Components/Footer/Footer.jsx"
 

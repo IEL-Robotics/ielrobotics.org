@@ -1,0 +1,44 @@
+.member-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.team-title-holder {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid 10px rgba(237, 236, 236, 0.351);
+    border-left: 0px;
+    border-right: 0px;
+    padding: 20px;
+
+    border-image-slice: 1;
+    border-image-source: linear-gradient(115deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102));
+
+    /* background: linear-gradient(115deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102)); */
+}
+
+.team-title {
+    background-color:linear-gradient(115deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102)) ;
+}
+
+.captains-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+@media screen and (max-width: 1000px) {
+    .member-wrapper {
+        grid-template-columns: 100%;
+    }
+    
+    .captains-wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    
+}
