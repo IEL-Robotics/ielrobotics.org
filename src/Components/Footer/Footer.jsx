@@ -88,10 +88,10 @@ export const Footer = ({scrollRef}) => {
             
             </div>
             <div style={{height: "10vh"}}></div>
-            {/* <div style={{height: "8vh", backgroundColor: 'black', textAlign: 'center'}}>
-                <div style={{height: "2vh"}}></div> Gradient ekle, yukarıdan aşağıya kararsın, copyright
-                <div> Proudly powered by our own developers ;)</div>
-            </div> */}
+            <div id="footer-licence" style={{height: "100px", backgroundColor: "black", textAlign: "center"}}>
+                <br></br>
+                Proudly powered by our developers
+            </div>
         </div>
         </>
     )

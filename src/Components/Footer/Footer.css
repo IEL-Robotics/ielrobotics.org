@@ -4,6 +4,12 @@
     background-color: rgb(49, 49, 49);
     min-height: 300px;
     color: rgb(202, 202, 202);
+
+    background: linear-gradient(0deg,#000000,#101010, #272727, #3b3b3b  ,rgb(38, 38, 38));
+}
+
+#footer-licence {
+    background: linear-gradient(0deg,#000000,#090909);
 }
 
 .some-text-container{
@@ -87,7 +93,7 @@ strong {
     border-radius: 50%;
     width: 7em;
     height: 7em;
-    box-shadow: 10px 10px 30px #d9d9d9, -10px -10px 30px #ffffff;
+    box-shadow: 10px 10px 30px #000000, -10px -10px 30px #282828;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -107,28 +113,39 @@ strong {
 #instaID:hover {
     background: linear-gradient(
         115deg,#405DE6,#833AB4,#E1306C,#F56040,#FCAF45);
+    box-shadow: 10px 10px 30px #663c00a2, -10px -10px 30px #5b004398;
 }
 
 #twitterID:hover {
     background: linear-gradient(
         115deg,#1DA1F2, #6dc7ff,#42b6ff);
+
+    box-shadow: 10px 10px 30px #00464fa6, -10px -10px 30px #7272729e;
 }
 #linkedinID:hover {
     background: linear-gradient(
         115deg,#0A66C2, #2783de);
+
+    box-shadow: 10px 10px 30px #00184fa6, -10px -10px 30px #7272729e;
 }
 #tiktokID:hover {
     background: linear-gradient(
         115deg,#000000,#b30039 ,#00a3ef);
+
+    box-shadow: 10px 10px 30px #00516a98, -10px -10px 30px #4949499e;
 }
 #youtubeID:hover {
     background: linear-gradient(
         115deg,#650000,#b80000,#d10000,#e20000,#ff0000);
+
+    box-shadow: 10px 10px 30px #720000a7, -10px -10px 30px #4949499e;
 }
 
 #tbaID:hover {
     background: linear-gradient(
         115deg,#2c3d85,#4355a5);
+    
+    box-shadow: 10px 10px 30px #00184fa6, -10px -10px 30px #3c3c3c9e;
 }
 
 
