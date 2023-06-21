@@ -21,7 +21,6 @@ export const Home = () => {
             </div>
             <ContentBox image={logo} title={"home-content-title-1"} content={"home-content-content-1"} />
             <ContentBox image={frc} title={"home-content-title-2"} content={"home-content-content-2"} />
-            <ContentBox image={hundred} title={"home-content-title-2"} content={"dümen"} />
         </div>
 
     )

@@ -65,6 +65,7 @@
   z-index: 0;
 }
 
+/* IS THERE EVEN A BETTER WAY ?*/
 
 @media (max-width: 900px) {
     /* .container {
@@ -81,32 +82,44 @@
 
 @media (max-width: 335px) {
     .image-wrapper p {
-      font-size: 300%;
+      font-size: 250%;
     }
 }
 
-@media (min-width: 336px) and (max-width: 380px) {
+@media (min-width: 336px) and (max-width: 400px) {
+  .image-wrapper p {
+    font-size: 350%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 550px) {
   .image-wrapper p {
     font-size: 400%;
   }
 }
 
-@media (min-width: 381px) and (max-width: 450px) {
+@media (min-width: 551px) and (max-width: 720px) {
   .image-wrapper p {
-    font-size: 500%;
+    font-size: 550%;
   }
 }
 
-@media (min-width: 451px) and (max-width: 819px) {
+@media (min-width: 721px) and (max-width: 1019px) {
   .image-wrapper p {
-    font-size: 800%;
+    font-size: 700%;
   }
 }
 
 
-@media (min-width: 820px) {
+@media (min-width: 1020px) and (max-width: 1319px) {
   .image-wrapper p {
-    font-size: 1300%;
+    font-size: 1000%;
   }
+}
+
+@media (min-width: 1320px) {
+    .image-wrapper p {
+      font-size: 1300%;
+}
   
 }

@@ -3,21 +3,24 @@
     "news": "Nachrichten",
     "sponsor": "Sponsoren",
     "success": "Erfolgen",
-    "team": "Unsere Team",
+    "team": "Unser Team",
     "contact": "Kontakt",
 
     "home-slogan": "Wir sind 8058",
-    "team-slogan": "Eine Team",
+    "team-slogan": "Wir sind eine Team",
     "sponsor-slogan": "Sei Dabei",
-    "success-slogan": "Wir schaffen",
+    "success-slogan": "Wir schaffen's",
     "news-slogan": "Verpass Nichts",
 
-    "footer-contact": "Erreich uns! Wir würden gerne kooperieren",
+    "footer-contact": "Erreich uns! Wir freuen uns über die Zusammenarbeit",
     "footer-file": "Schau auf unsere Sponsoring Datei",
+    "footer-rights":"Alle Rechte Vorbehalten",
+    "footer-note":"Von unseren eigenen Developers entwickelt",
+    "footer-madeby":"Erstellt von",
 
     "home-content-title-1": "Wer Sind Wir?",
     "home-content-title-2": "Was ist denn FRC?",
-    "home-content-content-1": "Als Robotik-Club des Istanbuler Erkek-Gymnasiums sind wir ein Schülerclub, der es sich zur Aufgabe gemacht hat, unseren Schülerinnen und Schülern die Kultur der Technologie, der Software und des Ingenieurwesens auf Gymnasialebene zu vermitteln. In diesem Jahr sind wir unserem Ziel einen Schritt näher gekommen, indem wir unsere Schule bei nationalen und internationalen Wettbewerben mit Gymnasiasten aus der ganzen Türkei vertreten haben. \n\nIEL ROBOTICS entwickelt eigene Projekte und nimmt an Wettbewerben in den Bereichen Robotik, Luftfahrt, Raumfahrt und vielen anderen technischen Bereichen teil. Zusätzlich zu diesen Projekten und Wettbewerben werden Schüler unserer Schule und anderer Schulen in technischen Bereichen ausgebildet. In den vergangenen Jahren haben jedes Jahr mehr als 60 Schüler an diesen Veranstaltungen teilgenommen, und es wurden und werden weiterhin Schulungen in den Bereichen Software, Elektronik und 3D-Design durchgeführt. Darüber hinaus haben wir Projekte wie STEP, DoDo Reads Books und Give a Hand für alle Alters- und Personengruppen organisiert, um die Kultur der Robotik und der ansprechenden Professionalität zu verbreiten, und wir haben mehr als 5000 Schüler direkt und indirekt mit Serien wie FIRST® Inspirations und Team Inspires auf unserem Youtube-Kanal erreicht.",
+    "home-content-content-1": "Als IEL ROBOTICS, Istanbul Erkek Lisesi Robotics Club, sind wir ein Schülerclub, der es sich zur Aufgabe gemacht hat, unseren Schülerinnen und Schülern in der Oberstufe Technik, Software und Ingenieurskultur näher zu bringen. Seit unserer Gründung im Jahr 2019 sind wir stolz darauf, unsere Schule und unser Land erfolgreich bei nationalen und internationalen Wettbewerben zu vertreten.\n\nDie Mitglieder von IEL ROBOTICS entwickeln ihre eigenen Projekte und nehmen an Wettbewerben in den Bereichen Robotik, Luftfahrt, Raumfahrt und vielen anderen technischen Bereichen teil. IEL ROBOTICS möchte jedoch auch die Grundlagen des Ingenieurwesens in verschiedenen Bereichen der Gesellschaft, insbesondere bei Kindern und Jugendlichen, vermitteln, und zwar durch verschiedene Schulungen und Projekte, die das ganze Jahr über innerhalb und außerhalb der Schule durchgeführt werden, um diese Kultur auch außerhalb unseres Clubs zu verbreiten. Unser Ziel ist es, neugierige und begeisterte Schüler für die Zukunft unseres Landes zu begeistern und ihnen eine hochwertige und gut ausgestattete MINT-Ausbildung unter den besten Bedingungen zu bieten.",
     "home-content-content-2": "FRC ist der weltweit prestigeträchtigste Highschool-Robotikwettbewerb, der einmal im Jahr international ausgetragen und von weltbekannten Unternehmen wie der NASA, Google, Boeing, 3M und Apple finanziert wird und darauf abzielt, die technischen, mathematischen und ingenieurwissenschaftlichen Fähigkeiten junger Menschen auf kreative und lösungsorientierte Weise zu entwickeln und zu fördern. \n\nDie Teams, die an diesem Wettbewerb teilnehmen, versuchen, Roboter mit einer Länge und Breite von etwa einem Meter zu bauen, die die jedes Jahr zwei Monate vor dem Wettbewerb angekündigten Aufgaben erfüllen. Durch diesen Wettbewerb werden die Schülerinnen und Schüler als teamfähige, sensible und kreative Persönlichkeiten Teil der internationalen FRC-Gemeinschaft und verfügen über ein soziales Umfeld und Wissen, das sie für den Rest ihres Lebens begleiten wird.",
     
     "sponsor-title-why": "WARUM SOLLEN SIE UNS UNTERSTÜTZEN?",
@@ -38,7 +41,7 @@
     "sponsor-content-ozata": "Özata Shipyard, gegründet 1985, ist ein renommiertes Schiffbauunternehmen. Mit einer starken Präsenz in Altınova hat es 63 erfolgreiche Projekte geliefert, darunter Yachten, Passagierschiffe und Katamaranfähren aus Kohlefaser. Özata hat sich auf Stahl-, Aluminium- und Karbonkonstruktionen spezialisiert und ist damit ein angesehener Akteur in der Türkei und auf der ganzen Welt. Ihr Engagement für Innovation und Qualität hebt sie in der Branche hervor.",
     "sponsor-title-pemaks": "Pemaks Pneumatik",
     "sponsor-content-pemaks": "Erdoğan und Mehmet BEŞER begannen mit Schrauben und Muttern und entwickelten sich zu Pionieren der Pneumatikzylinderproduktion bei Pemaks. Heute exportieren sie in die ganze Welt und werden von führenden Herstellern ausgewählt. Mit den Zertifizierungen TSEK und ISO 9001 gewährleistet Pemaks höchste Qualität und langfristige Partnerschaften. Pemaks profitiert von der Kombination aus Spitzentechnologie, moderner Fertigung und Kundenorientierung und positioniert sich als erste Wahl für Pneumatikzylinder weltweit.",
-    
+      
     "team-titles-cap": "UNSERE KAPITÄNE",
     "team-titles-mem": "UNSERE MITGLIEDER",
     "team-titles-alu": "UNSERE ALUMNI",

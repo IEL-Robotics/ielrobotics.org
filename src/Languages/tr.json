@@ -7,20 +7,23 @@
     "contact": "İletişim",
 
     "home-slogan": "Biz 8058'iz",
-    "team-slogan": "Biz Bir Takımız",
-    "sponsor-slogan": "Katıl Bize",
+    "team-slogan": "Biz Bir Takımız",
+    "sponsor-slogan": "Bize Katıl",
     "success-slogan": "Başarırız",
-    "news-slogan": "Kaçırma",
+    "news-slogan": "Bir Şey Kaçırma",
 
     "footer-contact": "Bize Ulaşın! İşbirliği yapmaktan onur duyarız",
     "footer-file": "Sponsorluk Dosyamıza Göz Atın",
+    "footer-rights":"Tüm Hakları Saklıdır",
+    "footer-note":"Kendi yazılımcılarımız tarafından geliştirildi",
+    "footer-madeby":"Yapan: ",
 
     "home-content-title-1": "Biz Kimiz?",
     "home-content-title-2": "FRC Nedir?",
-    "home-content-content-1": "İstanbul Erkek Lisesi Robotik Kulübü olarak, teknoloji, yazılım ve mühendislik kültürünü lise düzeyinde öğrencilerimize kazandırmaya adanmış bir öğrenci kulübüyüz. Bu yıl Türkiye'nin dört bir yanından gelen lise öğrencileri ile ulusal ve uluslararası yarışmalarda okulumuzu temsil ederek hedefimize bir adım daha yaklaştık.\n\n IEL ROBOTICS, robotik, havacılık, uzay ve daha birçok teknik alanda kendi projelerini geliştirmekte ve yarışmalara katılmaktadır. Bu proje ve yarışmaların yanı sıra okulumuzdan ve diğer okullardan gelen öğrencilere teknik alanlarda eğitimler verilmektedir. Son yıllarda her yıl 60'tan fazla öğrencinin katıldığı bu etkinliklerde yazılım, elektronik ve 3D tasarım eğitimleri verildi ve verilmeye devam ediyor. Ayrıca robotik kültürünü yaygınlaştırmak ve profesyonelliği sevdirmek amacıyla her yaş ve gruba yönelik STEP, DoDo Kitap Okuyor ve Give a Hand gibi projeler düzenledik ve YouTube kanalımızda FIRST® Inspirations ve Team Inspires gibi serilerle doğrudan ve dolaylı olarak 5.000'den fazla öğrenciye ulaştık.",
+    "home-content-content-1": "İstanbul Erkek Lisesi Robotik Kulübü IEL ROBOTICS olarak, teknoloji, yazılım ve mühendislik kültürünü lise düzeyinde öğrencilerimize kazandırmaya adanmış bir öğrenci kulübüyüz. 2019 yılındaki kuruluşumuzdan itibaren okulumuzu ve ülkemizi, ulusal ve uluslararası yarışmalarda başarıyla temsil etmekten gurur duyuyoruz.\n\nIEL ROBOTICS üyeleri robotik, havacılık, uzay ve daha birçok teknik alanda kendi projelerini geliştirir ve yarışmalara katılar. Fakat IEL ROBOTICS, bu kültürü kulübümüz dışına da yaymak adına yıl boyunca okul içinde ve dışında verdiği çeşitli eğitimler ve yürüttüğü projeler ile çocuk ve gençler başta olmak üzere toplumun çeşitli kesimlerine mühendislik temellerinin aşılamayı hedefler. Ülkemizin geleceği için meraklı ve hevesli öğrencilere en iyi şartlarda, kaliteli ve donanımlı bir STEM eğitimi vermeyi ve onlara ilham olmayı amaçlar. ",
     "home-content-content-2": "FRC, yılda bir kez uluslararası düzeyde düzenlenen ve NASA, Google, Boeing, 3M ve Apple gibi dünyaca ünlü şirketler tarafından finanse edilen dünyanın en prestijli lise robot yarışmasıdır ve gençlerin teknik, matematiksel ve mühendislik becerilerini yaratıcı ve çözüm odaklı bir şekilde geliştirmeyi ve beslemeyi amaçlamaktadır. \n\nYarışmaya katılan ekipler, her yıl yarışmadan iki ay önce duyurulan görevleri tamamlayan yaklaşık bir metre uzunluğunda ve genişliğinde robotlar yapmaya çalışmaktadır. Bu yarışma sayesinde öğrenciler takım oyuncusu, duyarlı ve yaratıcı bireyler olarak uluslararası FRC topluluğunun bir parçası haline geliyor ve hayatlarının geri kalanında kendilerine eşlik edecek bir sosyal çevre ve bilgi birikimine sahip oluyorlar.",
   
-    "sponsor-title-why": "NEDEN BIZI DESTEKLEYESINIZ KI?",
+    "sponsor-title-why": "BİZİ NEDEN DESTEKLEMELİSİNİZ?",
     "sponsor-content-why": "Kulüp olarak gençleri teknoloji, yazılım ve mühendislik kültürü ile tanıştırmayı kendimize misyon edindik ve bu hedef doğrultusunda sürekli çalışıyoruz. Bu doğrultuda sponsorlarımızdan gelecek her türlü destek, ekibimizi ve sponsorlarımızı en iyi şekilde temsil edebilmemiz için çok önemli.",
     "sponsor-title-ielev": "İELEV",
     "sponsor-content-ielev": "İstanbul Erkek Liseliler Eğitim Vakfı, 21 Aralık 1982 tarihinde İstanbul Erkek Lisesi mezunları tarafından kurulmuştur. Vakıf, İstanbul Erkek Lisesi'nin eğitim standartlarını yükseltmeyi amaçlayan bir sivil toplum kuruluşudur. Eğitim alanında gereken katkıları sağlayarak okulun güçlenmesine ve ülkenin eğitim alanında gelişmesine destek olmayı hedefler. Aynı zamanda dayanışma ve yardımlaşmanın güçlenmesine ve çocukların Vakfın olanaklarından yararlanmasına katkıda bulunmayı amaçlar. İstanbul Erkek Liseliler Eğitim Vakfı, İstanbul Erkek Lisesi'ne ve ülkeye olan katkılarıyla önemli bir kurumdur. Vakıf, yıllar içinde açtığı eğitim kurumlarıyla ülkemizin geleceği olan çocukların ve gençlerin modern bir eğitim anlayışıyla yetişmelerini sağlamıştır.",
@@ -38,7 +41,7 @@
     "sponsor-content-ozata": "Özata Shipyard, 1985 yılında kurulmuş, tanınmış bir gemi inşa şirketidir. Altınova'da güçlü bir varlığa sahip olan şirket, yatlar, yolcu gemileri ve karbon fiber katamaran feribotlar da dahil olmak üzere 63 başarılı proje teslim etmiştir. Çelik, alüminyum ve karbon konstrüksiyon alanlarında uzmanlaşan Özata, Türkiye'de ve dünyada seçkin bir oyuncu haline gelmiştir. İnovasyon ve kaliteye olan bağlılıkları onları sektörde farklı kılmaktadır.",
     "sponsor-title-pemaks": "Pemaks Pnömatik",
     "sponsor-content-pemaks": "Erdoğan ve Mehmet BEŞER, cıvata ve somunla başladıkları Pemaks'ta pnömatik silindir üretiminin öncülerine dönüştüler. Bugün, önde gelen üreticiler tarafından tercih edilerek dünyaya ihracat yapmaktadırlar. TSEK ve ISO 9001 belgeleri ile Pemaks, en yüksek kaliteyi ve uzun ömürlü ortaklıkları garanti ediyor. Pemaks, en son teknolojiyi, modern üretimi ve müşteri odaklı odaklanmayı harmanlayarak gelişmekte ve kendilerini dünya çapında pnömatik silindirler için en iyi seçenek olarak konumlandırmaktadır.",
-    
+   
     "team-titles-cap": "KAPTANLARIMIZ",
     "team-titles-mem": "ÜYELERİMİZ",
     "team-titles-alu": "MEZUNLARIMIZ",

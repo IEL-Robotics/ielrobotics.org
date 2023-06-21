@@ -90,9 +90,14 @@ export const Footer = ({scrollRef}) => {
             <div style={{height: "10vh"}}></div>
             <div id="footer-licence" style={{height: "100px", backgroundColor: "black", textAlign: "center"}}>
                 <br></br>
-                Proudly powered by our developers
+                {getTranslation("footer-note")}
+                <br></br>
+                Copyright ©{new Date().getFullYear()} IELRobotics#8058. {getTranslation("footer-rights")}
             </div>
         </div>
+        <div id="footer-licence2" style={{height: "60px", backgroundColor: "black", textAlign: "center"}}>
+               {getTranslation("footer-madeby")} <a id="github-links" href='https://github.com/jagxas'> @umut and ...</a>
+            </div>
         </>
     )
 }
