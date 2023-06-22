@@ -10,9 +10,19 @@ import Linkedin from '../../Media/Images/Footer-Icons/linkedin.png'
 import TBA from '../../Media/Images/Footer-Icons/tba.png'
 import Youtube from '../../Media/Images/Footer-Icons/youtube.png'
 
+import sponsor_tr from '../../Media/PDF/ielrobotics_tr.pdf'
+import sponsor_en from '../../Media/PDF/ielrobotics_en.pdf'
+import sponsor_de from '../../Media/PDF/ielrobotics_de.pdf'
+
 export const Footer = ({scrollRef}) => {
 
     const { language, getTranslation } = useContext(LanguageContext);
+
+    const openSponsorshipFile = () => {
+        if(language === 'en'){window.open(sponsor_en, '_blank');}
+        else if(language === 'tr'){window.open(sponsor_tr, '_blank');}
+        else if(language === 'de'){window.open(sponsor_de, '_blank');}
+    }
 
     return (
         <>
@@ -21,7 +31,9 @@ export const Footer = ({scrollRef}) => {
             <div className="some-text-container">
                 <p> {getTranslation("footer-contact")}</p>
                 <strong> ielrobotikkulubu@gmail.com </strong>
-                <button id="btn-sponsor"> {getTranslation("footer-file").toUpperCase()} </button>
+                <button id="btn-sponsor" type='submit' onClick={openSponsorshipFile}> 
+                {getTranslation("footer-file").toUpperCase()} 
+                </button>
             </div>
             <div className="social-container">
                 <div className="wrapper" id='instaID'>
