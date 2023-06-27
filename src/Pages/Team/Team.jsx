@@ -11,26 +11,9 @@ import jsonfile from '../Team/TeamMembers.json'
 import pfp from '../../Media/Images/Team/pfp.png'
 import team_image from '../../Media/Images/Team/Team.png'
 
-import pic_emel from '../../Media/Images/Team/pfp.png' // Not my proudest idea
-import pic_furkan from '../../Media/Images/Team/pfp.png' // pls fix it
-import pic_eren from '../../Media/Images/Team/pfp.png' // i beg you
-import pic_alperen from '../../Media/Images/Team/pfp.png' // maybe we should really carry all images to a digital database
-import pic_igalhan from '../../Media/Images/Team/pfp.png'
-import pic_omer from '../../Media/Images/Team/pfp.png'
-import pic_umut from '../../Media/Images/Team/pfp.png'
-
-
-// WE DEFINITELY NEED A SOLUTION
-// TOO MANY MEMBER-ALUMNIS
-// STORE PHOTOS ONLINE AND LINKS TO JSON FILE
-
 export const Team = () => {
     const { language, getTranslation } = useContext(LanguageContext);
     const { captains, members, alumnis} = jsonfile;
-
-    const captains_pictures = [pic_emel, pic_furkan, pic_eren, pic_alperen, pic_igalhan, pic_omer, pic_umut];
-    const members_pictures = [pfp, pfp, pfp, pfp, pfp, pfp, pfp, pfp, pfp];
-    const alumnis_pictures = [pfp, pfp, pfp, pfp, pfp, pfp, pfp, pfp, pfp, pfp, pfp, pfp];
 
 
     return (
@@ -43,7 +26,7 @@ export const Team = () => {
                 {captains.map((cap) => {
                     console.log(cap.linkedin)
                     return(
-                        <SmallBox key={cap.id} image={captains_pictures[cap.id -1]} name={cap.name} role={cap.role} link={cap.linkedin}>  </SmallBox>
+                        <SmallBox key={cap.id} image={cap.pfp} name={cap.name} role={cap.role} link={cap.linkedin}>  </SmallBox>
                     )
                 })}
             </div>
@@ -55,7 +38,7 @@ export const Team = () => {
             <div className="member-wrapper">
                 {members.map((mem) => {
                     return (
-                        <SmallBox key={mem.id} image={members_pictures[mem.id -1]} name={mem.name} role={mem.role} link={mem.linkedin}>  </SmallBox>
+                        <SmallBox key={mem.id} image={pfp} name={mem.name} role={mem.role} link={mem.linkedin}>  </SmallBox>
                     )
                 })}
             </div>
@@ -67,7 +50,7 @@ export const Team = () => {
             <div className="member-wrapper">
                 {alumnis.map((alu) => {
                     return (
-                        <SmallBox key={alu.id} image={alumnis_pictures[alu.id -1]} name={alu.name} role={alu.role} link={alu.linkedin}>  </SmallBox>
+                        <SmallBox key={alu.id} image={pfp} name={alu.name} role={alu.role} link={alu.linkedin}>  </SmallBox>
                     )
                 })}
             </div>

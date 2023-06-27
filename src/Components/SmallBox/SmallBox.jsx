@@ -16,7 +16,7 @@ export const SmallBox = (Props) => {
         <div className="smallbox-content-holder">
             <div className="smallbox-image-container">
                 <a href={linkedin} style={{textDecoration: "underline"}} draggable="true" target="_blank">
-                    <img src={profilePic} className="smallbox-image"/>
+                    <img id="smallbox-pic" src={profilePic} className="smallbox-image"/>
                 </a>
             </div>
             <div className="smallbox-text-content">

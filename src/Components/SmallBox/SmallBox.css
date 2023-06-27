@@ -27,6 +27,10 @@
     
 }
 
+#smallbox-pic {
+    filter: drop-shadow(-5px 5px 5px rgb(171, 171, 171));
+}
+
 #team-header-name {
     font-size: 170%;
 }
