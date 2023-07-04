@@ -38,7 +38,7 @@ export const Team = () => {
             <div className="member-wrapper">
                 {members.map((mem) => {
                     return (
-                        <SmallBox key={mem.id} image={pfp} name={mem.name} role={mem.role} link={mem.linkedin}>  </SmallBox>
+                        <SmallBox key={mem.id} image={mem.pfp} name={mem.name} role={mem.role} link={mem.linkedin}>  </SmallBox>
                     )
                 })}
             </div>
@@ -50,7 +50,7 @@ export const Team = () => {
             <div className="member-wrapper">
                 {alumnis.map((alu) => {
                     return (
-                        <SmallBox key={alu.id} image={pfp} name={alu.name} role={alu.role} link={alu.linkedin}>  </SmallBox>
+                        <SmallBox key={alu.id} image={alu.pfp} name={alu.name} role={alu.role} link={alu.linkedin}>  </SmallBox>
                     )
                 })}
             </div>
