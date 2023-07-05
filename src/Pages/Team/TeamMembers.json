@@ -46,8 +46,8 @@
          "id": 7,
          "name": "Umut Erdem",
          "role": "team-roles-captain-software",
-         "pfp": "/ProfilePics/hahayt.png",
-         "linkedin": "https://www.instagram.com/ielrobotics/"
+         "pfp": "/ProfilePics/umutjr.png",
+         "linkedin": "https://www.linkedin.com/in/umut-erdem-3b1735275/"
       }
    ],
    "members": [
@@ -76,8 +76,8 @@
          "id": 4,
          "name": "Efe Bilgin",
          "role": "team-roles-programmer",
-         "pfp": "/ProfilePics/hahayt.png",
-         "linkedin": "https://www.instagram.com/ielrobotics/"
+         "pfp": "/ProfilePics/efe.png",
+         "linkedin": "https://drive.google.com/open?id=1-NRzKUlVHt33FO3J7Ux9YYynHWudsVbY"
       },
       {
          "id": 5,
@@ -95,7 +95,7 @@
       },
       {
          "id": 7,
-         "name": "Irmak Soyadınıbilmiyorum",
+         "name": "Irmak Akıncıoğlu",
          "role": "team-roles-pr",
          "pfp": "/ProfilePics/hahayt.png",
          "linkedin": "https://www.instagram.com/ielrobotics/"
@@ -111,7 +111,7 @@
          "id": 9,
          "name": "Koray Değirmenci",
          "role": "team-roles-pr",
-         "pfp": "/ProfilePics/hahayt.png",
+         "pfp": "/ProfilePics/koray.png",
          "linkedin": "https://www.linkedin.com/in/koray-de%C4%9Firmenci-b12123254/"
       },
       {
@@ -146,7 +146,7 @@
          "id": 14,
          "name": "Eda Cihanoğlu",
          "role": "team-roles-pr",
-         "pfp": "/ProfilePics/hahayt.png",
+         "pfp": "/ProfilePics/eda.png",
          "linkedin": "https://www.linkedin.com/in/eda-cihano%C4%9Flu-5145ba254/"
       }
    ],
@@ -198,14 +198,14 @@
          "name": "Mesrur Onat Çarak",
          "role": "team-roles-mechanic",
          "pfp": "/ProfilePics/mesrur.png",
-         "linkedin": "https://www.instagram.com/ielrobotics/"
+         "linkedin": "https://drive.google.com/open?id=1ywJNRkJgc7iKvu1lEIEBwTWDy3j7Rouo"
       },
       {
          "id": 7,
          "name": "Erdinç Ulubay",
          "role": "team-roles-mechanic",
-         "pfp": "/ProfilePics/hahayt.png",
-         "linkedin": "https://www.instagram.com/ielrobotics/"
+         "pfp": "/ProfilePics/erdinc.png",
+         "linkedin": "https://drive.google.com/open?id=1sKLpGuOfjeWmHXxIOOioSYSWKo6gf1uc"
       },
       {
          "id": 8,
@@ -248,6 +248,13 @@
          "role": "team-roles-mechanic",
          "pfp": "/ProfilePics/yigitalp.png",
          "linkedin": "https://www.linkedin.com/in/yigitalp-karayaman"
+      },
+      {
+         "id": 14,
+         "name": "Ahmet Selçuk Kurt",
+         "role": "team-roles-pr",
+         "pfp": "/ProfilePics/ahmetkurt.png",
+         "linkedin": "https://drive.google.com/open?id=1BDvbx-DxRyD_FbCCpCRNsobuz5Kk8emB"
       }
    ]
 }
