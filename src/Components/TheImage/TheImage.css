@@ -52,7 +52,7 @@
   color: white;
   text-align: center;
   font-family: 'UniSans', sans-serif;
-  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.75);
+  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.85);
 }
 
 .image-wrapper img {
