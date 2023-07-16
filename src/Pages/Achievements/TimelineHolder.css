@@ -1,0 +1,16 @@
+.timelineHolder {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0;
+}
+
+.timelineHolder::after {
+    background: linear-gradient(150deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102));
+    content: '';
+    position: absolute;
+    left: calc(50% - 5px);
+    width: 10px;
+    height: 100%;
+    border-radius: 5px;
+}

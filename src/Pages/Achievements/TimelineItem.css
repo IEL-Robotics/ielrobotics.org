@@ -1,0 +1,131 @@
+.comp-title {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.comp-desc {
+    text-align: left;
+    margin: 8px;
+}
+.achieve-item {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    position: relative;
+    margin-bottom: 100px;
+    width: 50%;
+    z-index: 100;
+}
+
+.achieve-item:nth-child(odd) {
+    align-self: flex-end;
+    justify-content: flex-start;
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.achieve-item-content {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+.achieve-item-content::after {
+    content: ' ';
+    background-color: #fff;
+    box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: -7.5px;
+    top: calc(50% - 7.5px);
+    transform: rotate(45deg);
+    width: 15px;
+    height: 15px;
+}
+
+.achieve-item:nth-child(odd) .achieve-item-content {
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.achieve-item:nth-child(odd) .achieve-item-content::after {
+    right: auto;
+    left: -7.5px;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.achieve-item-content .circle {
+    background-color: #fff;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: -40px;
+    width: 20px;
+    height: 20px;
+    transform: scale(1.2);
+    z-index: 100;
+    transition: transform 0.2s ease-in-out;
+}
+
+.achieve-item:nth-child(odd) .achieve-item-content .circle {
+    right: 10px;
+    left: -40px;
+}
+
+.circle:hover{
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 1023px) {
+    .comp-title{
+        font-size: 2.5rem;
+    }
+
+    .achieve-item {
+        width: 100%;
+        margin-right: 2%;
+        margin-left: 2%;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+        margin-bottom: 50px;
+    }
+
+    .achieve-item:nth-child(odd) {
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+    }
+
+    .achieve-item-content {
+        margin-left: 2%;
+        margin-right: 2%;
+        align-self: center;
+    }
+
+    .achieve-item:nth-child(odd) .achieve-item-content{
+        margin-right: 2%;
+        margin-left: 2%;
+        align-self: center;
+    }
+
+    .circle {
+        display: none;
+    }
+    
+    .achieve-item-content::after {
+        display: none;
+    }
+}

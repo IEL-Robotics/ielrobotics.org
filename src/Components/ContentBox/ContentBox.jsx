@@ -16,8 +16,8 @@ export const ContentBox = (Props) => {
             <div className="image-container">
                 <img src={imageAdress} className="image"/>
             </div>
-            <div className="text-content">
-                <h2 style={{marginBottom: "10px", padding: "0"}}> {getTranslation(boxTitle)} </h2>
+            <div className="text-content" style={{padding: "10px"}}>
+                <h1 style={{marginBottom: "25px", padding: "0"}}> {getTranslation(boxTitle)} </h1>
                 {getTranslation(boxContent)}
             </div>
         </div>

@@ -13,6 +13,11 @@ h2 {
     padding-left: 2rem;
 }
 
+.logo {
+    font-weight: 800;
+    font-style: normal;
+}
+
 a:hover {
     color: black;    
 }
@@ -53,7 +58,7 @@ a:hover {
     border: 0.2rem solid rgb(202, 202, 255);
     color: rgb(77, 77, 255);
     padding: 0rem 1rem 0rem 1rem;
-    margin-top: 0.2rem;
+    margin-top: 0.0rem;
     transition: transform 0.2s ease-in-out;
 }
 

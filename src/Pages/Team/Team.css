@@ -18,11 +18,16 @@
     border-image-slice: 1;
     border-image-source: linear-gradient(115deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102));
 
+    overflow: hidden;
     /* background: linear-gradient(115deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102)); */
 }
 
 .team-title {
-    background-color:linear-gradient(115deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102)) ;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    text-align: center;
 }
 
 .captains-wrapper {
@@ -38,6 +43,10 @@
     .captains-wrapper {
         display: grid;
         grid-template-columns: 100%;
+    }
+
+    .team-title {
+        font-size: 2.5rem;
     }
     
     
