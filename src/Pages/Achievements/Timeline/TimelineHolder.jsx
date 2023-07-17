@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-import achieveData from '../Achievements/Achievements.json';
-import '../Achievements/TimelineHolder.css';
-import { TimelineItem } from './TimelineItem';
+import achieveData from '../Achievements.json';
+import './TimelineHolder.css';
+import { TimelineItem } from './TimelineItem.jsx';
 
 export const TimelineHolder = () => {
   const scrollToItem = (ref) => {
