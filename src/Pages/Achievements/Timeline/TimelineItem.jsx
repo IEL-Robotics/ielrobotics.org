@@ -43,7 +43,7 @@ export const TimelineItem = ({ data, scrollToItem }) => {
           </Slider>
         </div>
 
-        <h1 className="comp-title" style={{ marginBottom: '10px', marginTop: '10px' }}>
+        <h1 className="comp-title" style={{ marginBottom: '10px'}}>
           {data.title}
         </h1>
         <p className="comp-desc">{data.description}</p>
