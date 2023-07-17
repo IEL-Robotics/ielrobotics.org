@@ -37,13 +37,13 @@ export const TimelineItem = ({ data, scrollToItem }) => {
           <Slider {...settings}>
             {images.map((event_image, index) => (
               <div key={index}>
-                <img src={event_image} style={{ width: '100%', marginBottom: '10px', zIndex: '9999' }} alt="" />
+                <img src={event_image} style={{ width: '100%', marginBottom: '5px', zIndex: '9999' }} alt="" />
               </div>
             ))}
           </Slider>
         </div>
 
-        <h1 className="comp-title" style={{ marginBottom: '10px'}}>
+        <h1 className="comp-title" style={{ marginBottom: '5px'}}>
           {data.title}
         </h1>
         <p className="comp-desc">{data.description}</p>
