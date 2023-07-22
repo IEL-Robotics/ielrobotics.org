@@ -1,14 +1,67 @@
-.content-holder {
-    margin: 2%;
+.content-holder-yellow {
+    margin: 20px;
     border: solid 10px rgba(224, 224, 224, 0.559);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgb(255, 191, 0), white);
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 20px 20px 20px ;
     display: grid;
     grid-template-columns:30% 70%;
 }
 
+.content-holder-black {
+    margin: 20px;
+    border: solid 10px rgba(224, 224, 224, 0.559);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgb(255, 255, 255),rgb(0, 0, 0));
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px ;
+    display: grid;
+    grid-template-columns:70% 30%;
+}
+
+.content-holder-news {
+    margin: 2%;
+    border: solid 10px rgba(224, 224, 224, 0.559);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, rgb(255, 255, 255),rgb(0, 0, 0));
+    border-radius: 20px;
+    padding: 20px 30px 20px 30px ;
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+
+.redirect-button {
+    background-color: rgb(255, 233, 87);
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(49, 49, 49);
+    font-weight: 800;
+    font-size: 2rem;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.redirect-button:hover {
+    transform: scale(1.2);
+    background-color: rgb(255, 225, 31);
+    color: rgb(0, 0, 0);
+}
+
+.content-box-title {
+    color: rgb(49, 49, 49);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
 .image-container {
-    margin-right: 5%;
+    /* margin-right: 5%; */
     align-self: center;
 }
 
@@ -23,23 +76,40 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align:left;
+    text-align:center;
     white-space: pre-line;
-    
+    /* font-size: 2rem; */
+
+    color: rgb(49, 49, 49);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.35rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+        
 }
 
 h1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.75rem;
 }
 @media screen and (max-width: 1000px) {
-    .content-holder{
+    .content-holder-yellow,.content-holder-black{
         grid-template-columns: 100%;
+        padding: 30px 20px 30px 20px ;
+        margin: 15px;
         
     }
+    .redirect-button {
+        margin-top: 20px;
+    }
+    .content-box-title{
+        font-size: 2.5rem;
+    }
 
-    .image-container{
-        margin-right: 0%;
+    .text-content {
+        font-size: 1.6rem;
     }
 
     .image{

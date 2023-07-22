@@ -16,6 +16,7 @@ body{
     background-color: rgb(255, 255, 255);
     letter-spacing: 1px;
     transition: background-color .25s, color, .25s;
+    overflow-y: visible;
 }
 a{
     text-decoration: none;

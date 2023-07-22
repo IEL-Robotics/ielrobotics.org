@@ -1,0 +1,72 @@
+.vertical-holder-black {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 20px;
+    padding: 50px 50px 30px 50px;
+    /* margin: 10px; /*top right bottom left */  
+    border: solid 10px rgba(224, 224, 224, 0.559);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(-135deg, rgb(0, 0, 0), white);
+    border-radius: 20px;
+
+}
+
+.vertical-holder-yellow {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 50px 50px 30px 50px;
+
+    /* margin: 10px; */
+    border: solid 10px rgba(224, 224, 224, 0.559);
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, rgb(255, 191, 0), white);
+    border-radius: 20px;
+
+}
+
+.vertical-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align:center;
+    white-space: pre-line;
+    margin: 0;
+
+    color: rgb(49, 49, 49);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.vertical-box-title {
+    color: rgb(49, 49, 49);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .vertical-holder-black,
+    .vertical-holder-yellow {
+        padding: 50px 15px 30px 15px;
+    }
+
+    .vertical-text-content {
+        font-size: 1.6rem;
+    }
+
+    .vertical-box-title{
+        font-size: 2.5rem;
+        margin-top: 0;
+    }
+}

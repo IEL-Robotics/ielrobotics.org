@@ -1,0 +1,15 @@
+.home-comp-holder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(50% - 20px), 1fr));
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .home-comp-holder {
+        display: grid;
+        grid-template-columns: 100%;
+        padding: 15px;
+    }
+}

@@ -1,5 +1,5 @@
 {
-   "captains": [
+   "members": [
       {
          "id": 1,
          "name": "Emel Karahan",
@@ -48,9 +48,7 @@
          "role": "team-roles-captain-software",
          "pfp": "/ProfilePics/umutjr.png",
          "linkedin": "https://www.linkedin.com/in/umut-erdem-3b1735275/"
-      }
-   ],
-   "members": [
+      },
       {
          "id": 1,
          "name": "Erkan Torlak",

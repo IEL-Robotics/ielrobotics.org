@@ -4,7 +4,7 @@ import { useRef } from "react"
 
 import { Navbar } from './Components/Navbar/Navbar.jsx'
 
-import { Home } from "./Pages/Home"
+import { Home } from "./Pages/Home/Home.jsx"
 import { Sponsors } from "./Pages/Sponsors"
 import { Achievements } from "./Pages/Achievements/Achievements.jsx"
 import { Team } from "./Pages/Team/Team.jsx"

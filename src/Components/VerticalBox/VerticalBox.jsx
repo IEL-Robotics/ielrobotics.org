@@ -1,0 +1,44 @@
+import '../VerticalBox/VerticalBox.css'
+import { useContext } from 'react';
+
+import LanguageContext from '../../Context/LanguageContext';
+
+export const VerticalBox = (Props) => {
+    const imageAdress = Props.image;
+    const boxTitle = Props.title;
+    const boxContent = Props.content;
+
+    const type = Props.type;
+
+    const { language, getTranslation } = useContext(LanguageContext);
+
+    if(type === 0){
+        return(
+            <div className="vertical-holder-black">
+                <div className="image-container">
+                    <img src={imageAdress} className="image"/>
+                </div>
+                <div className="vertical-text-content" style={{padding: "5px"}}>
+                    <h1 className='content-box-title'> {getTranslation(boxTitle)} </h1>
+                    {getTranslation(boxContent)}
+                    <button className="redirect-button">&gt; More</button>
+                </div>
+            </div>
+        )
+    }
+    else if(type === 1){
+        return(
+            <div className="vertical-holder-yellow">
+                <div className="image-container">
+                    <img src={imageAdress} className="image"/>
+                </div>
+                <div className="vertical-text-content" style={{padding: "5px"}}>
+                    <h1 className='vertical-box-title'> {boxTitle} </h1>
+                    {getTranslation(boxContent)}
+                    <button className="redirect-button">&gt; More</button>
+                </div>
+            </div>
+        )
+    }
+
+}

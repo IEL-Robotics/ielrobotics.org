@@ -19,17 +19,6 @@ export const Team = () => {
     return (
         <div className="TeamPage" style={{ marginTop: "5rem" }}>
             <TheImage source={team_image} text={getTranslation("team-slogan")} />
-            <div className='team-title-holder'>
-                <h1 className='team-title'> {getTranslation("team-titles-cap")} </h1>
-            </div>
-            <div className='captains-wrapper'>
-                {captains.map((cap) => {
-                    console.log(cap.linkedin)
-                    return(
-                        <SmallBox key={cap.id} image={cap.pfp} name={cap.name} role={cap.role} link={cap.linkedin}>  </SmallBox>
-                    )
-                })}
-            </div>
 
             <div className='team-title-holder'>
                 <h1 className='team-title'> {getTranslation("team-titles-mem")} </h1>

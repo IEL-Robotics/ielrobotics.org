@@ -20,9 +20,17 @@
 
     "home-content-title-1": "Biz Kimiz?",
     "home-content-title-2": "FRC Nedir?",
+    "home-content-content-1-short": "İstanbul Erkek Lisesi Robotik Kulübü IEL ROBOTICS olarak, teknoloji, yazılım ve mühendislik kültürünü lise düzeyinde öğrencilerimize kazandırmaya adanmış bir öğrenci kulübüyüz. 2019 yılındaki kuruluşumuzdan itibaren okulumuzu ve ülkemizi, ulusal ve uluslararası yarışmalarda başarıyla temsil etmekten gurur duyuyoruz.",
+    "home-content-content-2-short":"FRC, yılda bir kez uluslararası düzeyde düzenlenen ve NASA, Google, Boeing, 3M ve Apple gibi dünyaca ünlü şirketler tarafından finanse edilen dünyanın en prestijli lise robot yarışmasıdır.",
     "home-content-content-1": "İstanbul Erkek Lisesi Robotik Kulübü IEL ROBOTICS olarak, teknoloji, yazılım ve mühendislik kültürünü lise düzeyinde öğrencilerimize kazandırmaya adanmış bir öğrenci kulübüyüz. 2019 yılındaki kuruluşumuzdan itibaren okulumuzu ve ülkemizi, ulusal ve uluslararası yarışmalarda başarıyla temsil etmekten gurur duyuyoruz.\n\nIEL ROBOTICS üyeleri robotik, havacılık, uzay ve daha birçok teknik alanda kendi projelerini geliştirir ve yarışmalara katılar. Fakat IEL ROBOTICS, bu kültürü kulübümüz dışına da yaymak adına yıl boyunca okul içinde ve dışında verdiği çeşitli eğitimler ve yürüttüğü projeler ile çocuk ve gençler başta olmak üzere toplumun çeşitli kesimlerine mühendislik temellerinin aşılamayı hedefler. Ülkemizin geleceği için meraklı ve hevesli öğrencilere en iyi şartlarda, kaliteli ve donanımlı bir STEM eğitimi vermeyi ve onlara ilham olmayı amaçlar. ",
     "home-content-content-2": "FRC, yılda bir kez uluslararası düzeyde düzenlenen ve NASA, Google, Boeing, 3M ve Apple gibi dünyaca ünlü şirketler tarafından finanse edilen dünyanın en prestijli lise robot yarışmasıdır ve gençlerin teknik, matematiksel ve mühendislik becerilerini yaratıcı ve çözüm odaklı bir şekilde geliştirmeyi ve beslemeyi amaçlamaktadır. \n\nYarışmaya katılan ekipler, her yıl yarışmadan iki ay önce duyurulan görevleri tamamlayan yaklaşık bir metre uzunluğunda ve genişliğinde robotlar yapmaya çalışmaktadır. Bu yarışma sayesinde öğrenciler takım oyuncusu, duyarlı ve yaratıcı bireyler olarak uluslararası FRC topluluğunun bir parçası haline geliyor ve hayatlarının geri kalanında kendilerine eşlik edecek bir sosyal çevre ve bilgi birikimine sahip oluyorlar.",
-  
+
+    "home-competetion-frc":"FRC, yılda bir kere uluslararası düzeyde düzenlenen; NASA, Google, Boeing, 3M, Apple gibi dünyaca ünlü şirketler tarafından finanse edilen dünyanın en prestijli liselerarası robotik yarışmasıdır.",
+    "home-competetion-jf": "JugendForscht, Almanya'nın en büyük bilim yarışmasıdır. Öğrenciler teknoloji, matematik, bilgisayar bilimi, fizik gibi konularda projeleini Almanya'nın önde gelen uzmanlarına sunar.",
+    "home-competetion-tekno": "Teknofest, Türkiye'de düzenlenen en büyük uzay ve havacılık festivalidir. Yarışmacılar çeşitli kategorilerdeki projelerini o alanda uzman jürilere gösterirler. Aynı zamanda yerli ve milli teknoloji firmaları ile tanışma şansı yakalarlar.",
+    "home-competetion-other-title":"Diğer",
+    "home-competetion-other": "Bunun dışında, hem nispeten daha küçük hem de daha büyük ölçekli çeşitli turnuvalara ve etkinliklere katıldık. Hangi yarışmalara katıldığımızı görmek için aşağıya tıklayın.",
+
     "sponsor-title-why": "BİZİ NEDEN DESTEKLEMELİSİNİZ?",
     "sponsor-content-why": "Kulüp olarak gençleri teknoloji, yazılım ve mühendislik kültürü ile tanıştırmayı kendimize misyon edindik ve bu hedef doğrultusunda sürekli çalışıyoruz. Bu doğrultuda sponsorlarımızdan gelecek her türlü destek, ekibimizi ve sponsorlarımızı en iyi şekilde temsil edebilmemiz için çok önemli.",
     "sponsor-title-ielev": "İELEV",
