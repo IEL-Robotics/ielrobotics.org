@@ -13,6 +13,7 @@ import first from '../../Media/Images/Home/frc-logo.png'
 import jf from '../../Media/Images/Home/jf-logo.png'
 import tf from '../../Media/Images/Home/tfest-logo.png'
 import other from '../../Media/Images/Home/other.png'
+import sponsor from '../../Media/Images/Home/sponsor-image.png'
 import hundred from '../../Media/Images/Home/hundred.png'
 
 export const Home = () => {
@@ -34,21 +35,24 @@ export const Home = () => {
                 <h1 className='team-title'> Competetions </h1>
             </div>
             <div className="home-comp-holder">
-                <VerticalBox image={first} title={"FRC"} content={"home-competetion-frc"} type={0} />
-                <VerticalBox image={jf} title={"JugendForscht"} content={"home-competetion-jf"} type={1} />
-                <VerticalBox image={tf} title={"Teknofest"} content={"home-competetion-tekno"} type={1} />
-                <VerticalBox image={other} title={getTranslation("home-competetion-other-title")} content={"home-competetion-other"} type={0} />
+                <VerticalBox image={first} title={"FRC"} content={"home-competetion-frc"} type={0} link={"https://www.firstinspires.org/robotics/frc"} />
+                <VerticalBox image={jf} title={"JugendForscht"} content={"home-competetion-jf"} type={1} link={"https://www.jugend-forscht.de/"} />
+                <VerticalBox image={tf} title={"Teknofest"} content={"home-competetion-tekno"} type={1} link={"https://www.teknofest.org/tr/"}  />
+                <VerticalBox image={other} title={getTranslation("home-competetion-other-title")} content={"home-competetion-other"} type={0} link={"/achievements"}  />
             </div>
 
             <div className='team-title-holder'>
-                <h1 className='team-title'> Our Awards </h1>
+                <h1 className='team-title'> {getTranslation("home-awards-title")} </h1>
             </div>
+            <ContentBox image={frc} title={"home-awards-title"} content={"home-awards-1"} type={1} />
             <div className='team-title-holder'>
                 <h1 className='team-title'> Our Partners </h1>
             </div>
+            <ContentBox image={sponsor} title={"home-sponsor-title"} content={"home-sponsor-content"} type={0} />
             <div className='team-title-holder'>
                 <h1 className='team-title'> Our Team </h1>
             </div>
+            <ContentBox image={frc} title={"home-awards-title"} content={"home-awards-1"} type={1} />
         </div>
 
     )

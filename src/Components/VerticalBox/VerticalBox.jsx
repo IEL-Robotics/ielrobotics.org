@@ -7,6 +7,7 @@ export const VerticalBox = (Props) => {
     const imageAdress = Props.image;
     const boxTitle = Props.title;
     const boxContent = Props.content;
+    const link = Props.link
 
     const type = Props.type;
 
@@ -21,7 +22,14 @@ export const VerticalBox = (Props) => {
                 <div className="vertical-text-content" style={{padding: "5px"}}>
                     <h1 className='content-box-title'> {getTranslation(boxTitle)} </h1>
                     {getTranslation(boxContent)}
-                    <button className="redirect-button">&gt; More</button>
+                    <button className="redirect-button">
+                        <a draggable="true"
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            &gt; More
+                        </a>
+                    </button>
                 </div>
             </div>
         )
@@ -35,7 +43,14 @@ export const VerticalBox = (Props) => {
                 <div className="vertical-text-content" style={{padding: "5px"}}>
                     <h1 className='vertical-box-title'> {boxTitle} </h1>
                     {getTranslation(boxContent)}
-                    <button className="redirect-button">&gt; More</button>
+                    <button className="redirect-button">
+                        <a draggable="true"
+                            href={link}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            &gt; More
+                        </a>
+                    </button>
                 </div>
             </div>
         )
