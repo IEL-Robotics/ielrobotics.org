@@ -9,7 +9,13 @@
 @media screen and (max-width: 1000px) {
     .home-comp-holder {
         display: grid;
-        grid-template-columns: 100%;
+        /* grid-template-columns: 100%; */
         padding: 15px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .home-comp-holder {
+        grid-template-columns: 100%;
     }
 }

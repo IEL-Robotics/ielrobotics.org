@@ -24,6 +24,10 @@
 
 }
 
+.vertical-holder-yellow .image-container {
+    margin-bottom: 5%;
+}
+
 .vertical-text-content {
     display: flex;
     flex-direction: column;

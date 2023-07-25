@@ -13,8 +13,9 @@ import first from '../../Media/Images/Home/frc-logo.png'
 import jf from '../../Media/Images/Home/jf-logo.png'
 import tf from '../../Media/Images/Home/tfest-logo.png'
 import other from '../../Media/Images/Home/other.png'
+import award from '../../Media/Images/Home/award-logo.png'
 import sponsor from '../../Media/Images/Home/sponsor-image.png'
-import hundred from '../../Media/Images/Home/hundred.png'
+import team from '../../Media/Images/Home/team-image.png'
 
 export const Home = () => {
     const { language, getTranslation } = useContext(LanguageContext);
@@ -44,7 +45,7 @@ export const Home = () => {
             <div className='team-title-holder'>
                 <h1 className='team-title'> {getTranslation("home-awards-title")} </h1>
             </div>
-            <ContentBox image={frc} title={"home-awards-title"} content={"home-awards-1"} type={1} />
+            {/* <ContentBox image={frc} title={"home-awards-title"} content={"home-awards-1"} type={1} /> */}
             <div className='team-title-holder'>
                 <h1 className='team-title'> Our Partners </h1>
             </div>
@@ -52,7 +53,7 @@ export const Home = () => {
             <div className='team-title-holder'>
                 <h1 className='team-title'> Our Team </h1>
             </div>
-            <ContentBox image={frc} title={"home-awards-title"} content={"home-awards-1"} type={1} />
+            <ContentBox image={team} title={"home-team-title"} content={"home-team-content"} type={1} />
         </div>
 
     )
