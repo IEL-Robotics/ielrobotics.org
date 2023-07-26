@@ -20,9 +20,7 @@ export const SmallBox = (Props) => {
                 </a>
             </div>
             <div className="smallbox-text-content">
-                <a href={linkedin} draggable="true" target="_blank">
-                    <h4 id="team-header-name" style={{marginBottom: "5px", padding: "0", textAlign: "center"}}> {boxName} </h4>
-                </a>
+                <h4 id="team-header-name" style={{marginBottom: "5px", padding: "0", textAlign: "center"}}> {boxName} </h4>
                 <h5 id="team-header-role" style={{textAlign: "center"}}>  {getTranslation(boxRole)} </h5>
             </div>
         </div>

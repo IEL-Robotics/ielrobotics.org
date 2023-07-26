@@ -1,6 +1,7 @@
 .member-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 33%);
+    grid-template-columns: repeat(3, 33.333%);
+    margin: 5px;
 }
 
 .team-title-holder {

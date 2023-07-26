@@ -1,21 +1,38 @@
 .home-comp-holder {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(50% - 20px), 1fr));
-    padding: 20px;
-    column-gap: 20px;
-    row-gap: 20px;
+    padding: 35px;
+    column-gap: 35px;
+    row-gap: 35px;
 }
 
 @media screen and (max-width: 1000px) {
     .home-comp-holder {
         display: grid;
         /* grid-template-columns: 100%; */
-        padding: 15px;
+        padding: 25px;
     }
 }
-
+ 
 @media screen and (max-width: 700px) {
     .home-comp-holder {
         grid-template-columns: 100%;
+    }
+}
+
+.temp-holder {
+    margin: 10px 30px 10px 30px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    column-gap: 1%;
+    justify-content: center;
+    padding: 1%;
+}
+
+@media screen and (max-width: 800px) {
+    .temp-holder {
+        grid-template-columns: 100%;
+        margin: 10px 15px 10px 15px;
+        row-gap: 10px;
     }
 }

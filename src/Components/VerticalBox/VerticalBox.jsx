@@ -19,7 +19,7 @@ export const VerticalBox = (Props) => {
                 <div className="image-container">
                     <img src={imageAdress} className="image"/>
                 </div>
-                <div className="vertical-text-content" style={{padding: "5px"}}>
+                <div className="vertical-text-content" style={{paddingRight: "15px", paddingLeft: "15px"}}>
                     <h1 className='content-box-title'> {getTranslation(boxTitle)} </h1>
                     {getTranslation(boxContent)}
                     <button className="redirect-button">
@@ -40,7 +40,7 @@ export const VerticalBox = (Props) => {
                 <div className="image-container">
                     <img src={imageAdress} className="image"/>
                 </div>
-                <div className="vertical-text-content" style={{padding: "5px"}}>
+                <div className="vertical-text-content" style={{paddingRight: "15px", paddingLeft: "15px"}}>
                     <h1 className='vertical-box-title'> {boxTitle} </h1>
                     {getTranslation(boxContent)}
                     <button className="redirect-button">

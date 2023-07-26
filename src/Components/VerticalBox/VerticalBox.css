@@ -4,10 +4,11 @@
     row-gap: 20px;
     padding: 50px 50px 30px 50px;
     /* margin: 10px; /*top right bottom left */  
-    border: solid 10px rgba(224, 224, 224, 0.559);
+    /* border: solid 10px rgba(224, 224, 224, 0.559);
     border-image-slice: 1;
-    border-image-source: linear-gradient(-135deg, rgb(0, 0, 0), white);
-    border-radius: 20px;
+    border-image-source: linear-gradient(-135deg, rgb(0, 0, 0), white); */
+    border-radius: 30px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
 
 }
 
@@ -17,10 +18,11 @@
     padding: 50px 50px 30px 50px;
 
     /* margin: 10px; */
-    border: solid 10px rgba(224, 224, 224, 0.559);
+    /* border: solid 10px rgba(224, 224, 224, 0.559);
     border-image-slice: 1;
-    border-image-source: linear-gradient(45deg, rgb(255, 191, 0), white);
-    border-radius: 20px;
+    border-image-source: linear-gradient(45deg, rgb(255, 191, 0), white); */
+    border-radius: 30px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
 
 }
 
@@ -33,12 +35,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    text-align:center;
+    text-align: center;
     white-space: pre-line;
     margin: 0;
 
     color: rgb(49, 49, 49);
-    text-align: center;
     font-family: Poppins;
     font-size: 2rem;
     font-style: normal;

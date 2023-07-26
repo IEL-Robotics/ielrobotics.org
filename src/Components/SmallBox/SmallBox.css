@@ -1,14 +1,23 @@
 .smallbox-content-holder {
-    margin: 2%;
-    border: solid 10px rgba(224, 224, 224, 0.559);
+    margin: 4%;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    padding: 15px;
+    padding: 0px;
     display: grid;
-    grid-template-columns:40% 60%;
+    grid-template-columns:35% 65%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.smallbox-content-holder:hover  .smallbox-image{
+    filter: brightness(130%);
+}
+
+.smallbox-content-holder:hover {
+    transform: scale(107.5%);
 }
 
 .smallbox-image-container {
-    margin-right: 20%;
     align-self: center;
 }
 
@@ -16,6 +25,10 @@
     width:100%;
     height: auto;
     object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    filter: brightness(80%);
+    transition: filter 0.2s ease-in-out;
 }
 
 .smallbox-text-content {
@@ -24,37 +37,39 @@
     justify-content: center;
     align-items: center;
     white-space: pre-line;
+    padding-right: 5%;
+    padding-left: 5%;
     
 }
 
 #smallbox-pic {
-    filter: drop-shadow(-5px 5px 5px rgb(171, 171, 171));
+    /* filter: drop-shadow(-5px 5px 5px rgb(171, 171, 171)); */
 }
 
 #team-header-name {
-    font-size: 170%;
+    font-size: 160%;
 }
 
 #team-header-role {
-    font-size: 120%
+    font-size: 110%
 }
 
 #team-link {
-    font-size: 90%;
+    font-size: 80%;
 }
 
 
  @media screen and (max-width: 550px) {
     #team-header-name {
-        font-size: 100%;
+        font-size: 120%;
     }
     
     #team-header-role {
-        font-size: 80%
+        font-size: 95%
     }
     
     #team-link {
-        font-size: 70%;
+        font-size: 80%;
     }
     
 }
