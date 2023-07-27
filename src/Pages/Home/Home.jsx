@@ -42,10 +42,11 @@ export const Home = () => {
                 <h1 className='team-title'> Competetions </h1>
             </div>
             <div className="home-comp-holder">
-                <VerticalBox image={first} title={"FRC"} content={"home-competetion-frc"} type={0} link={"https://www.firstinspires.org/robotics/frc"} />
-                <VerticalBox image={jf} title={"JugendForscht"} content={"home-competetion-jf"} type={1} link={"https://www.jugend-forscht.de/"} />
-                <VerticalBox image={tf} title={"Teknofest"} content={"home-competetion-tekno"} type={1} link={"https://www.teknofest.org/tr/"}  />
-                <VerticalBox image={other} title={getTranslation("home-competetion-other-title")} content={"home-competetion-other"} type={0} link={"/achievements"}  />
+                <VerticalBox image1={"/OtherImages/HomeImages/frcback.jpeg"} image2={"/OtherImages/HomeImages/first-logo-vector.svg"} title={"FRC"} content={"home-competetion-frc"} link={"https://www.firstinspires.org/robotics/frc"} />
+                <VerticalBox image1={award3} image2={"/OtherImages/HomeImages/jf-logo-vector.svg"} title={"JugendForscht"} content={"home-competetion-jf"} link={"https://www.jugend-forscht.de/"} />
+                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.png"} title={"Teknofest"} image2={"/OtherImages/HomeImages/teknofest-logo-vector.svg"} content={"home-competetion-tekno"} link={"https://www.teknofest.org/tr/"}  />
+                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.png"} title={"FRC"} image2={"/OtherImages/HomeImages/first-logo-vector.svg"} content={"home-competetion-frc"} link={"https://www.firstinspires.org/robotics/frc"} />
+
             </div>
 
             <div className='team-title-holder'>
