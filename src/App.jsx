@@ -12,6 +12,7 @@ import { News } from "./Pages/News.jsx"
 import { Footer } from "./Components/Footer/Footer.jsx"
 
 import './App.css'
+import NewAchievement from "./Pages/Achievements/NewAchievement.jsx"
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/achievements' element={<Achievements/>}></Route>
           <Route path='/team' element={<Team/>}></Route>
           <Route path='/news' element={<News/>}></Route>
+          <Route path='/new-achievements' element={<NewAchievement />} />
           <Route></Route>
         </Routes>
         <div style={{height: "500px"}}></div>
