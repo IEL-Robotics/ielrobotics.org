@@ -6,6 +6,14 @@
     "team": "Takımımız",
     "contact": "İletişim",
 
+    "more": "Daha Fazlası",
+
+    "home-section-news": "Haberler",
+    "home-section-competetions": "Yarışmalar",
+    "home-section-awards": "Ödüllerimiz",
+    "home-section-partners": "Ortaklıklarımız",
+    "home-section-team": "Takımımız",
+
     "home-slogan": "Biz 8058'iz",
     "team-slogan": "Biz Bir Takımız",
     "sponsor-slogan": "Bize Katıl",
@@ -27,14 +35,9 @@
 
     "home-competetion-frc":"FRC, yılda bir kere uluslararası düzeyde düzenlenen; NASA, Google, Boeing, 3M, Apple gibi dünyaca ünlü şirketler tarafından finanse edilen dünyanın en prestijli liselerarası robotik yarışmasıdır.",
     "home-competetion-jf": "JugendForscht, Almanya'nın en büyük bilim yarışmasıdır. Öğrenciler teknoloji, matematik, bilgisayar bilimi, fizik gibi konularda projeleini Almanya'nın önde gelen uzmanlarına sunar.",
-    "home-competetion-tekno": "Teknofest, Türkiye'de düzenlenen en büyük uzay ve havacılık festivalidir. Yarışmacılar çeşitli kategorilerdeki projelerini o alanda uzman jürilere gösterirler. Aynı zamanda yerli ve milli teknoloji firmaları ile tanışma şansı yakalarlar.",
+    "home-competetion-tekno": "Teknofest, Türkiye'de düzenlenen en büyük uzay ve havacılık festivalidir. Yarışmacılar çeşitli kategorilerdeki projelerini uzman jürilere gösterirler. Aynı zamanda ünlü teknoloji firmaları ile tanışma şansı yakalarlar.",
     "home-competetion-other-title":"Diğer",
     "home-competetion-other": "Bunun dışında, hem nispeten daha küçük hem de daha büyük ölçekli çeşitli turnuvalara ve etkinliklere katıldık. Hangi yarışmalara katıldığımızı görmek için aşağıya tıklayın.",
-
-    "home-awards-title": "Ödüllerimiz",
-    "home-awards-1": "> FRC 2022 Bosphorus Regional Winner Ödülü",
-    "home-awards-2": "> FRC 2021 İzmir Off-Season Winner Ödülü",
-    "home-awards-3": "> JugendForscht Biyoloji Ulusal 1.lik",
 
     "home-sponsor-title": "Sponsorlar",
     "home-sponsor-content": "Hayallerimizi gerçeğe dönüştüren kişi ve kuruluşların sarsılmaz desteği için derin minnettarlık duyuyoruz. Daha parlak bir gelecek için yenilikçiliği ve olumlu değişimi teşvik eden çalışmalarımızdaki önemli rollerine tanık olmak için Sponsorlarımız sayfamızı ziyaret ederek bu yolculukta bize katılın.",

@@ -36,21 +36,21 @@ export const Home = () => {
             <ContentBox image={logo} title={"home-content-title-1"} content={"home-content-content-1-short"} type={0} />
             <ContentBox image={iel} title={"home-content-title-2"} content={"home-content-content-2-short"} type={1} />
             <div className='team-title-holder'>
-                <h1 className='team-title'> News </h1>
+                <h1 className='team-title'> {getTranslation("home-section-news")} </h1>
             </div>
             <div className='team-title-holder'>
-                <h1 className='team-title'> Competetions </h1>
+                <h1 className='team-title'> {getTranslation("home-section-competetions")} </h1>
             </div>
             <div className="home-comp-holder">
-                <VerticalBox image1={"/OtherImages/HomeImages/frcback.jpeg"} image2={"/OtherImages/HomeImages/first-logo-vector.svg"} title={"FRC"} content={"home-competetion-frc"} link={"https://www.firstinspires.org/robotics/frc"} />
-                <VerticalBox image1={award3} image2={"/OtherImages/HomeImages/jf-logo-vector.svg"} title={"JugendForscht"} content={"home-competetion-jf"} link={"https://www.jugend-forscht.de/"} />
-                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.png"} title={"Teknofest"} image2={"/OtherImages/HomeImages/teknofest-logo-vector.svg"} content={"home-competetion-tekno"} link={"https://www.teknofest.org/tr/"}  />
-                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.png"} title={"FRC"} image2={"/OtherImages/HomeImages/first-logo-vector.svg"} content={"home-competetion-frc"} link={"https://www.firstinspires.org/robotics/frc"} />
+                <VerticalBox image1={"/OtherImages/HomeImages/frcback.jpeg"} image2={"/OtherImages/HomeImages/first-logo-vector.svg"} title={"FRC"} content={"home-competetion-frc"} type={0} link={"https://www.firstinspires.org/robotics/frc"} />
+                <VerticalBox image1={award3} image2={"/OtherImages/HomeImages/jf-logo-vector.svg"} title={"JugendForscht"} content={"home-competetion-jf"} type={1} link={"https://www.jugend-forscht.de/"} />
+                <VerticalBox image1={"/OtherImages/HomeImages/trabzonback.png"} title={"Teknofest"} image2={"/OtherImages/HomeImages/teknofest-logo-vector.svg"} content={"home-competetion-tekno"} type={2} link={"https://www.teknofest.org/tr/"}  />
+                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.png"} title={"home-competetion-other-title"} image2={"/OtherImages/HomeImages/other-logos-vector.png"} content={"home-competetion-other"} type={3} link={"https://www.firstinspires.org/robotics/frc"} />
 
             </div>
 
             <div className='team-title-holder'>
-                <h1 className='team-title'> {getTranslation("home-awards-title")} </h1>
+                <h1 className='team-title'> {getTranslation("home-section-awards")} </h1>
             </div>
             {/* <ContentBox image={frc} title={"home-awards-title"} content={"home-awards-1"} type={1} /> */}
             <div className="temp-holder">
@@ -59,11 +59,11 @@ export const Home = () => {
                 <RedirectBox img={award2} title1={"Izmir 2021"} title2={"Winner"} link={"/achievements"}/>
             </div>
             <div className='team-title-holder'>
-                <h1 className='team-title'> Our Partners </h1>
+                <h1 className='team-title'> {getTranslation("home-section-partners")} </h1>
             </div>
             <ContentBox image={sponsor} title={"home-sponsor-title"} content={"home-sponsor-content"} type={0} />
             <div className='team-title-holder'>
-                <h1 className='team-title'> Our Team </h1>
+                <h1 className='team-title'> {getTranslation("home-section-team")} </h1>
             </div>
             <ContentBox image={team} title={"home-team-title"} content={"home-team-content"} type={1} />
         </div>

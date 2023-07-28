@@ -8,19 +8,23 @@ export const VerticalBox = (Props) => {
     const imageAdress2 = Props.image2;
     const boxTitle = Props.title;
     const boxContent = Props.content;
-    const link = Props.link
+    const link = Props.link;
+
+    const idArray = ["frc","jf","tekno","other"];
+    const type = Props.type;
 
     const { language, getTranslation } = useContext(LanguageContext);
 
     return (
         <div className="vertical-holder">
-            <div className="image-container">
+            <div className="vertical-image-container">
                 <img src={imageAdress2} className='vertical-image-front'/>
                 <img src={imageAdress} className="vertical-image-back" />
                 <div class="radial-overlay"></div>
             </div>
                 
-            <h1 className='vertical-box-title'> {getTranslation(boxTitle)} </h1>
+                
+            <h1 className='vertical-box-title' id={`vertical-${idArray[type]}`}> {getTranslation(boxTitle)} </h1>
             
             <div className="vertical-text-content" style={{ paddingRight: "20px", paddingLeft: "20px" }}>
                 {getTranslation(boxContent)}
@@ -29,7 +33,7 @@ export const VerticalBox = (Props) => {
                         href={link}
                         target="_blank"
                         rel="noopener noreferrer">
-                        &gt; More
+                        &gt; {getTranslation("more")}
                     </a>
                 </button>
             </div>

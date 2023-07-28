@@ -33,7 +33,6 @@ function App() {
           <Route path='/news' element={<News/>}></Route>
           <Route></Route>
         </Routes>
-        <div style={{height: "500px"}}></div>
         <Footer scrollRef={scrollRef}/>
       </BR>
     </div>

@@ -50,7 +50,7 @@ export const ContentBox = (Props) => {
             <div className="text-content" style={{padding: "5px"}}>
                 <h1 className='content-box-title'> {getTranslation(boxTitle)} </h1>
                 {getTranslation(boxContent)}
-                <button className="redirect-button">&gt; More</button>
+                <button className="redirect-button">&gt; {getTranslation("more")}</button>
             </div>
         </div>
     )
