@@ -26,6 +26,12 @@ import news from '../../Media/Images/News.png'
 export const Home = () => {
     const { language, getTranslation } = useContext(LanguageContext);
 
+    const returnIELLink = () => {
+        if(language === "en"){return("https://en.wikipedia.org/wiki/Istanbul_High_School");}
+        else if(language === "tr"){return("https://tr.wikipedia.org/wiki/%C4%B0stanbul_Erkek_Lisesi");}
+        if(language === "de"){return("https://de.wikipedia.org/wiki/%C4%B0stanbul_Erkek_Lisesi");}
+    }
+
     return(
         // <div style={{marginTop: "8rem"}}> {getTranslation("homepage")} </div>
         <div style={{marginTop: "5rem"}}>
@@ -33,8 +39,8 @@ export const Home = () => {
             <div className='team-title-holder'>
                 <h1 className='team-title'> #FAQ </h1>
             </div>
-            <ContentBox image={logo} title={"home-content-title-1"} content={"home-content-content-1-short"} type={0} />
-            <ContentBox image={iel} title={"home-content-title-2"} content={"home-content-content-2-short"} type={1} />
+            <ContentBox image={logo} title={"home-content-title-1"} content={"home-content-content-1-short"} type={0} link={"/team"} />
+            <ContentBox image={iel} title={"home-content-title-2"} content={"home-content-content-2-short"} type={1} link={returnIELLink()} />
             <div className='team-title-holder'>
                 <h1 className='team-title'> {getTranslation("home-section-news")} </h1>
             </div>
@@ -61,11 +67,11 @@ export const Home = () => {
             <div className='team-title-holder'>
                 <h1 className='team-title'> {getTranslation("home-section-partners")} </h1>
             </div>
-            <ContentBox image={sponsor} title={"home-sponsor-title"} content={"home-sponsor-content"} type={0} />
+            <ContentBox image={sponsor} title={"home-sponsor-title"} content={"home-sponsor-content"} type={0} link={"/sponsors"}/>
             <div className='team-title-holder'>
                 <h1 className='team-title'> {getTranslation("home-section-team")} </h1>
             </div>
-            <ContentBox image={team} title={"home-team-title"} content={"home-team-content"} type={1} />
+            <ContentBox image={team} title={"home-team-title"} content={"home-team-content"} type={1} link={"/team"}/>
         </div>
 
     )

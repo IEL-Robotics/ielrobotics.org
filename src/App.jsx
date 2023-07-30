@@ -8,7 +8,7 @@ import { Home } from "./Pages/Home/Home.jsx"
 import { Sponsors } from "./Pages/Sponsors"
 import { Achievements } from "./Pages/Achievements/Achievements.jsx"
 import { Team } from "./Pages/Team/Team.jsx"
-import { News } from "./Pages/News.jsx"
+import { News } from "./Pages/News/News.jsx"
 import { Footer } from "./Components/Footer/Footer.jsx"
 
 import './App.css'

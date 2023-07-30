@@ -20,7 +20,6 @@ export const VerticalBox = (Props) => {
             <div className="vertical-image-container">
                 <img src={imageAdress2} className='vertical-image-front'/>
                 <img src={imageAdress} className="vertical-image-back" />
-                <div class="radial-overlay"></div>
             </div>
                 
                 
