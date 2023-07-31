@@ -1,22 +1,24 @@
 .home-comp-holder {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(50% - 20px), 1fr));
-    padding: 35px;
-    column-gap: 35px;
-    row-gap: 35px;
+    margin: 30px 40px 30px 40px;
+    padding: 1%;
+    column-gap: 40px;
+    row-gap: 40px;
 }
 
 @media screen and (max-width: 1000px) {
     .home-comp-holder {
         display: grid;
         /* grid-template-columns: 100%; */
-        padding: 25px;
+        padding: 0px;
     }
 }
  
 @media screen and (max-width: 700px) {
     .home-comp-holder {
         grid-template-columns: 100%;
+        margin: 30px 30px 30px 30px;
     }
 }
 

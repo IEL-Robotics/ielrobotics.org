@@ -42,7 +42,7 @@ export const Navbar = ({ handleScroll }) => {
         <header className="header" id="header">
             <nav className="navbar container">
                 <div className='page-name'>
-                    <a onClick={() => handleClick2("/")}><h2 className="logo">IELROBOTICS</h2></a>
+                    <a onClick={() => handleClick2("/")}><h2 className="logo">IELRobotics</h2></a>
                 </div>
 
                 <div className="menu" id="menu">

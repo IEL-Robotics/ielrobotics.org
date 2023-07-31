@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import achieveData from '../Achievements.json';
 import './TimelineHolder.css';
 import { TimelineItem } from './TimelineItem.jsx';
+import { NewTimelineItem } from './NewTimelineItem';
 
 export const TimelineHolder = () => {
   const scrollToItem = (ref) => {
@@ -15,7 +16,7 @@ export const TimelineHolder = () => {
     return (
       <div className="timelineHolder">
         {achieveData.map((data, index) => (
-          <TimelineItem key={index} data={data} scrollToItem={scrollToItem} />
+          <NewTimelineItem key={index} data={data} scrollToItem={scrollToItem} />
         ))}
       </div>
     );
