@@ -9,7 +9,7 @@ const CustomPrevArrow = ({ onClick }) => {
 };
 
 const CustomNextArrow = ({ onClick }) => {
-    return <div className="next" style={{ zIndex: '2' }} onClick={onClick}>&#10095;</div>;
+    return <div className="next" style={{ zIndex: '2', marginRight:"-1px"}} onClick={onClick}>&#10095;</div>;
 };
 
 export const NewTimelineItem = ({ data, scrollToItem }) => {
@@ -37,7 +37,7 @@ export const NewTimelineItem = ({ data, scrollToItem }) => {
                     <Slider {...settings} className='slider'>
                         {images.map((event_image, index) => (
                             <div key={index}>
-                                <img className='slider-image' src={event_image} style={{ width: '100%', marginBottom: '5px', zIndex: '9999' }} alt="" />
+                                <img className='slider-image' src={event_image} style={{ width: '100%', zIndex: '9999' }} alt="" />
                             </div>
                         ))}
                     </Slider>
@@ -45,10 +45,10 @@ export const NewTimelineItem = ({ data, scrollToItem }) => {
                 <div className='new-space'></div>
                 <div className='new-achieve-textbox'>
                     <span className="new-circle" onClick={handleClick} />
-                    <h1 className="comp-title" style={{ marginBottom: '5px'}}>
+                    <h1 className="new-comp-title" style={{ marginBottom: '5px'}}>
                         {data.title}
                     </h1>
-                    <p className="comp-desc">{data.description}</p>
+                    <p className="new-comp-desc">{data.description}</p>
                 </div>
             </div>
 
