@@ -9,6 +9,7 @@ import LanguageContext from "../../Context/LanguageContext"
 import jsonfile from '../Team/TeamMembers.json'
 
 import pfp from '../../Media/Images/Team/pfp.png'
+// import team_image from '../../Media/Images/Team/Team.png'
 import team_image from '../../Media/Images/Team/Team.webp'
 
 export const Team = () => {
