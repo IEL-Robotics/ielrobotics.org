@@ -4,7 +4,7 @@ import { TheImage } from "../../Components/TheImage/TheImage";
 import { TimelineHolder } from "./Timeline/TimelineHolder";
 import LanguageContext from "../../Context/LanguageContext"
 
-import success_image from '../../Media/Images/Success.png'
+import success_image from '../../Media/Images/Success.webp'
 
 export const Achievements = () => {
     const { language, getTranslation } = useContext(LanguageContext);

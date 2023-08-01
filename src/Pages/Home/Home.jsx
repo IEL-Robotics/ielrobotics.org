@@ -7,7 +7,7 @@ import { VerticalBox } from "../../Components/VerticalBox/VerticalBox";
 import {RedirectBox} from '../../Components/RedirectBox/RedirectBox'
 import LanguageContext from "../../Context/LanguageContext"
 
-import home_image from "../../Media/Images/Home/8058.png"
+import home_image from "../../Media/Images/Home/8058.webp"
 import logo from '../../Media/Images/Home/logo.png'
 import iel from '../../Media/Images/Home/iellogo.png'
 import frc from '../../Media/Images/Home/frc.png'

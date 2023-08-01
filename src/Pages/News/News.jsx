@@ -5,7 +5,7 @@ import '../News/News.css'
 import { TheImage } from "../../Components/TheImage/TheImage";
 import LanguageContext from "../../Context/LanguageContext"
 
-import news_image from '../../Media/Images/News.png'
+import news_image from '../../Media/Images/News.webp'
 
 export const News = () => {
     const { language, getTranslation } = useContext(LanguageContext);

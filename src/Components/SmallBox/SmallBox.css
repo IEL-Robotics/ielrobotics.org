@@ -47,11 +47,13 @@
 }
 
 #team-header-name {
-    font-size: 160%;
+    font-size: 150%;
+    font-weight: 800;
 }
 
 #team-header-role {
-    font-size: 110%
+    font-size: 115%;
+    font-weight: 700;
 }
 
 #team-link {
@@ -68,8 +70,15 @@
         font-size: 95%
     }
     
-    #team-link {
-        font-size: 80%;
+}
+
+@media (min-width: 700px) and (max-width: 950px){
+    #team-header-name {
+        font-size: 115%;
+    }
+    
+    #team-header-role {
+        font-size: 90%
     }
     
 }

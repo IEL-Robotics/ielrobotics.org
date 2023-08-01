@@ -4,7 +4,7 @@ import { ContentBox } from "../Components/ContentBox/ContentBox";
 import { TheImage } from "../Components/TheImage/TheImage";
 import { RedirectBox } from "../Components/RedirectBox/RedirectBox";
 
-import sponsor_image from '../Media/Images/Sponsor.png'
+import sponsor_image from '../Media/Images/Sponsor.webp'
 
 import qmark from '../Media/Images/Sponsors/qmark.png'
 import birikim from '../Media/Images/Sponsors/birikim.png'
