@@ -45,7 +45,7 @@ export const NewTimelineItem = ({ data, scrollToItem }) => {
                 <div className='new-space'></div>
                 <div className='new-achieve-textbox'>
                     <span className="new-circle" onClick={handleClick} />
-                    <h1 className="new-comp-title" style={{ marginBottom: '5px'}}>
+                    <h1 className="new-comp-title" style={{ marginBottom: '10px'}}>
                         {data.title}
                     </h1>
                     <p className="new-comp-desc">{data.description}</p>
