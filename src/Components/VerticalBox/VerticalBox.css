@@ -63,7 +63,7 @@
     font-weight: 300;
     line-height: normal;
     
-    min-height: 30vh;
+    min-height: min-content;
 }
 
 .vertical-box-title {
