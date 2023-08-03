@@ -25,6 +25,13 @@
     background-color: rgb(214, 214, 214);
     font-size: 2.5rem;
     font-weight: 800;
+
+    transition: filter 0.25s ease-in-out;
+}
+
+
+.achi-button:hover{
+    filter: brightness(110%);
 }
 
 .achi-button.selected {
@@ -33,8 +40,9 @@
 }
 
 .achi-button.selected:hover {
-    
+    filter: brightness(130%);
 }
+
 
 #btn1.achi-button {
     border-top-right-radius: 0;
