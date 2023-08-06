@@ -16,6 +16,23 @@ export const Team = () => {
     const { language, getTranslation } = useContext(LanguageContext);
     const { captains, members, alumnis} = jsonfile;
 
+    const [isPortrait, setIsPortrait] = useState(
+        window.innerHeight > window.innerWidth
+    );
+
+    useEffect(() => {
+        const handleOrientationChange = () => {
+            console.log("Orientation changed:", window.innerHeight, window.innerWidth);
+            setIsPortrait(window.innerHeight > window.innerWidth);
+            console.log(isPortrait);
+        };
+
+        window.addEventListener('orientationchange', handleOrientationChange);
+
+        return () => {
+            window.removeEventListener('orientationchange', handleOrientationChange);
+        };
+    }, []);
 
     return (
         <div className="TeamPage" style={{ marginTop: "5rem" }}>
@@ -28,7 +45,7 @@ export const Team = () => {
             <div className="member-wrapper">
                 {members.map((mem) => {
                     return (
-                        <SmallBox key={mem.id} image={mem.pfp} name={mem.name} role={mem.role} link={mem.linkedin}>  </SmallBox>
+                        <SmallBox key={isPortrait ? mem.id : mem.id + 500} image={mem.pfp} name={mem.name} role={mem.role} link={mem.linkedin}>  </SmallBox>
                     )
                 })}
             </div>
@@ -40,7 +57,7 @@ export const Team = () => {
             <div className="member-wrapper">
                 {alumnis.map((alu) => {
                     return (
-                        <SmallBox key={alu.id} image={alu.pfp} name={alu.name} role={alu.role} link={alu.linkedin}>  </SmallBox>
+                        <SmallBox key={isPortrait ? alu.id : alu.id + 500} image={alu.pfp} name={alu.name} role={alu.role} link={alu.linkedin}>  </SmallBox>
                     )
                 })}
             </div>
