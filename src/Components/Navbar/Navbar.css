@@ -112,3 +112,120 @@ a:hover {
     
 
 }
+
+@media (min-width: 1840px) and (max-width: 2220px) {
+    h2 {
+        padding-left: 3rem;
+    }
+    
+    .logo {
+        font-weight: 800;
+        font-style: normal;
+        font-size: 3.2rem;
+    }
+
+    .right {
+        padding-right: 3rem;
+    }
+
+    .list{
+        gap: 3.5rem;
+    }
+
+    .list-item a {
+        font-size: 2.1rem;
+    }
+
+    #language-toggle-icon {
+        font-size: 2.1rem;
+    }
+    
+    .lan {
+        border-radius: 10%;
+        border: 0.35rem solid rgb(202, 202, 255);
+        color: rgb(77, 77, 255);
+        padding: 0rem 1rem 0rem 1rem;
+        margin-top: 0.0rem;
+        transition: transform 0.2s ease-in-out;
+    }
+    
+
+}
+
+@media (min-width: 2220px) and (max-width: 2920px) {
+    h2 {
+        padding-left: 4rem;
+    }
+    
+    .logo {
+        font-weight: 800;
+        font-style: normal;
+        font-size: 4.2rem;
+    }
+
+    .right {
+        padding-right: 4rem;
+    }
+
+    .list{
+        gap: 4rem;
+    }
+
+    .list-item a {
+        font-size: 2.5rem;
+    }
+
+    #language-toggle-icon {
+        font-size: 2.5rem;
+    }
+    
+    .lan {
+        border-radius: 7px;
+        border: 0.35rem solid rgb(202, 202, 255);
+        color: rgb(77, 77, 255);
+        padding: 0rem 1.5rem 0rem 1.5rem;
+        margin-top: 0.0rem;
+        transition: transform 0.2s ease-in-out;
+    }
+    
+
+}
+
+@media screen and (min-width: 2920px) {
+    h2 {
+        padding-left: 5.5rem;
+    }
+    
+    .logo {
+        font-weight: 800;
+        font-style: normal;
+        font-size: 5.5rem;
+    }
+
+    .right {
+        padding-right: 5.5rem;
+    }
+
+    .list{
+        gap: 5.5rem;
+    }
+
+    .list-item a {
+        font-size: 3.5rem;
+    }
+
+    #language-toggle-icon {
+        font-size: 3rem;
+    }
+    
+    .lan {
+        border-radius: 10px;
+        border: 0.35rem solid rgb(202, 202, 255);
+        color: rgb(77, 77, 255);
+        padding: 0rem 2rem 0rem 2rem;
+        margin-top: 0.0rem;
+        transition: transform 0.2s ease-in-out;
+    }
+    
+
+}

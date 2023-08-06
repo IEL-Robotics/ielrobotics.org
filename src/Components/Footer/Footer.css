@@ -52,25 +52,9 @@ strong {
 #btn-sponsor:hover {
     background-color: rgb(211, 211, 211) ;
     color: rgb(72, 72, 72);
-    transform: scale(1.2);
+    transform: scale(1.15);
 
 } 
-
-@media screen and (max-width: 430px){
-
-    #btn-sponsor {
-        font-size: 90%;
-    }
-
-    strong {
-        font-size: 120%
-    }
-
-    p {
-        font-size: 90%;
-    }
-
-}
 
 .social-container {
     display: grid;
@@ -157,7 +141,7 @@ strong {
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
     .social-container {
         grid-template-columns: repeat(2, 50vw);
         margin-top: 2vh;
@@ -181,7 +165,20 @@ strong {
     #footer-licence2 {
         font-size: 100%;
     }
+
+    #btn-sponsor {
+        font-size: 100%;
+    }
+
+    strong {
+        font-size: 120%
+    }
+
+    p {
+        font-size: 100%;
+    }
     
 }
+
 
 

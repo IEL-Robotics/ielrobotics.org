@@ -95,12 +95,22 @@
     
 }
 
-@media (max-width: 600px) {
+@media (min-width: 460px) and (max-width: 800px) {
     .redirect-image-text{
-        font-size: 4rem;
+        font-size: 6.5rem;
     }
     .redirect-text{
         font-size: 2rem;
     }
     
+}
+
+@media (max-width: 460px) {
+  .redirect-image-text{
+      font-size: 4.5rem;
+  }
+  .redirect-text{
+      font-size: 2rem;
+  }
+  
 }
