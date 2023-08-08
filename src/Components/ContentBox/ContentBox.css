@@ -1,19 +1,19 @@
 .content-holder-yellow {
     margin: 35px;
-    border-radius: 30px;
+    border-radius: 2.5vw;
     padding: 20px 20px 20px 20px ;
     display: grid;
     grid-template-columns:30% 70%;
-    box-shadow: -4px 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: -0.3vw 0.3vw 0.9vw rgba(0, 0, 0, 0.2);
 }
 
 .content-holder-black {
     margin: 35px;
-    border-radius: 30px;
+    border-radius: 2.5vw;
     padding: 20px 30px 20px 30px ;
     display: grid;
     grid-template-columns:70% 30%;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0.3vw 0.3vw 0.9vw rgba(0, 0, 0, 0.2);
 }
 
 .content-holder-news {
@@ -152,4 +152,29 @@ h1 {
     .image { /* maybe maybe maybe */
         width: 90%;
     }
+}
+
+@media (min-width: 1586px) {
+    .text-content {
+        font-size: 1.55vw;
+        padding: 0vw 1vw 0vw 1vw ;
+    }
+
+    .content-box-title {
+        font-size: 2vw;
+    }
+
+    .redirect-button {
+        font-size: 1.7vw;
+        padding: 0.8vw 1.5vw 0.8vw 1.5vw;
+        border-radius: 0.55vw;
+        margin-top: 1.25vw;
+    }
+
+    .content-holder-yellow,.content-holder-black{
+        padding: 1vw 1vw 1vw 1vw ;
+        margin: 2vw;
+        
+    }
+    
 }

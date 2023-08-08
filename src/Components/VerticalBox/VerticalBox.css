@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0.3vw 1vw rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out;
 }
 
@@ -75,7 +75,7 @@
     font-weight: 800;
     line-height: normal;
     padding: 5px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(190, 2, 2);
     margin-bottom: 20px;
     margin-top: -2px;
     z-index: 2;
@@ -133,7 +133,7 @@
     filter: brightness(120%);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1001px) {
 
     .vertical-text-content {
         font-size: 1.6rem;
@@ -142,5 +142,39 @@
     .vertical-box-title{
         font-size: 2.5rem;
         margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 1001px) {
+    .vertical-box-title{
+        font-size: 2.2vw;
+        margin-bottom: 1vw;
+    }
+
+    .vertical-text-content {
+        font-size: 1.3vw;
+        padding: 0vw 1.3vw 0vw 1.3vw;
+    }
+
+    .vertical-redirect-button {
+        font-size: 1.5vw;
+        padding: 0.7vw 1.4vw 0.7vw 1.4vw;
+        border-radius: 0.55vw;
+        margin-top: 1vw;
+        margin-bottom: 1.25vw;
+    }
+
+    .vertical-holder {
+        border-radius: 2.5vw;
+    }
+
+    .vertical-image-back {
+        border-top-left-radius: 2.5vw;
+        border-top-right-radius: 2.5vw;
+    }
+
+    .vertical-image-container {
+        border-top-left-radius: 2.5vw;
+        border-top-right-radius: 2.5vw;
     }
 }

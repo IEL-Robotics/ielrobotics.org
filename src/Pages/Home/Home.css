@@ -1,3 +1,10 @@
+.HomePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .home-comp-holder {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(50% - 20px), 1fr));
@@ -37,4 +44,20 @@
         margin: 10px 15px 10px 15px;
         row-gap: 10px;
     }
+}
+
+@media screen and (min-width: 1586px) {
+    .home-comp-holder {
+        grid-template-columns: repeat(auto-fit, minmax(calc(50% - 2vw), 1fr));
+        margin: 0vw 1vw 0vw 1vw;
+        padding: 2.5vw;
+        column-gap: 2.4vw;
+        row-gap: 2.4vw;
+    }
+
+    .temp-holder {
+        margin: 1vw 3vw 1vw 3vw;
+        /* column-gap: 0vw; */
+    }
+    
 }

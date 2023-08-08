@@ -1,7 +1,16 @@
+.TeamPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .member-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 33.333%);
-    margin: 5px;
+    width: 97vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .team-title-holder {
@@ -9,13 +18,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    border: solid 10px rgba(237, 236, 236, 0.351);
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+    border: solid 2vw rgba(237, 236, 236, 0.351);
     border-left: 0px;
     border-right: 0px;
-    padding: 20px;
+    padding: 0vw;
 
+    width: 200%;
     border-image-slice: 1;
     border-image-source: linear-gradient(115deg,rgba(255, 170, 0, 0.722),rgba(255, 204, 0, 0.721),rgba(255, 230, 0, 0.693),rgba(255, 255, 0, 0.699));
 
@@ -35,11 +45,6 @@
     line-height: normal;
 }
 
-.captains-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-}
-
 @media screen and (max-width: 900px) {
     .member-wrapper {
         grid-template-columns: 100%;
@@ -56,5 +61,21 @@
     .member-wrapper {
         grid-template-columns: 50% 50%;
     }    
+    
+}
+
+@media (min-width: 1450px) {
+    .team-title{
+        font-size: 2vw;
+    }
+    .team-title-holder {
+        height: 5.5vw;
+        margin-top: 1vw;
+        border: solid 0.6vw rgba(237, 236, 236, 0.351);
+
+        
+        border-image-slice: 1;
+        border-image-source: linear-gradient(115deg,rgba(255, 170, 0, 0.722),rgba(255, 204, 0, 0.721),rgba(255, 230, 0, 0.693),rgba(255, 255, 0, 0.699));
+    }
     
 }

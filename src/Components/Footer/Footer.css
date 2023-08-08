@@ -1,6 +1,6 @@
 
 .main-container {
-    margin-top: 66.80000305175781px;
+    margin-top: 3.6vw;
     background-color: rgb(49, 49, 49);
     min-height: 300px;
     color: rgb(202, 202, 202);
@@ -21,7 +21,7 @@
 }
 
 .some-text-container{
-    padding: 20px;
+    padding: 1.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,12 +39,12 @@ strong {
 }
 
 #btn-sponsor {
-    border-radius: 10px;
-    border: 0.2rem solid rgb(202, 202, 255);
+    border-radius: 0.6vw;
+    border: 0.1vw solid rgb(202, 202, 255);
     font-size: 120%;
     color: rgb(202, 202, 202);
-    padding: 0.6rem 1.6rem 0.6rem 1.6rem;
-    margin-top: 0.3rem;
+    padding: 0.4vw 1.2vw 0.4vw 1.2vw;
+    margin-top: 1vw;
     transition: transform 0.3s ease-in-out;
     text-align: center;
 }
@@ -61,8 +61,8 @@ strong {
     grid-template-columns: repeat(3, 33vw);
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 7vh;
-    row-gap: 100px;
+    margin-top: 2.5vw;
+    row-gap: 5vw;
   }
 
 
@@ -85,7 +85,7 @@ strong {
     border-radius: 50%;
     width: 7em;
     height: 7em;
-    box-shadow: 10px 10px 30px #000000, -10px -10px 30px #282828;
+    box-shadow: 1vw 1vw 3vw #000000, -1vw -1vw 3vw #282828;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -105,39 +105,39 @@ strong {
 #instaID:hover {
     background: linear-gradient(
         115deg,#405DE6,#833AB4,#E1306C,#F56040,#FCAF45);
-    box-shadow: 10px 10px 30px #663c00b4, -10px -10px 30px #5b0043ad;
+    box-shadow: 1vw 1vw 3vw #663c00b4, -1vw -1vw 3vw #5b0043ad;
 }
 
 #twitterID:hover {
     background: linear-gradient(
         115deg,#1DA1F2, #6dc7ff,#42b6ff);
 
-    box-shadow: 10px 10px 30px #00464fa6, -10px -10px 30px #7272729e;
+    box-shadow: 1vw 1vw 3vw #00464fa6, -1vw -1vw 3vw #7272729e;
 }
 #linkedinID:hover {
     background: linear-gradient(
         115deg,#0A66C2, #2783de);
 
-    box-shadow: 10px 10px 30px #00184fa6, -10px -10px 30px #0033b49e;
+    box-shadow: 1vw 1vw 3vw #00184fa6, -1vw -1vw 3vw #0033b49e;
 }
 #tiktokID:hover {
     background: linear-gradient(
         115deg,#000000,#b30039 ,#00a3ef);
 
-    box-shadow: 10px 10px 30px #00516a98, -10px -10px 30px #7a007a49;
+    box-shadow: 1vw 1vw 3vw #00516a98, -1vw -1vw 3vw #7a007a49;
 }
 #youtubeID:hover {
     background: linear-gradient(
         115deg,#650000,#b80000,#d10000,#e20000,#ff0000);
 
-    box-shadow: 10px 10px 30px #af0000a7, -5px -5px 15px #e1000053;
+    box-shadow: 1vw 1vw 3vw #af0000a7, -1vw -1vw 3vw #e1000053;
 }
 
 #tbaID:hover {
     background: linear-gradient(
         115deg,#2c3d85,#4355a5);
     
-    box-shadow: 10px 10px 30px #00184fa6, -10px -10px 30px #00247d9e;
+    box-shadow: 1vw 1vw 3vw #00184fa6, -10px -10px 30px #00247d9e;
 }
 
 
@@ -178,6 +178,39 @@ strong {
         font-size: 100%;
     }
     
+}
+
+@media screen and (min-width: 1100px){
+    .wrapper{
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .media-logo{
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+
+    #footer-licence {
+        font-size: 1vw;
+    }
+
+    #footer-licence2 {
+        font-size: 1vw;
+        height: 3vw;
+    }
+
+    #btn-sponsor {
+        font-size: 1.5vw;
+    }
+
+    strong {
+        font-size: 2vw;
+    }
+
+    p {
+        font-size: 1.5vw;
+    }
 }
 
 

@@ -1,20 +1,22 @@
+import '../Sponsors/Sponsors.css'
+
 import { useContext } from "react";
-import LanguageContext from "../Context/LanguageContext"
-import { ContentBox } from "../Components/ContentBox/ContentBox";
-import { TheImage } from "../Components/TheImage/TheImage";
-import { RedirectBox } from "../Components/RedirectBox/RedirectBox";
+import LanguageContext from "../../Context/LanguageContext"
+import { ContentBox } from "../../Components/ContentBox/ContentBox";
+import { TheImage } from "../../Components/TheImage/TheImage";
+import { RedirectBox } from "../../Components/RedirectBox/RedirectBox";
 
-import sponsor_image from '../Media/Images/Sponsor.webp'
+import sponsor_image from '../../Media/Images/Sponsor.webp'
 
-import qmark from '../Media/Images/Sponsors/qmark.png'
-import birikim from '../Media/Images/Sponsors/birikim.png'
-import bulutistan from '../Media/Images/Sponsors/bulutistan.png'
-import ergin from '../Media/Images/Sponsors/ergin.png'
-import hastavuk from '../Media/Images/Sponsors/hastavuk.png'
-import idealpak from '../Media/Images/Sponsors/idealpak.png'
-import ielev from '../Media/Images/Sponsors/ielev.png'
-import ozata from '../Media/Images/Sponsors/ozata.png'
-import pemaks from '../Media/Images/Sponsors/pemaks.png'
+import qmark from '../../Media/Images/Sponsors/qmark.png'
+import birikim from '../../Media/Images/Sponsors/birikim.png'
+import bulutistan from '../../Media/Images/Sponsors/bulutistan.png'
+import ergin from '../../Media/Images/Sponsors/ergin.png'
+import hastavuk from '../../Media/Images/Sponsors/hastavuk.png'
+import idealpak from '../../Media/Images/Sponsors/idealpak.png'
+import ielev from '../../Media/Images/Sponsors/ielev.png'
+import ozata from '../../Media/Images/Sponsors/ozata.png'
+import pemaks from '../../Media/Images/Sponsors/pemaks.png'
 
 export const Sponsors = () => {
     const { language, getTranslation } = useContext(LanguageContext);

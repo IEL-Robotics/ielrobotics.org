@@ -52,7 +52,7 @@ export const Home = () => {
 
     return(
         // <div style={{marginTop: "8rem"}}> {getTranslation("homepage")} </div>
-        <div style={{marginTop: "5rem"}}>
+        <div className="HomePage" style={{marginTop: "5rem"}}>
             <TheImage source={home_image} text={getTranslation("home-slogan")}/>
             <div className='team-title-holder'>
                 <h1 className='team-title'> #FAQ </h1>

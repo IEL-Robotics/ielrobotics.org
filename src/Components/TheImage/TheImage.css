@@ -52,7 +52,8 @@
   color: white;
   text-align: center;
   font-family: 'UniSans', sans-serif;
-  text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.85);
+  text-shadow: 0.4vw 0.6vw 0.7vw rgba(0, 0, 0, 0.85);
+  font-size: 14vw;
 }
 
 .image-wrapper img {
@@ -78,9 +79,13 @@
     .image-wrapper img {
       object-fit: cover;
     }
+
+    .image-wrapper p {
+      font-size: 16vw;
+    }
   }
 
-@media (max-width: 335px) {
+/* @media (max-width: 335px) {
     .image-wrapper p {
       font-size: 250%;
     }
@@ -117,9 +122,32 @@
   }
 }
 
-@media (min-width: 1320px) {
+@media (min-width: 1319px) and (max-width: 1719px) {
     .image-wrapper p {
       font-size: 1300%;
+    }
 }
-  
+
+@media (min-width: 1719px) and (max-width: 2319px) {
+  .image-wrapper p {
+    font-size: 1700%;
+  }
 }
+
+@media (min-width: 2319px) and (max-width: 2819px) {
+  .image-wrapper p {
+    font-size: 2000%;
+  }
+}
+
+@media (min-width: 2819px) and (max-width: 3519px) {
+  .image-wrapper p {
+    font-size: 2500%;
+  }
+}
+
+@media screen and (min-width: 3519px) {
+  .image-wrapper p {
+    font-size: 2900%;
+  }
+} */

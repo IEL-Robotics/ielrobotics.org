@@ -114,3 +114,24 @@
   }
   
 }
+
+@media screen and (min-width: 1586px) {
+  .redirect-box-container{
+    padding: 1vw;
+  }
+  .redirect-image-text{
+    font-size: 4vw;
+  }
+
+  .redirect-text{
+    font-size: 1.8vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+  }
+
+  .redirect-image{
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+  }
+  
+}
