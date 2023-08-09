@@ -81,7 +81,7 @@ a:hover {
     transform: scale(1.2);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
 
     .navbar {
         padding-block: 1.5rem;
@@ -117,7 +117,14 @@ a:hover {
 
 }
 
-@media screen and (min-width: 900px) { /**/
+@media (min-width: 950px) and (max-width: 1660px) {    
+    .navbar{
+        padding-block: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1660px) {
+    
     h2 {
         padding-left: 1.3vw;
     }

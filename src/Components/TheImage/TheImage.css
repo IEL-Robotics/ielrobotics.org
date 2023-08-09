@@ -53,7 +53,7 @@
   text-align: center;
   font-family: 'UniSans', sans-serif;
   text-shadow: 0.4vw 0.6vw 0.7vw rgba(0, 0, 0, 0.85);
-  font-size: 14vw;
+  font-size: 13.5vw;
 }
 
 .image-wrapper img {
@@ -68,12 +68,13 @@
 
 /* IS THERE EVEN A BETTER WAY ?*/
 
-@media (max-width: 900px) {
+
+@media (max-width: 700px) {
     /* .container {
     } */
 
     .image-wrapper {
-      height: 40vh;
+      height: 50vh;
     }
 
     .image-wrapper img {
@@ -85,69 +86,3 @@
     }
   }
 
-/* @media (max-width: 335px) {
-    .image-wrapper p {
-      font-size: 250%;
-    }
-}
-
-@media (min-width: 336px) and (max-width: 400px) {
-  .image-wrapper p {
-    font-size: 350%;
-  }
-}
-
-@media (min-width: 401px) and (max-width: 550px) {
-  .image-wrapper p {
-    font-size: 400%;
-  }
-}
-
-@media (min-width: 551px) and (max-width: 720px) {
-  .image-wrapper p {
-    font-size: 550%;
-  }
-}
-
-@media (min-width: 721px) and (max-width: 1019px) {
-  .image-wrapper p {
-    font-size: 700%;
-  }
-}
-
-
-@media (min-width: 1020px) and (max-width: 1319px) {
-  .image-wrapper p {
-    font-size: 1000%;
-  }
-}
-
-@media (min-width: 1319px) and (max-width: 1719px) {
-    .image-wrapper p {
-      font-size: 1300%;
-    }
-}
-
-@media (min-width: 1719px) and (max-width: 2319px) {
-  .image-wrapper p {
-    font-size: 1700%;
-  }
-}
-
-@media (min-width: 2319px) and (max-width: 2819px) {
-  .image-wrapper p {
-    font-size: 2000%;
-  }
-}
-
-@media (min-width: 2819px) and (max-width: 3519px) {
-  .image-wrapper p {
-    font-size: 2500%;
-  }
-}
-
-@media screen and (min-width: 3519px) {
-  .image-wrapper p {
-    font-size: 2900%;
-  }
-} */

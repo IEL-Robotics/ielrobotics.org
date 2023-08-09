@@ -1,6 +1,4 @@
 .vertical-holder {
-    /* display: grid;
-    grid-template-columns: 100%; */
     display: flex;
     flex-direction: column;
     border-radius: 30px;
@@ -12,13 +10,11 @@
     position: relative;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    /* margin-top: 0; */
     aspect-ratio: 5 / 3;
     width:100%;
     height: auto;
     object-fit: cover;
     filter: brightness(40%) blur(0.2rem);
-    /* filter: blur(0.2rem); */
     z-index: 1;
 
     transition: filter 0.3s ease-in-out;
@@ -122,7 +118,7 @@
 }
 
 .vertical-holder:hover {
-    transform: scale(107.5%);
+    transform: scale(105%);
 }
 
 .vertical-holder:hover .vertical-image-front{
@@ -133,19 +129,43 @@
     filter: brightness(120%);
 }
 
-@media screen and (max-width: 1001px) {
+@media screen and (max-width:700px) {
 
     .vertical-text-content {
-        font-size: 1.6rem;
+        font-size: 4.5vw;
+        padding: 0vw 5vw 0vw 5vw ;
     }
 
     .vertical-box-title{
-        font-size: 2.5rem;
-        margin-bottom: 15px;
+        font-size: 7vw;
+        margin-bottom: 3vw;
+    }
+
+    .vertical-holder {
+        box-shadow: 0px 1.5vw 3vw rgba(0, 0, 0, 0.3);
     }
 }
 
-@media (min-width: 1001px) {
+@media (min-width: 700px) and (max-width: 1200px) {
+    .vertical-box-title{
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .vertical-text-content {
+        font-size: 1.6rem;
+        padding: 0vw 2rem 0vw 2rem;
+    }
+
+    .vertical-redirect-button{
+        font-size: 2rem;
+        padding: 1rem 1.7rem 1rem 1.7rem;
+        margin-top: 1.75rem;
+        margin-bottom: 1.75rem;
+    }
+}
+
+@media (min-width: 1200px) {
     .vertical-box-title{
         font-size: 2.2vw;
         margin-bottom: 1vw;
@@ -153,7 +173,7 @@
 
     .vertical-text-content {
         font-size: 1.3vw;
-        padding: 0vw 1.3vw 0vw 1.3vw;
+        padding: 0vw 1.75vw 0vw 1.75vw;
     }
 
     .vertical-redirect-button {

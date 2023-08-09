@@ -91,9 +91,8 @@ h1 {
     text-align: center;
     font-size: 2.75rem;
 }
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
     .content-holder-yellow,.content-holder-black{
-        /* grid-template-columns: 100%;  Change font size, not structure, at least for ipads and so*/ 
         padding: 30px 20px 30px 20px ;
         margin: 25px;
         
@@ -138,11 +137,19 @@ h1 {
     .redirect-button{
         margin-top: 10px;
     }
-}
+} */
 
 @media screen and (max-width: 700px) {
     .content-holder-yellow,.content-holder-black{
         grid-template-columns: 100%; 
+        padding: 1vw 2vw 1vw 2vw ;
+        margin: 5vw 6vw 3vw 6vw;
+        border-radius: 10vw;
+    }
+
+    .text-content {
+        font-size: 4.5vw;
+        padding: 0vw 6vw 0vw 6vw ;
     }
 
     .content-holder-black .image-container{
@@ -152,9 +159,83 @@ h1 {
     .image { /* maybe maybe maybe */
         width: 90%;
     }
+
+    .content-box-title {
+        font-size: 7vw;
+        margin-bottom: 4vw;
+    }
+
+    .redirect-button {
+        font-size: 6vw;
+        padding: 2.5vw 5vw 2.5vw 5vw;
+        border-radius: 1.5vw;
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+    }
+
+    .content-holder-yellow{
+        box-shadow: -0.75vw 0.9vw 3vw rgba(0, 0, 0, 0.2);
+    }
+
+    .content-holder-black {
+        box-shadow: 0.75vw 0.9vw 3vw rgba(0, 0, 0, 0.2);
+    }
 }
 
-@media (min-width: 1586px) {
+@media (min-width: 700px) and (max-width: 1000px) {
+    .content-holder-yellow,.content-holder-black{ 
+        padding: 1vw 2vw 1vw 2vw ;
+        margin: 1rem 1.8rem 1rem 1.8rem;
+    }
+
+    .content-box-title {
+        font-size: 1.8rem; 
+        margin-bottom: 0.4rem;
+        margin-top: 0.5rem;
+    }
+
+    .text-content {
+        font-size: 1.35rem;
+        padding: 0vw 1rem 0vw 1rem;
+    }
+
+    .redirect-button {
+        font-size: 1.7rem;
+        padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+        margin-top: 0.6rem;
+        margin-bottom: 1rem;
+        border-radius: 7px;
+    }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .content-holder-yellow,.content-holder-black{ 
+        padding: 1vw 2vw 1vw 2vw ;
+        margin: 1.5rem 1.8rem 1.5rem 1.8rem;
+    }
+
+    .content-box-title {
+        font-size: 2.1rem; 
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .text-content {
+        font-size: 1.6rem;
+        padding: 0vw 1rem 0vw 1rem;
+    }
+
+    .redirect-button {
+        font-size: 1.9rem;
+        padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+        margin-top: 1rem;
+        margin-bottom: 0.8rem;
+        border-radius: 7px;
+    }
+}
+
+@media (min-width: 1200px) {
     .text-content {
         font-size: 1.55vw;
         padding: 0vw 1vw 0vw 1vw ;
@@ -162,6 +243,7 @@ h1 {
 
     .content-box-title {
         font-size: 2vw;
+        margin-bottom: 0.5vw;
     }
 
     .redirect-button {
