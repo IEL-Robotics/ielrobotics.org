@@ -100,7 +100,7 @@ export const Footer = ({scrollRef}) => {
             
             </div>
             <div style={{height: "10vh"}}></div>
-            <div id="footer-licence" style={{height: "5vw", backgroundColor: "black", textAlign: "center"}}>
+            <div id="footer-licence" style={{height: "8rem", backgroundColor: "black", textAlign: "center"}}>
                 <br></br>
                 {getTranslation("footer-note")}
                 <br></br>
@@ -113,5 +113,3 @@ export const Footer = ({scrollRef}) => {
         </>
     )
 }
-
-// DESIGN THE BOTTOM, COPYRIGHTS BLA BLA, SPONSORSHIP FILE

@@ -21,7 +21,7 @@
 }
 
 .some-text-container{
-    padding: 1.5vw;
+    padding: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,17 +34,17 @@ p {
 }
 
 strong {
-    margin: 20px;
+    margin: 1rem;
     font-size: 175%;
 }
 
 #btn-sponsor {
-    border-radius: 0.6vw;
-    border: 0.1vw solid rgb(202, 202, 255);
+    border-radius: 0.6rem;
+    border: 0.15rem solid rgb(202, 202, 255);
     font-size: 120%;
     color: rgb(202, 202, 202);
-    padding: 0.4vw 1.2vw 0.4vw 1.2vw;
-    margin-top: 1vw;
+    padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+    margin-top: 0.75rem;
     transition: transform 0.3s ease-in-out;
     text-align: center;
 }
@@ -61,7 +61,7 @@ strong {
     grid-template-columns: repeat(3, 33vw);
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 2.5vw;
+    margin-top: 3.5rem;
     row-gap: 5vw;
   }
 
@@ -94,6 +94,12 @@ strong {
     transform: scale(1.2);
     /* animation: animate_border .75s linear infinite */
 }
+
+#footer-licence2 {
+    font-size: 100%;
+    height: 4rem;
+}
+
 
 
 @keyframes animate_border{
@@ -141,7 +147,7 @@ strong {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .social-container {
         grid-template-columns: repeat(2, 50vw);
         margin-top: 2vh;
@@ -151,6 +157,7 @@ strong {
     .wrapper{
         width: 6em;
         height: 6em;
+        box-shadow: 1rem 1rem 3rem #000000, -1rem -1rem 3rem #282828;
     }
 
     .media-logo{
@@ -164,6 +171,7 @@ strong {
 
     #footer-licence2 {
         font-size: 100%;
+        height: 4rem;
     }
 
     #btn-sponsor {
@@ -181,6 +189,15 @@ strong {
 }
 
 @media screen and (min-width: 1100px){
+
+    .social-container {
+        margin-top: 3vw;
+    }
+
+    .main-container {
+        padding-top: 1vw;
+    }
+
     .wrapper{
         width: 8vw;
         height: 8vw;
@@ -193,15 +210,13 @@ strong {
 
     #footer-licence {
         font-size: 1vw;
+        height: 3vw;
     }
 
     #footer-licence2 {
         font-size: 1vw;
+        padding: 2.5vw;
         height: 3vw;
-    }
-
-    #btn-sponsor {
-        font-size: 1.5vw;
     }
 
     strong {
@@ -210,6 +225,17 @@ strong {
 
     p {
         font-size: 1.5vw;
+    }
+
+    #btn-sponsor {
+        border-radius: 0.6vw;
+        border: 0.15vw solid rgb(202, 202, 255);
+        font-size: 1.5vw;
+        color: rgb(202, 202, 202);
+        padding: 0.4vw 1.2vw 0.4vw 1.2vw;
+        margin-top: 0.75vw;
+        transition: transform 0.3s ease-in-out;
+        text-align: center;
     }
 }
 

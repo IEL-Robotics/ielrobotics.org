@@ -28,7 +28,7 @@
 @media screen and (max-width: 700px) {
     .home-comp-holder {
         grid-template-columns: 100%;
-        margin: 30px 30px 30px 30px;
+        margin: 30px 25px 30px 25px;
     }
 
     .temp-holder {
@@ -43,22 +43,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .home-comp-holder {
-        grid-template-columns: repeat(auto-fit, minmax(calc(50% - 2vw), 1fr));
-        margin: 0vw 1vw 0vw 1vw;
-        padding: 2.5vw;
-        column-gap: 2.4vw;
-        row-gap: 2.4vw;
-    }
-
-    .temp-holder {
-        margin: 1vw 3vw 1vw 3vw;
-        /* column-gap: 0vw; */
-    }
-    
-}
-
-@media screen and (min-width: 1586px) {
     .home-comp-holder {
         grid-template-columns: repeat(auto-fit, minmax(calc(50% - 2vw), 1fr));
         margin: 0vw 1vw 0vw 1vw;
