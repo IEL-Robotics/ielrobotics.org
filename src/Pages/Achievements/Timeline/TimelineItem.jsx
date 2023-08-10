@@ -4,6 +4,8 @@ import './TimelineItem.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import LanguageContext from '../../../LanguageProvider';
+
 const CustomPrevArrow = ({ onClick }) => {
   return <div className="prev" style={{zIndex: '2'}} onClick={onClick}>&#10094;</div>;
 };
@@ -15,8 +17,12 @@ const CustomNextArrow = ({ onClick }) => {
 export const TimelineItem = ({ data, scrollToItem }) => {
   const itemRef = useRef(null);
 
+  const { language, getTranslation } = useContext(LanguageContext);
+
   const handleClick = () => {
+    console.log("NİYE LA");
     scrollToItem(itemRef.current);
+    console.log("IN THE TIMELINE LAN: ", language);
   };
 
   const images = data.images;
@@ -48,6 +54,7 @@ export const TimelineItem = ({ data, scrollToItem }) => {
         </h1>
         <p className="comp-desc">{data.description}</p>
         <span className="circle" onClick={handleClick} />
+        <button onClick={handleClick}>HA?</button>
       </div>
     </div>
   );

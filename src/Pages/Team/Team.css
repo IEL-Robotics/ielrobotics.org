@@ -48,6 +48,8 @@
 
 @media screen and (max-width: 700px) {
     .member-wrapper {
+        padding: 1rem;
+        row-gap: 0.75rem;
         grid-template-columns: 100%;
     }
 
@@ -56,8 +58,8 @@
     }
 
     .team-title-holder {
-        height: 20vw;
-        margin-top: 3vw;
+        height: 18vw;
+        margin-top: 1rem;
         margin-bottom: 0vw;
         border: solid 2vw rgba(237, 236, 236, 0.351);
         border-left: 0px;
@@ -74,9 +76,11 @@
     }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1450px) {
+@media screen and (min-width: 700px) and (max-width: 1200px) {
     .member-wrapper {
         grid-template-columns: 50% 50%;
+        padding: 0.75rem;
+        column-gap: 0.75rem;
     }
 
     .team-title {
