@@ -33,7 +33,8 @@
 
     .temp-holder {
         grid-template-columns: 100%;
-        margin: 10px 15px 10px 15px;
+        width: 90vw;
+        margin: 15px 25px 15px 25px;
         row-gap: 10px;
     }
 }

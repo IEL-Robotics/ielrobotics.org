@@ -40,6 +40,7 @@ export const Home = () => {
         const handleOrientationChange = () => {
             console.log("Orientation changed:", window.innerHeight, window.innerWidth);
             setIsPortrait(window.innerHeight > window.innerWidth);
+            // setIsPortrait(!isPortrait);
             console.log(isPortrait);
         };
 
