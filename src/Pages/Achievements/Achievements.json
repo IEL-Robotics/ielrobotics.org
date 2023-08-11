@@ -36,6 +36,18 @@
         ]
     },
     {
+        "titles": ["Daniel Düsentrieb", "Daniel Düsentrieb", "Daniel Düsentrieb"],
+        "descriptions": [
+        "The Hamburg Daniel Düsentrieb Competition, organized by Hamburger Behörde für Schule und Berufsbildung (BSB), den Verein Deutscher Ingenieure e.V. (VDI e.V.) - Landesverband Hamburg and die Technische Universität Hamburg (TUHH), ,s a STEM competition aims to find solutions to different problems every year. In 2021, as İstanbul Erkek Lisesi Robotics Club, we participated in the competition and won the 1st place prize in the SKS1 category.",
+        "Hamburger Behörde für Schule und Berufsbildung (BSB), den Verein Deutscher Ingenieure e.V. (VDI e.V.) - Landesverband Hamburg ve die Technische Universität Hamburg (TUHH) tarafından düzenlenen Hamburg Daniel Düsentrieb Yarışması, her yıl farklı sorunlara çözüm bulmayı amaçlayan bir STEM yarışmasıdır. 2021 yılında İstanbul Erkek Lisesi Robotik Kulübü olarak yarışmaya katıldık ve SKS1 kategorisinde 1.lik ödülünü kazandık.",
+        "Der Hamburger Daniel-Düsentrieb-Wettbewerb, der von der Hamburger Behörde für Schule und Berufsbildung (BSB), dem Verein Deutscher Ingenieure e.V. (VDI e.V.) - Landesverband Hamburg und der Technischen Universität Hamburg (TUHH) veranstaltet wird, ist ein MINT-Wettbewerb, bei dem jedes Jahr Lösungen für verschiedene Probleme gesucht werden. Im Jahr 2021 haben wir als İstanbul Erkek Lisesi Robotics Club an dem Wettbewerb teilgenommen und den ersten Platz in der Kategorie SKS1 gewonnen."
+        ],
+        "images": [
+            "/ProfilePics/manzara.png",
+            "/ProfilePics/manzara2.png"
+        ]
+    },
+    {
         "titles": ["FRC 2020", "FRC 2020", "FRC 2020"],
         "descriptions": [
         "FRC 2020 Istanbul Regional was the first big organization we participated in as a whole club under the name of IEL Robotics. After a 2-month intensive robot building season, we represented our school as one of 53 teams from 6 countries at Ülker Sports and Event Hall on March 5-8, 2020. In this competition, we had the opportunity to learn the technical details of robots, as well as gain invaluable experience in organization and teamwork, and we had the opportunity to improve our team with the experiences we gained.",

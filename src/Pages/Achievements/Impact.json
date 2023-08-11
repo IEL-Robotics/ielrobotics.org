@@ -22,5 +22,42 @@
             "/ProfilePics/manzara.png",
             "/ProfilePics/manzara2.png"
         ]
+    },
+    {
+        "titles": ["Leukaemia", "Lösemi", "Leukämie"],
+        "descriptions": [
+        "As IELROBOTICS; in this project, which we did to show that we are with our brothers and sisters with leukaemia and to make people hear our voice together with the existing volunteers, we left colorful handprints on a white fabric our signature under it. We combined all the fabrics we received and organised a walk for children with leukaemia. Thanks to this project, which is both low-cost and easy for everyone to get involved in, we included a lot of people in the LÖSEV family and delivered this fabric to LÖSANTE hospital to exhibit the meaning of the project.",
+        "IELROBOTICS olarak; lösemili kardeşlerimizin yanında olduğumuzu göstermek ve mevcut gönüllülerle beraber insanlara sesimizi duyurmak için yaptığımız bu projede, beyaz bir kumaşa renkli boyalarla el izleri bırakıp altına imzamızı attık. Aldığımız tüm kumaşları birleştirip lösemili çocuklar için bir yürüyüş düzenledik. Hem düşük maliyetli hem de herkesin kolayca dahil olabileceği bu proje sayesinde yardımsever bir sürü insanı LÖSEV ailesine dahil ettik ve projenin önem ve anlamının sergilenmesi için bu kumaşı LÖSANTE hastanesine teslim ettik.",
+        "Als IELROBOTICS; in diesem Projekt, das wir durchgeführt haben, um zu zeigen, dass wir mit unseren Geschwistern mit Leukämie zusammen sind und um unsere Stimme gemeinsam mit den vorhandenen Freiwilligen hören zu lassen, haben wir bunte Handabdrücke und Unterschrifte auf einem weißen Stoff hinterlassen. Wir kombinierten alle Stoffe und organisierten einen Spaziergang für Kinder mit Leukämie. Durch dieses Projekt haben wir viele Menschen in die LÖSEV-Familie aufgenommen und diesen Stoff an das LÖSANTE-Krankenhaus geliefert, um die Bedeutung des Projekts zu demonstrieren."
+        ], 
+        "images": [
+            "/ProfilePics/manzara.png",
+            "/ProfilePics/manzara2.png"
+        ]
+    },
+    {
+        "titles": ["STEP Project", "STEP Projesi", "STEP Projekt"],
+        "descriptions": [
+        "In November 2022, thanks to our STEP project, we gave information on social sciences and positive sciences to the relevant secondary school students and showed them the fun face of science. In this project, which we organised in our school, our friends taught the students in the best way they could. From algorithm design to the properties of the planets, we organised our event free of charge.",
+        "2022 yılının kasım ayında gerçekleştirdiğimiz STEP projemiz sayesinde ilgili ortaokul ögrencilerine sosyal bilimler ve pozitif bilimler üzerine bilgi verip onlara bilimin eğlenceli yüzünü gösterdik. Okulumuzda organize ettiğimiz bu projede, arkadaşlarımız ögrencilere ellerinden gelen en iyi şekilde eğitim verdiler. Algoritma tasarlımından gezegenlerin özelliklerine kadar bir sürü dersin bulunduğu etkinliğimizi ücretsiz olarak gerçekleştirdik.",
+        "Im November 2022 informierten wir im Rahmen unseres STEP-Projekts, die betreffenden Schüler der Sekundarstufe über die Sozial- und positiven Wissenschaften und zeigten ihnen die lustige Seite der Wissenschaft. In diesem Projekt, das wir in unserer Schule organisiert haben, haben unsere Freunde den Schülern die bestmögliche Ausbildung gegeben. Wir haben unsere Veranstaltung kostenlos organisiert, mit vielen Lektionen vom Algorithmusdesign bis zu den Eigenschaften der Planeten."
+        ], 
+        "images": [
+            "/ProfilePics/manzara.png",
+            "/ProfilePics/manzara2.png"
+        ]
+    },
+    {
+        "titles": ["Nature Disasters Magazine", "Doğal Afetler Dergisi", "Naturkatastophen Zeitschrift"],
+        "descriptions": [
+        "In 2022, we participated in the Sneaky Snakes Natural Disaster Project #7285, where they were turned into a magazine in 7 regions of our country and Azerbaijan and presented in classes. As IELROBOTICS, we have shown our support by writing an analysis for the Marmara region and translating two previous issues of the magazine into German. We are aware of the importance of drawing attention to disasters, which will occupy an important place on our agenda, especially as of 2023, and we are honored to be a part of this project.Thanks #7285!",
+        "2022 yılında Sneaky Snakes #7285'in, ülkemizin 7 bölgesi ve Azerbaycan' da yaşanan doğal afetleri dergi haline getirip ders olarak sunduğu, doğal afetler projesinde bulunduk. IELROBOTICS olarak Marmara Bölgesi afet analizi yazıp, derginin eski iki yayımını Almanca'ya çevirerek desteğimizi gösterdik. Özellikle 2023 yılı itibariyle gündemimizde önemli bir yer kaplayan deprem, yangın benzeri afetlere dikkat çekmenin öneminin farkındayız ve bu projenin parçası olmaktan onur duyuyoruz. Teşekkürler #7285!",
+        "Im Jahr 2022 nahmen wir an dem Naturkatastrophenprojekt von Sneaky Snakes #7285 teil, bei dem sie in 7 Regionen unseres Landes und Aserbaidschans in ein Magazin verwandelt und im Unterricht präsentiert wurden. Als IELROBOTICS haben wir unsere Unterstützung gezeigt, indem wir eine Analyse für die Marmara-Region verfasst und zwei frühere Ausgaben des Magazins ins Deutsche übersetzt haben. Wir sind uns bewusst, wie wichtig es ist, die Aufmerksamkeit auf Katastrophen zu lenken, die vor allem ab 2023 einen wichtigen Platz auf unserer Agenda einnehmen. Vielen Dank, #7285!"
+        ], 
+        "images": [
+            "/ProfilePics/manzara.png",
+            "/ProfilePics/manzara2.png"
+        ]
     }
+
 ]
