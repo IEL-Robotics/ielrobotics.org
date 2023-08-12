@@ -9,8 +9,18 @@
     background: linear-gradient(150deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102));
     content: '';
     position: absolute;
-    left: calc(50% - 5px);
-    width: 10px;
+    left: calc(50% - 7px);
+    width: 14px;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+@media screen and (min-width: 800px) {
+
+    .timelineHolder::after {
+        width: 0.8vw;
+        left: calc(50% - 0.4vw);
+        border-radius: 3vw;
+    }
 }

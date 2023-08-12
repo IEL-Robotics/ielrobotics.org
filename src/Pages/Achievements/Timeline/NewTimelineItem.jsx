@@ -51,12 +51,15 @@ export const NewTimelineItem = ({ data, scrollToItem, lan}) => {
                         ))}
                     </Slider>
                 </div>
-                <div className='new-space'></div>
-                <div className='new-achieve-textbox'>
+                <div className='new-space'>
                     <span className="new-circle" onClick={handleClick} />
-                    <h1 className="new-comp-title" style={{ marginBottom: '10px'}}>
-                        {data.titles[lan]}
-                    </h1>
+                </div>
+                <div className='new-achieve-textbox'>
+                    <div className='new-upper-bar'>
+                        <h1 className="new-comp-title">
+                            {data.titles[lan]}
+                        </h1>
+                    </div>
                     <p className="new-comp-desc">{data.descriptions[lan]}</p>
                 </div>
             </div>
