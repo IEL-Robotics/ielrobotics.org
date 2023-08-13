@@ -67,3 +67,6 @@ export const NewTimelineItem = ({ data, scrollToItem, lan}) => {
         </div>
     )
 };
+
+
+//ODTU SON FOTO EKLE, JF17 SON FOTO DUZELT

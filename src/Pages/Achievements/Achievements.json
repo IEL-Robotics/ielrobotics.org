@@ -18,18 +18,63 @@
     {
         "titles": ["FRC 2023", "FRC 2023", "FRC 2023"],
         "descriptions": [
-        "During the FRC 2023 'Charged Up' season, we competed in two Regionals, Bosphorus (March 27-29) and Haliç (March 31-April 2), held at the Volkswagen Arena. In the Haliç Regional, we ranked 22nd out of 52 teams in the qualifying matches. Thus, we joined the 7th alliance and competed in the quarterfinal matches.",
-        "FRC 'Charged Up' sezonu kapsamında Volkswogen Arena’da düzenlenen Bosphorus (27-29 Mart) ve Haliç (31 Mart - 2 Nisan) olmak üzere iki Regional’da yarıştık. Haliç Regional’da sıralama maçlarını 52 takım arasından 22. bitirdik. Böylece 7. ittifakta bulunduk ve çeyrek final maçlarında yarıştık.",
-        "Im Rahmen der FRC-Saison 'Charged Up' nahmen wir an zwei Regionalmeisterschaften teil, die in der Volkswogen-Arena stattfanden: Bosphorus (27.-29. März) und Haliç (31. März - 2. April). In der Haliç Regional belegten wir in den Ranking Matches den 22. Platz von 52 Teams, waren also in der siebten Allianz und nahmen an den Viertelfinalspielen teil."
+        "During the FRC 2023 'Charged Up' season, we competed in two Regionals, Bosphorus (March 27-29) and Haliç (March 31-April 2), held at the Volkswagen Arena. In the Haliç Regional, we ranked 22nd out of 52 teams in the qualifying matches. Thus, we joined the 7th alliance, which was formed by #8079 River Robotics and #7576 FMWill, and competed in the quarterfinal matches.",
+        "FRC 'Charged Up' sezonu kapsamında Volkswogen Arena’da düzenlenen Bosphorus (27-29 Mart) ve Haliç (31 Mart - 2 Nisan) olmak üzere iki Regional’da yarıştık. Haliç Regional’da sıralama maçlarını 52 takım arasından 22. bitirdik. Böylece içinde #8079 River Robotics ve #7576 FMWill'in olduğu 7. ittifakta bulunduk ve çeyrek final maçlarında yarıştık.",
+        "Im Rahmen der FRC-Saison 'Charged Up' nahmen wir an zwei Regionalmeisterschaften teil, die in der Volkswogen-Arena stattfanden: Bosphorus (27.-29. März) und Haliç (31. März - 2. April). In der Haliç Regional belegten wir in den Ranking Matches den 22. Platz von 52 Teams, waren also in der siebten Allianz, die aus #8079 River Robotics und #7576 FMWill bestand, und nahmen an den Viertelfinalspielen teil."
         ],
         "images": [
-            "/OtherImages/AchiImages/FRC23/(1).webp",
-            "/OtherImages/AchiImages/FRC23/(2).webp",
-            "/OtherImages/AchiImages/FRC23/(3).webp",
-            "/OtherImages/AchiImages/FRC23/(4).webp",
-            "/OtherImages/AchiImages/FRC23/(5).webp",
-            "/OtherImages/AchiImages/FRC23/(6).webp",
-            "/OtherImages/AchiImages/FRC23/(7).webp"
+            "/OtherImages/AchiImages/FRC23/frc23 (1).webp",
+            "/OtherImages/AchiImages/FRC23/frc23 (2).webp",
+            "/OtherImages/AchiImages/FRC23/frc23 (3).webp",
+            "/OtherImages/AchiImages/FRC23/frc23 (4).webp",
+            "/OtherImages/AchiImages/FRC23/frc23 (5).webp",
+            "/OtherImages/AchiImages/FRC23/frc23 (6).webp",
+            "/OtherImages/AchiImages/FRC23/frc23 (0).webp"
+        ]
+    },
+    {
+        "titles": ["Urfa MEB Robot", "Urfa MEB Robot", "Urfa MEB Robot"],
+        "descriptions": [
+        "In June of 2022, we participated in the 14th Ministry of National Education Robot Competition held in Urfa, Turkey, competing in various categories. With our project titled 'Multitherapy', we secured fourth place in the 'Free Project' category.",
+        "2022 yılının Haziran ayında Urfa'da düzenlenen 14. Milli Eğitim Bakanlığı Robot Yarışması'na birçok kategoriden katılım sağladık ve 'Multiterapi' projemiz ile 'Serbest Proje' kategorisinde dördüncülük elde ettik. ",
+        "Im Juni 2022 nahmen wir an der 14. Robotikmeisterschaft des Bildungsministeriums teil, die in Urfa stattfand. Wir beteiligten uns in mehreren Kategorien und erreichten mit unserem Projekt mit dem Titel 'Multitherapie' den vierten Platz in der Kategorie 'Freies Projekt'."
+        ],
+        "images": [
+            "/OtherImages/AchiImages/URFA/urfa (2).webp",
+            "/OtherImages/AchiImages/URFA/urfa (3).webp",
+            "/OtherImages/AchiImages/URFA/urfa (4).webp",
+            "/OtherImages/AchiImages/URFA/urfa (1).webp"
+        ]
+    },
+    {
+        "titles": ["FRC 2022", "FRC 2022", "FRC 2022"],
+        "descriptions": [
+        "In the Bosphorus Regional held at the Volkswagen Arena between 17-20 March within the scope of the 'Rapid React' season, together with #7285 Sneaky Snakes and #6838 X-Sharc, with whom we formed an alliance after the qualifying rounds, we passed the final rounds one by one and took the victory rope. Thanks to this success, we were entitled to compete in the 'FIRST Championship', which means, the FRC World Finals, which will be held in Houston Texas between 20-23 April. Unfortunately, we could not experience this feeling due to bureaucratic problems and delayed visas.",
+        "‘Rapid React’ sezonu kapsamında 17-20 Mart arası Volkswagen Arena’da düzenlenen Bosphorus Regional’da, aynı 2021 İzmir Off-Season'da olduğu gibi, eleme turlarının ardından ittifak kurduğumuz #7285 Sneaky Snakes ve #6838 X-Sharc ile beraber final turlarını tek tek geçerek zafer ipini göğüsledik. Bu başarımız sayesinde 20-23 Nisan tarihleri arasında Houston Texas'ta düzenlenecek olan 'FIRST Championship', yani FRC Dünya Finalleri'nde yarışmaya hak kazandık. Ne yazık ki bürokratik problemler ve vizelerin gecikmesi sonucu bu deneyimi yaşayamadık.",
+        "Bei der Bosphorus Regional, die vom 17. bis 20. März in der Volkswagen Arena im Rahmen der 'Rapid React'-Saison stattfand, haben wir zusammen mit #7285 Sneaky Snakes und #6838 X-Sharc, mit denen wir eine Allianz gebildet haben, die Finalrunden nacheinander bestanden und uns die Siegertaue umgehängt. Dank dieses Erfolges waren wir berechtigt, an der 'FIRST Championship', d.h. den FRC Weltfinalen, teilzunehmen, die vom 20. bis 23. April in Houston, Texas, stattfinden werden. Leider konnten wir diese Erfahrung aufgrund von bürokratischen Problemen und verspäteten Visa nicht erleben."
+        ],
+        "images": [
+            "/OtherImages/AchiImages/FRC22/frc22 (02).webp",
+            "/OtherImages/AchiImages/FRC22/frc22 (01).webp",
+            "/OtherImages/AchiImages/FRC22/frc22 (4).webp",
+            "/OtherImages/AchiImages/FRC22/frc22 (1).webp",
+            "/OtherImages/AchiImages/FRC22/frc22 (2).webp",
+            "/OtherImages/AchiImages/FRC22/frc22 (3).webp",
+            "/OtherImages/AchiImages/FRC22/frc22 (03).webp",
+            "/OtherImages/AchiImages/FRC22/frc22 (04).webp"
+        ]
+    },
+    {
+        "titles": ["Riders.ai", "Riders.ai", "Riders.ai"],
+        "descriptions": [
+        "In the year 2022, at Riders.ai, Turkey's first online robotics competition, we secured the top position in two categories: 'Line Follower' and 'Industrial Robot', while achieving third place in the 'Drone Racing' category, ultimately claiming the overall championship. As a reward, we earned a $1000 Amazon gift voucher.",
+        "2022 yılında; Türkiye'nin online platformda gerçekleşen ilk robotik yarışması olan Riders.ai'da bulunan 3 kategoriden; 'Çizgi İzleyen' ve 'Endüstriyel Robot' kategorilerinde birinci, 'Drone Yarışması' kategorisinde üçüncü olarak genel puan tablosunda birinci olduk. Ödül olarak ise 1000$'lık Amazon hediye çeki elde ettik.",
+        "Im Jahr 2022 sicherten wir uns bei Riders.ai, dem ersten Online-Robotikwettbewerb der Türkei, den ersten Platz in zwei Kategorien: 'Linienverfolgung' und 'Industrieroboter', während wir den dritten Platz in der Kategorie 'Drohnenrennen' erreichten und letztendlich die Gesamtwertung für uns entschieden. Als Belohnung erhielten wir einen 1000$ Amazon-Geschenkgutschein."
+        ],
+        "images": [
+            "/OtherImages/AchiImages/RIDERS/riders (3).webp",
+            "/OtherImages/AchiImages/RIDERS/riders (2).webp",
+            "/OtherImages/AchiImages/RIDERS/riders (1).webp"
         ]
     },
     {
@@ -40,8 +85,9 @@
         "Dieser vom Europäischen Kernforschungszentrum CERN organisierte Wettbewerb ermutigt Schüler*innen aus der ganzen Welt, ihre eigenen Versuchsaufbauten für die Teilchenphysik zu bauen, um Teilchenphysik, Ingenieurwesen und technologisches Wissen zu erlernen. Bei diesem Wettbewerb, an dem wir 2022 unter dem Namen 'IEL Physics' teilgenommen haben, waren wir eines der 24 Teams, die es unter 304 Teams mit unserem Versuchsaufbau namens 'Comparison of Møller Scattering and Electron-Muon Scattering', der auf dem Kontakt von Elektronen- und Myonen-Teilchen mit Metallen beruht, ins Finale geschafft haben."
         ],
         "images": [
-            "/ProfilePics/manzara.png",
-            "/ProfilePics/manzara2.png"
+            "/OtherImages/AchiImages/BL4S/bl4s (1).webp",
+            "/OtherImages/AchiImages/BL4S/bl4s (2).webp",
+            "/OtherImages/AchiImages/BL4S/bl4s (3).webp"
         ]
     },
     {
@@ -52,8 +98,24 @@
         "Der Hamburger Daniel-Düsentrieb-Wettbewerb, der von der Hamburger Behörde für Schule und Berufsbildung (BSB), dem Verein Deutscher Ingenieure e.V. (VDI e.V.) - Landesverband Hamburg und der Technischen Universität Hamburg (TUHH) veranstaltet wird, ist ein MINT-Wettbewerb, bei dem jedes Jahr Lösungen für verschiedene Probleme gesucht werden. Im Jahr 2021 haben wir als İstanbul Erkek Lisesi Robotics Club an dem Wettbewerb teilgenommen und den ersten Platz in der Kategorie SKS1 gewonnen."
         ],
         "images": [
-            "/ProfilePics/manzara.png",
-            "/ProfilePics/manzara2.png"
+            "/OtherImages/AchiImages/DANI/ddus (3).webp",
+            "/OtherImages/AchiImages/DANI/ddus (1).webp",
+            "/OtherImages/AchiImages/DANI/ddus (2).webp"
+        ]
+    },
+    {
+        "titles": ["Izmir Off-Season 2021", "İzmir Off-Season 2021", "Izmir Off-Season 2021"],
+        "descriptions": [
+        "After the 2020 Off-Season and 2021 Regionals, which couldn't be organized due to the global pandemic, Izmir was a little bit like the skipped Off-Season from last years' 'Infinite Recharge' season. from October 15th to 17th, all the teams worked hard to win in the previous year's game. But in the end, we and our alliance partners #7285 Sneaky Snakes and #6838 X-Sharc emerged victorious. This success was very joyful and motivating for us, who had competed in just one Regional at the time.",
+        "Global pandemi nedeniyle yapılanamayan 2020 Off-Season ve 2021 Regional'larının ardından 2020 'Infinite Recharge' sezonunun Off-Season'u tadında geçti İzmir. 15-17 Ekim tarihleri arasında takımlar bir önceki senenin oyununda galip gelmek adında çabaladı. Fakat bu mücadelenin sonunda biz ve ittifak ortaklarımız #7285 Sneaky Snakes ve #6838 X-Sharc kazanan taraf oldu. Elde ettiğimiz bu başarı, o gün itibariyle sadece bir Regional'da yarışmış bizler için oldukça neşe verici ve motive ediciydi.",
+        "Nach den Off-Season 2020 und 2021 Regionals, die aufgrund der globalen Pandemie nicht organisiert werden konnten, war Izmir ein bisschen wie die übersprungene Off-Season der letztjährigen 'Infinite Recharge'-Saison. Vom 15. bis 17. Oktober arbeiteten alle Teams hart daran, das Spiel des Vorjahres zu gewinnen. Aber am Ende waren wir und unsere Allianzpartner #7285 Sneaky Snakes und #6838 X-Sharc siegreich. Dieser Erfolg war sehr erfreulich und motivierend für uns, die wir damals nur in einer Region gefahren waren."
+        ],
+        "images": [
+            "/OtherImages/AchiImages/IZMIR/izmir (3).webp",
+            "/OtherImages/AchiImages/IZMIR/izmir (4).webp",
+            "/OtherImages/AchiImages/IZMIR/izmir (5).webp",
+            "/OtherImages/AchiImages/IZMIR/izmir (6).webp",
+            "/OtherImages/AchiImages/IZMIR/izmir (1).webp"
         ]
     },
     {
@@ -64,8 +126,10 @@
         "FRC 2020 Istanbul Regional war die erste große Organisation, an der wir als ganzes Team unter dem Namen IEL Robotics teilgenommen haben. Nach einer zweimonatigen intensiven Roboterbausaison vertraten wir unsere Schule als eines von 53 Teams aus 6 Ländern vom 5. bis 8. März 2020 in der Ülker Sports and Event Hall. Bei diesem Wettbewerb hatten wir die Möglichkeit, die technischen Details von Robotern zu erlernen sowie unschätzbare Erfahrungen in Bezug auf Organisation und Teamwork zu sammeln, und wir hatten die Gelegenheit, unser Team mit den gewonnenen Erfahrungen weiterzuentwickeln."
         ],
         "images": [
-            "/ProfilePics/manzara.png",
-            "/ProfilePics/manzara2.png"
+            "/OtherImages/AchiImages/FRC20/frc 20 (2).webp",
+            "/OtherImages/AchiImages/FRC20/frc 20 (3).webp",
+            "/OtherImages/AchiImages/FRC20/frc 20 (4).webp",
+            "/OtherImages/AchiImages/FRC20/frc 20 (1).webp"
         ]
     },
     {
@@ -76,8 +140,9 @@
         "Der NASA Space Apps Challange, der seit 2012 jedes Jahr von der NASA organisiert wird, ist ein globaler Hackathon, der die Köpfe erreichen soll, die Kreativität und Talent im Bereich der Weltraumtechnologien verbinden. Im Jahr 2019 nahmen wir als Istanbul Erkek Lisesi Robotik AG mit einem 6-er Team und 549 Bewerbern an der Ankara Niederlassung dieses Wettbewerbs teil, der vom 19. bis 21. Oktober von der ODTÜ organisiert wurde. Wir lernten die Weltraum- und Lufttechnologien eingehend kennen und hatten eine aufregende Erfahrung."
         ],
         "images": [
-            "/ProfilePics/manzara.png",
-            "/ProfilePics/manzara2.png"
+            "/OtherImages/AchiImages/ODTU/odtu (1).webp",
+            "/OtherImages/AchiImages/ODTU/odtu (0).webp",
+            "/OtherImages/AchiImages/ODTU/odtu (3).webp"
         ]
     },
     {
@@ -88,8 +153,9 @@
         "Im Rahmen von Jugend Forscht, Europas größtem Wissenschafts- und Technologiewettbewerb in Deutschland, hat das von unseren Mitgliedern entwickelte T-Shirt mit dem Namen ‘POSTURIZE’ zur Korrektur von Haltungsschäden den ersten Platz beim Regionalwettbewerb in Thüringen 2017 belegt und sich für die zweite Stufe qualifiziert. Unser Team, das die zweite Stufe des Wettbewerbs, den Landeswettbewerb, mit dem ersten Platz abschloss, erhielt das Recht, unseren AG und unsere Schule beim Bundeswettbewerb zu vertreten, der im Mai 2017 stattfindete."
         ],
         "images": [
-            "/ProfilePics/manzara.png",
-            "/ProfilePics/manzara2.png"
+            "/OtherImages/AchiImages/JF17/jf17 (1).webp",
+            "/OtherImages/AchiImages/JF17/jf17 (2).webp",
+            "/OtherImages/AchiImages/JF17/jf17 (3).webp"
         ]
     }
 

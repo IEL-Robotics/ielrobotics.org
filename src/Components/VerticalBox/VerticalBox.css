@@ -172,7 +172,8 @@
     }
 
     .vertical-text-content {
-        font-size: 1.3vw;
+        font-size: 1.35vw;
+        letter-spacing: 0.075vw; 
         padding: 0vw 1.75vw 0vw 1.75vw;
     }
 
