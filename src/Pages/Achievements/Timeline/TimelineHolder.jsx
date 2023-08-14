@@ -13,7 +13,10 @@ export const TimelineHolder = (Props) => {
   const scrollToItem = (ref) => {
     if (ref) {
         const topOffset = ref.getBoundingClientRect().top + window.pageYOffset;
-        window.scrollTo({ top: topOffset + -80, behavior: 'smooth' });
+
+        var scrollOffset = window.innerWidth > 1300 ? window.innerWidth / 500 * 25 + 10 : 75;
+        console.log("THIS IS THE SCROLL OFFSET", scrollOffset);
+        window.scrollTo({ top: topOffset + -scrollOffset, behavior: 'smooth' });
     }
   };
 
