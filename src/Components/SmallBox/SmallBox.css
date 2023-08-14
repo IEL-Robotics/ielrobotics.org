@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns:35% 65%;
     box-shadow: 0 0.3vw 0.6vw rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.25s ease-in-out;
 }
 
 .smallbox-content-holder:hover  .smallbox-image{
