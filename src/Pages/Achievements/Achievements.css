@@ -36,7 +36,7 @@
 
 .achi-button.selected {
     color: rgb(255, 255, 255);
-    background: linear-gradient(135deg,#e65c00, #F9D423);
+    background: linear-gradient(135deg,#e60f00,#e68200, #ffdd34);
 }
 
 .achi-button.selected:hover {
@@ -76,10 +76,10 @@
 
 @media screen and (min-width: 800px) {
     .achi-button {
-        padding: 1.5vw;
+        padding: 1.75vw;
         margin: 0.175vw;
         border-radius: 0.5vw;
-        font-size: 1.8vw;
+        font-size: 2vw;
     }
 
     .achi-slider {

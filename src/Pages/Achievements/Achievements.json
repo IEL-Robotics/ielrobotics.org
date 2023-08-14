@@ -33,6 +33,18 @@
         ]
     },
     {
+        "titles": ["Teknofest 2022", "Teknofest 2022", "Teknofest 2022"],
+        "descriptions": [
+        "We submitted two projects to Teknofest 2022, in the categories of biotechnology and technologies for the benefit of humanity. Both of our projects made it to the finals among a total of 424 projects that applied in these categories. We had the opportunity to present the biochip we produced in the biotechnology category in Trabzon on August 5-7, and our autonomous cargo drone we built in the Technology for the Benefit of Humanity Competition in Rize on August 12-14",
+        "Teknofest 2022’ye biyoteknoloji ve insanlık yararına teknolojiler kategorilerinden birer proje ile başvurduk. Projelerimizin ikisi de bu dallarda başvuran toplam 424 proje arasından finale kalmayı başardı. 5-7 Ağustos tarihlerinde Trabzon’da biyoteknoloji kategorisinde ürettiğimiz biyoçipi, 12-14 Ağustos’ta ise Rize’deki İnsanlık Yararına Teknoloji Yarışması’nda ürettiğimiz otonom kargo dronumuzu sunma imkanı bulduk.",
+        "Wir haben zwei Projekte für das Teknofest 2022 eingereicht, und zwar in den Kategorien Biotechnologie und Technologien zum Nutzen der Menschheit. Unsere beiden Projekte schafften es in die Endrunde von insgesamt 424 Projekten, die sich in diesen Kategorien beworben hatten. Wir hatten die Gelegenheit, den von uns hergestellten Biochip in der Kategorie Biotechnologie vom 5. bis 7. August in Trabzon und unsere autonome Frachtdrohne im Wettbewerb 'Technologie zum Nutzen der Menschheit' vom 12. bis 14. August in Rize zu präsentieren."
+        ],
+        "images": [
+            "/OtherImages/AchiImages/TF22/tf22(1).webp",
+            "/OtherImages/AchiImages/TF22/tf22(2).webp"
+        ]
+    },
+    {
         "titles": ["Urfa MEB Robot", "Urfa MEB Robot", "Urfa MEB Robot"],
         "descriptions": [
         "In June of 2022, we participated in the 14th Ministry of National Education Robot Competition held in Urfa, Turkey, competing in various categories. With our project titled 'Multitherapy', we secured fourth place in the 'Free Project' category.",

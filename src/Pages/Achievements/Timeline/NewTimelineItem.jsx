@@ -21,7 +21,6 @@ export const NewTimelineItem = ({ data, scrollToItem, lan}) => {
     const { language, getTranslation } = useContext(LanguageContext);
 
     useEffect(() => {
-        console.log("TITLE CHANGES DUE TO RERENDER")
     }, [lan])
 
     const handleClick = () => {

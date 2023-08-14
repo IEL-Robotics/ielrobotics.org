@@ -1,6 +1,6 @@
 import './Navbar.css'
 import '../../index.css'
-import { toggleMenu } from './Navbar'
+import { toggleMenu, closeAfterUsed } from './Navbar'
 
 import { useState, useContext, useRef, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
@@ -32,6 +32,7 @@ export const Navbar = ({ handleScroll }) => {
     const handleClick2 = (loc) => {
         handleNavigation();
         navigate(loc);
+        closeAfterUsed();
     };
 
     useEffect(() => {
