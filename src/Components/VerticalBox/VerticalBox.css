@@ -132,8 +132,8 @@
 @media screen and (max-width:700px) {
 
     .vertical-text-content {
-        font-size: 4.5vw;
-        padding: 0vw 5vw 0vw 5vw ;
+        font-size: 4.25vw;
+        padding: 0.5vw 5.5vw 0vw 5.5vw ;
     }
 
     .vertical-box-title{

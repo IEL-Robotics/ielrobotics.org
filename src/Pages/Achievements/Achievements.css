@@ -36,7 +36,7 @@
 
 .achi-button.selected {
     color: rgb(255, 255, 255);
-    background: linear-gradient(135deg,#9a0d0d,#e52a00, #ecb100);
+    background: linear-gradient(135deg,#e65c00, #F9D423);
 }
 
 .achi-button.selected:hover {

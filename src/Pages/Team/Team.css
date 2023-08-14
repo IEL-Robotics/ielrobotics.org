@@ -58,7 +58,7 @@
     }
 
     .team-title-holder {
-        height: 18vw;
+        height: 20vw;
         margin-top: 1.5rem;
         margin-bottom: 0vw;
         border: solid 2vw rgba(237, 236, 236, 0.351);
@@ -68,11 +68,7 @@
 
         width: 100%;
         border-image-slice: 1;
-        border-image-source: linear-gradient(115deg,
-                rgba(255, 170, 0, 0.722),
-                rgba(255, 204, 0, 0.721),
-                rgba(255, 230, 0, 0.693),
-                rgba(255, 255, 0, 0.699));
+        border-image-source: linear-gradient(125deg,#e6a500,#ffba0b,#F9D423);
     }
 }
 

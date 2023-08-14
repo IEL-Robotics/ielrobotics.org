@@ -55,6 +55,9 @@
     .temp-holder {
         margin: 1vw 3vw 1vw 3vw;
         /* column-gap: 0vw; */
+        column-gap: 1.25vw;
+        row-gap: 1.25vw;
+        width: 94vw;
     }
     
 }

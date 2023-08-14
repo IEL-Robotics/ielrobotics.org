@@ -6,7 +6,7 @@
 }
 
 .timelineHolder::after {
-    background: linear-gradient(150deg,#ff6f00,#ffb300, #ffbf00, #fd0ddd  ,rgb(139, 0, 102));
+    background: linear-gradient(150deg,#ffdc41,#F49D1A, #DC3535, #e80000  ,#B01E68);
     content: '';
     position: absolute;
     left: calc(50% - 7px);
