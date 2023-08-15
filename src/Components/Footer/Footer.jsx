@@ -3,12 +3,12 @@ import { useContext, useRef } from 'react';
 
 import LanguageContext from '../../Context/LanguageContext'
 
-import Insta from '../../Media/Images/Footer-Icons/insta.png'
-import TikTok from '../../Media/Images/Footer-Icons/tiktok.png'
-import Twitter from '../../Media/Images/Footer-Icons/twitter.png'
-import Linkedin from '../../Media/Images/Footer-Icons/linkedin.png'
-import TBA from '../../Media/Images/Footer-Icons/tba.png'
-import Youtube from '../../Media/Images/Footer-Icons/youtube.png'
+import Insta from '../../Media/Images/Footer-Icons/insta.webp'
+import TikTok from '../../Media/Images/Footer-Icons/tiktok.webp'
+import Twitter from '../../Media/Images/Footer-Icons/twitter.webp'
+import Linkedin from '../../Media/Images/Footer-Icons/linkedin.webp'
+import TBA from '../../Media/Images/Footer-Icons/tba.webp'
+import Youtube from '../../Media/Images/Footer-Icons/youtube.webp'
 
 import sponsor_tr from '../../Media/PDF/ielrobotics_tr.pdf'
 import sponsor_en from '../../Media/PDF/ielrobotics_en.pdf'
@@ -108,7 +108,7 @@ export const Footer = ({scrollRef}) => {
             </div>
         </div>
         <div id="footer-licence2" style={{backgroundColor: "black", textAlign: "center"}}>
-               {getTranslation("footer-madeby")} <a id="github-links" href='https://github.com/jagxas'> @umut and ...</a>
+               {getTranslation("footer-madeby")} <a id="github-links" href='https://github.com/jagxas'> @umut</a>
             </div>
         </>
     )

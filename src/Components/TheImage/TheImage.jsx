@@ -1,9 +1,6 @@
 import './TheImage.css'
 import '../../index.css'
 
-import LanguageContext from '../../Context/LanguageContext'
-import myImage from '../../Media/Images/Home/8058.png'
-
 export const TheImage = (props) => {
     return (
         <div className="container">

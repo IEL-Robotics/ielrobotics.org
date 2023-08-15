@@ -11,16 +11,30 @@ import { Team } from "./Pages/Team/Team.jsx"
 import { News } from "./Pages/News/News.jsx"
 import { Footer } from "./Components/Footer/Footer.jsx"
 
+import scrollIntoView from "scroll-into-view"
+
 import './App.css'
-import NewAchievement from "./Pages/Achievements/NewAchievement.jsx"
 
 function App() {
 
   const scrollRef = useRef(null);
 
+  // const handleScroll = () => {
+  //   scrollRef.current.scrollIntoView({ 
+  //     behavior: 'smooth', 
+    
+  //   });
+  // };
+
   const handleScroll = () => {
-    scrollRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
+    scrollIntoView(scrollRef.current, {
+      time: 1750,
+      align: {
+        top: 0,
+        topOffset: window.innerWidth > 700 ? 10 : 50
+      }
+    })
+  }
 
   return (
     <div className='App'>
@@ -32,7 +46,6 @@ function App() {
           <Route path='/achievements' element={<Achievements/>}></Route>
           <Route path='/team' element={<Team/>}></Route>
           <Route path='/news' element={<News/>}></Route>
-          <Route path='/new-achievements' element={<NewAchievement />} />
           <Route></Route>
         </Routes>
         <Footer scrollRef={scrollRef}/>

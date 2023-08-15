@@ -35,6 +35,11 @@ export const Navbar = ({ handleScroll }) => {
         closeAfterUsed();
     };
 
+    const contactClicked = () => {
+        closeAfterUsed();
+        handleScroll();
+    }
+
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }, []);
@@ -74,7 +79,7 @@ export const Navbar = ({ handleScroll }) => {
                             </a>
                         </li>
                         <li className="list-item">
-                            <Link onClick={handleScroll}>
+                            <Link onClick={contactClicked}>
                                 {getTranslation("contact")}
                             </Link>
                         </li>

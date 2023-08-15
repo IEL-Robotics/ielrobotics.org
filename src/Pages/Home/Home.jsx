@@ -8,20 +8,13 @@ import {RedirectBox} from '../../Components/RedirectBox/RedirectBox'
 import LanguageContext from "../../Context/LanguageContext"
 
 import home_image from "../../Media/Images/Home/8058.webp"
-import logo from '../../Media/Images/Home/logo.png'
-import iel from '../../Media/Images/Home/iellogo.png'
-import frc from '../../Media/Images/Home/frc.png'
-import first from '../../Media/Images/Home/frc-logo.png'
-import jf from '../../Media/Images/Home/jf-logo.png'
-import tf from '../../Media/Images/Home/tfest-logo.png'
-import other from '../../Media/Images/Home/other.png'
-import award1 from '../../Media/Images/Home/award1.jpg'
-import award2 from '../../Media/Images/Home/award2.jpg'
-import award3 from '../../Media/Images/Home/award3.jpg'
-import sponsor from '../../Media/Images/Home/sponsor-image.png'
-import team from '../../Media/Images/Home/team-image.png'
-
-import news from '../../Media/Images/News.png'
+import logo from '../../Media/Images/Home/logo.webp'
+import iel from '../../Media/Images/Home/iellogo.webp'
+import award1 from '../../Media/Images/Home/award1.webp'
+import award2 from '../../Media/Images/Home/award2.webp'
+import award3 from '../../Media/Images/Home/award3.webp'
+import sponsor from '../../Media/Images/Home/sponsor-image.webp'
+import team from '../../Media/Images/Home/team.webp'
 
 export const Home = () => {
     const { language, getTranslation } = useContext(LanguageContext);
@@ -67,10 +60,10 @@ export const Home = () => {
                 <h1 className='team-title'> {getTranslation("home-section-competetions")} </h1>
             </div>
             <div className="home-comp-holder">
-                <VerticalBox image1={"/OtherImages/HomeImages/frcback.jpeg"} image2={"/OtherImages/HomeImages/first-logo-vector.svg"} title={"FRC"} content={"home-competetion-frc"} type={0} link={"https://www.firstinspires.org/robotics/frc"} />
+                <VerticalBox image1={"/OtherImages/HomeImages/frcback.webp"} image2={"/OtherImages/HomeImages/first-logo-vector.svg"} title={"FRC"} content={"home-competetion-frc"} type={0} link={"https://www.firstinspires.org/robotics/frc"} />
                 <VerticalBox image1={"/OtherImages/AchiImages/JF23/jf23(0).webp"} image2={"/OtherImages/HomeImages/jf-logo-vector.svg"} title={"JugendForscht"} content={"home-competetion-jf"} type={1} link={"https://www.jugend-forscht.de/"} />
                 <VerticalBox image1={"/OtherImages/AchiImages/TF22/tf22(1).webp"} title={"Teknofest"} image2={"/OtherImages/HomeImages/teknofest-logo-vector.svg"} content={"home-competetion-tekno"} type={2} link={"https://www.teknofest.org/tr/"}  />
-                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.png"} title={"home-competetion-other-title"} image2={"/OtherImages/HomeImages/other-logos-vector.png"} content={"home-competetion-other"} type={3} link={"https://www.firstinspires.org/robotics/frc"} />
+                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.webp"} title={"home-competetion-other-title"} image2={"/OtherImages/HomeImages/other-logos-vector.webp"} content={"home-competetion-other"} type={3} link={"https://www.firstinspires.org/robotics/frc"} />
 
             </div>
 

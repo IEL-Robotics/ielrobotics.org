@@ -2,7 +2,6 @@ import '../SmallBox/SmallBox.css'
 import { useContext } from 'react';
 
 import LanguageContext from '../../Context/LanguageContext';
-import pfp from '../../Media/Images/Team/pfp.png'
 
 export const SmallBox = (Props) => {
     const profilePic = Props.image;

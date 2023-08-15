@@ -8,15 +8,14 @@ import { RedirectBox } from "../../Components/RedirectBox/RedirectBox";
 
 import sponsor_image from '../../Media/Images/Sponsor.webp'
 
-import qmark from '../../Media/Images/Sponsors/qmark.png'
-import birikim from '../../Media/Images/Sponsors/birikim.png'
-import bulutistan from '../../Media/Images/Sponsors/bulutistan.png'
-import ergin from '../../Media/Images/Sponsors/ergin.png'
-import hastavuk from '../../Media/Images/Sponsors/hastavuk.png'
-import idealpak from '../../Media/Images/Sponsors/idealpak.png'
-import ielev from '../../Media/Images/Sponsors/ielev.png'
-import ozata from '../../Media/Images/Sponsors/ozata.png'
-import pemaks from '../../Media/Images/Sponsors/pemaks.png'
+import birikim from '../../Media/Images/Sponsors/birikim.webp'
+import bulutistan from '../../Media/Images/Sponsors/bulutistan.webp'
+import ergin from '../../Media/Images/Sponsors/ergin.webp'
+import hastavuk from '../../Media/Images/Sponsors/hastavuk.webp'
+import idealpak from '../../Media/Images/Sponsors/idealpak.webp'
+import ielev from '../../Media/Images/Sponsors/ielev.webp'
+import ozata from '../../Media/Images/Sponsors/ozata.webp'
+import pemaks from '../../Media/Images/Sponsors/pemaks.webp'
 
 export const Sponsors = () => {
     const { language, getTranslation } = useContext(LanguageContext);
