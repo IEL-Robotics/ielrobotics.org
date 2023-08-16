@@ -37,12 +37,12 @@ export const Achievements = () => {
 
     useEffect(() => {
         if(displayComp){
-            document.getElementById("tt-achi").textContent = "COMPETETION HISTORY";
+            document.getElementById("tt-achi").textContent = getTranslation("achi-titles-1");
         }
         else if(!displayComp){
-            document.getElementById("tt-achi").textContent = "COMMUNITY SERVICES";
+            document.getElementById("tt-achi").textContent = getTranslation("achi-titles-2");
         }
-    }, [displayComp]);
+    }, [displayComp, language]);
 
 
     return(
@@ -50,12 +50,12 @@ export const Achievements = () => {
             <TheImage source={success_image} text={getTranslation("success-slogan")}/> 
             <div className='team-title-holder'>
                 {/* <h1 className='team-title'> {getTranslation("achi-title")} </h1> */}
-                <h1 className='team-title' id="tt-achi"> COMPETETION HISTORY</h1>
+                <h1 className='team-title' id="tt-achi"> {getTranslation("achi-titles-1")}</h1>
             </div>
             <div className="achi-toggle-container">
                 <div className="achi-slider">
-                    <button className="achi-button selected" id="btn1" onClick={() => toggleTo(true)}>Competetions</button>
-                    <button className="achi-button" id="btn2" onClick={() => toggleTo(false)}>Community</button>
+                    <button className="achi-button selected" id="btn1" onClick={() => toggleTo(true)}>{getTranslation("achi-button-1")}</button>
+                    <button className="achi-button" id="btn2" onClick={() => toggleTo(false)}>{getTranslation("achi-button-2")}</button>
                 </div>
             </div>
             <TimelineHolder type={displayComp}/>
