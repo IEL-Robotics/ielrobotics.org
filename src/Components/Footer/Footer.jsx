@@ -10,9 +10,9 @@ import Linkedin from '../../Media/Images/Footer-Icons/linkedin.webp'
 import TBA from '../../Media/Images/Footer-Icons/tba.webp'
 import Youtube from '../../Media/Images/Footer-Icons/youtube.webp'
 
-import sponsor_tr from '../../Media/PDF/ielrobotics_tr.pdf'
-import sponsor_en from '../../Media/PDF/ielrobotics_en.pdf'
-import sponsor_de from '../../Media/PDF/ielrobotics_de.pdf'
+import sponsor_tr from '../../Media/PDF/sponsorfileTR.pdf'
+import sponsor_en from '../../Media/PDF/sponsorfileEN.pdf'
+import sponsor_de from '../../Media/PDF/sponsorfileDE.pdf'
 
 export const Footer = ({scrollRef}) => {
 
