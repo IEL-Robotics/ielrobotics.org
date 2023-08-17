@@ -11,7 +11,7 @@
 
 #logoimg {
     width: 14rem;
-    margin-left: 2.25rem;
+    margin-left: 2rem;
     margin-top: 0.55rem;
     margin-bottom: 0.55rem;
     opacity: 0.85;
@@ -132,7 +132,7 @@ a:hover {
         margin-top: 1.35vw;
         margin-bottom: 1.35vw;
         width: 9vw;
-        margin-left: 1.5vw;
+        margin-left: 1.35vw;
     }
 
     .right {

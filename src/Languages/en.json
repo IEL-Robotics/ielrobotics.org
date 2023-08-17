@@ -44,8 +44,8 @@
 
     "home-team-title": "Teamwork",
     "home-team-content": "Our incredible team is the heart and soul of this endeavour. Our dedication and technical expertise make the impossible possible. We honour our heritage and work in perfect harmony to make dreams come true through remarkable teamwork. Together we create the extraordinary! Click here to see who makes up our team",
-    
-    "sponsor-title-why": "WHY SHOULD YOU SUPPORT US?",
+
+    "sponsor-title":"Our Sponsors",
     "sponsor-content-why": "As an association, we have made it our mission to familiarise young people with technology, software and engineering culture, and we are constantly working towards this goal. In this direction, any kind of support from our sponsors is very important for us to represent our team and our sponsors in the best possible way.",
     "sponsor-title-ielev": "İELEV",
     "sponsor-content-ielev": "Istanbul Erkek Liseliler Education Foundation was established on 21 December 1982 by the graduates of Istanbul Erkek High School. The Foundation is a non-governmental organisation that aims to raise the educational standards of Istanbul Erkek Lisesi. It aims to support the strengthening of the school and the development of the country in the field of education by providing the necessary contributions in the field of education. It also aims to contribute to the strengthening of solidarity and solidarity and to ensure that children benefit from the opportunities of the Foundation.",
@@ -64,12 +64,11 @@
     "sponsor-title-pemaks": "Pemaks Pneumatics",
     "sponsor-content-pemaks": "Erdoğan and Mehmet BEŞER started with bolts and nuts, evolving into pioneers of pneumatic cylinder production at Pemaks. Today, they export globally, chosen by leading manufacturers. With TSEK and ISO 9001 certifications, Pemaks ensures top quality and long-lasting partnerships. Pemaks thrives by blending cutting-edge technology, modern manufacturing, and customer-centric focus, positioning themselves as a top choice for pneumatic cylinders worldwide.",
     
-    "team-titles-cap": "OUR CAPTAINS",
-    "team-titles-mem": "OUR MEMBERS",
-    "team-titles-alu": "OUR ALUMNI",
+    "team-titles-mem": "Our Members",
+    "team-titles-alu": "Our Alumni",
 
-    "achi-titles-1":"COMPETETION PORTFOLIO",
-    "achi-titles-2":"SOCIAL RESPONSIBILITY",
+    "achi-titles-1":"Competetion Portfolio",
+    "achi-titles-2":"Social Responsibility",
 
     "achi-button-1":"Competetions",
     "achi-button-2":"Community",
@@ -86,9 +85,5 @@
     "team-roles-mechanic": "Mechanic",
     "team-roles-electronic": "Electronics",
     "team-roles-pr": "PR Member",
-    "team-roles-design": "Designer",
-
-    "achi-title": "OUR COMPETETION HISTORY",
-    
-    "dümen": "bla bla"
+    "team-roles-design": "Designer"
 }

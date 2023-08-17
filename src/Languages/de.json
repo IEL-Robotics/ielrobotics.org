@@ -45,7 +45,7 @@
     "home-team-title": "Teamarbeit",
     "home-team-content": "Unser unglaubliches Team ist das Herz und die Seele dieses Unterfangens. Unsere Hingabe und unser technisches Know-how machen das Unmögliche möglich. Wir halten unser Erbe in Ehren und arbeiten in perfekter Harmonie, um durch bemerkenswerte Teamarbeit Träume wahr werden zu lassen. Gemeinsam schaffen wir das Außergewöhnliche! Klicken Sie hier, um zu sehen, wer unser Team ausmacht",
 
-    "sponsor-title-why": "WARUM SOLLEN SIE UNS UNTERSTÜTZEN?",
+    "sponsor-title":"Unsere Sponsoren",
     "sponsor-content-why": "Als Verein haben wir es uns zur Aufgabe gemacht, junge Menschen mit Technik, Software und Ingenieurskultur vertraut zu machen, und wir arbeiten ständig an diesem Ziel. In dieser Richtung ist jede Art von Unterstützung durch unsere Sponsoren sehr wichtig für uns, um unser Team und unsere Sponsoren bestmöglich zu repräsentieren.",
     "sponsor-title-ielev": "İELEV",
     "sponsor-content-ielev": "Die Bildungsstiftung Istanbul Erkek Liseliler wurde am 21. Dezember 1982 von den Absolventen des Istanbuler Erkek-Gymnasiums gegründet. Die Stiftung ist eine Nichtregierungsorganisation, deren Ziel es ist, das Bildungsniveau des Istanbul Erkek Lisesi anzuheben. Sie will die Stärkung der Schule und die Entwicklung des Landes im Bereich der Bildung unterstützen, indem sie die notwendigen Beiträge im Bereich der Bildung leistet. Außerdem soll sie zur Stärkung der Solidarität und des Zusammenhalts beitragen und sicherstellen, dass die Kinder von den Möglichkeiten der Stiftung profitieren.",
@@ -63,13 +63,12 @@
     "sponsor-content-ozata": "Özata Shipyard, gegründet 1985, ist ein renommiertes Schiffbauunternehmen. Mit einer starken Präsenz in Altınova hat es 63 erfolgreiche Projekte geliefert, darunter Yachten, Passagierschiffe und Katamaranfähren aus Kohlefaser. Özata hat sich auf Stahl-, Aluminium- und Karbonkonstruktionen spezialisiert und ist damit ein angesehener Akteur in der Türkei und auf der ganzen Welt. Ihr Engagement für Innovation und Qualität hebt sie in der Branche hervor.",
     "sponsor-title-pemaks": "Pemaks Pneumatik",
     "sponsor-content-pemaks": "Erdoğan und Mehmet BEŞER begannen mit Schrauben und Muttern und entwickelten sich zu Pionieren der Pneumatikzylinderproduktion bei Pemaks. Heute exportieren sie in die ganze Welt und werden von führenden Herstellern ausgewählt. Mit den Zertifizierungen TSEK und ISO 9001 gewährleistet Pemaks höchste Qualität und langfristige Partnerschaften. Pemaks profitiert von der Kombination aus Spitzentechnologie, moderner Fertigung und Kundenorientierung und positioniert sich als erste Wahl für Pneumatikzylinder weltweit.",
-      
-    "team-titles-cap": "UNSERE KAPITÄNE",
-    "team-titles-mem": "UNSERE MITGLIEDER",
-    "team-titles-alu": "UNSERE ALUMNI",
 
-    "achi-titles-1":"WETTBEWERBSPORFOLIO",
-    "achi-titles-2":"SOZIALE VERANTWORTUNG",
+    "team-titles-mem": "Unsere Mitglieder",
+    "team-titles-alu": "Unsere Alumni",
+
+    "achi-titles-1":"Wettbewerbsportfolio",
+    "achi-titles-2":"Soziale Verantwortung",
 
     "achi-button-1":"Wettkämpfe",
     "achi-button-2":"Gemeinde",
@@ -86,9 +85,5 @@
     "team-roles-mechanic": "Mechaniker",
     "team-roles-electronic": "Elektronik",
     "team-roles-pr": "PR-Mitglied",
-    "team-roles-design": "Designer",
-
-    "achi-title": "UNSERE WETTBEWERBSGESCHICHTE",
-
-    "dümen": "bla bla"
+    "team-roles-design": "Designer"
 }

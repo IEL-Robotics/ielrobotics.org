@@ -47,7 +47,7 @@ export const Navbar = ({ handleScroll }) => {
     return (
         <header className="header" id="header">
             <nav className="navbar container">
-                <img src='/OtherImages/logo-output.webp' id="logoimg" onClick={() => handleClick2("/")}></img>
+                <img src='/OtherImages/logo-output2.webp' id="logoimg" onClick={() => handleClick2("/")}></img>
 
                 <div className="menu" id="menu">
                     <ul className="list">

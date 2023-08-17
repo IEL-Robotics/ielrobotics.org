@@ -10,7 +10,7 @@
 
     "home-section-news": "Haberler",
     "home-section-competetions": "Yarışmalar",
-    "home-section-awards": "ÖDÜLLERİMİZ",
+    "home-section-awards": "Ödüllerimiz",
     "home-section-partners": "Ortaklıklarımız",
     "home-section-team": "Takımımız",
 
@@ -45,7 +45,7 @@
     "home-team-title": "Takım Çalışması",
     "home-team-content": "İnanılmaz ekibimiz bu çabanın kalbi ve ruhudur. Özverimiz ve teknik uzmanlığımız imkansızı mümkün kılıyor. Mirasımızı onurlandırıyor ve olağanüstü bir ekip çalışmasıyla hayalleri gerçeğe dönüştürmek için mükemmel bir uyum içinde çalışıyoruz. Birlikte olağanüstü olanı yaratıyoruz! Ekibimizi kimlerin oluşturduğunu görmek için buraya tıklayın",
 
-    "sponsor-title-why": "BİZİ NEDEN DESTEKLEMELİSİNİZ?",
+    "sponsor-title":"Sponsorlarımız",
     "sponsor-content-why": "Kulüp olarak gençleri teknoloji, yazılım ve mühendislik kültürü ile tanıştırmayı kendimize misyon edindik ve bu hedef doğrultusunda sürekli çalışıyoruz. Bu doğrultuda sponsorlarımızdan gelecek her türlü destek, ekibimizi ve sponsorlarımızı en iyi şekilde temsil edebilmemiz için çok önemli.",
     "sponsor-title-ielev": "İELEV",
     "sponsor-content-ielev": "İstanbul Erkek Liseliler Eğitim Vakfı, 21 Aralık 1982 tarihinde İstanbul Erkek Lisesi mezunları tarafından kurulmuştur. Vakıf, İstanbul Erkek Lisesi'nin eğitim standartlarını yükseltmeyi amaçlayan bir sivil toplum kuruluşudur. Eğitim alanında gereken katkıları sağlayarak okulun güçlenmesine ve ülkenin eğitim alanında gelişmesine destek olmayı hedefler. Aynı zamanda dayanışma ve yardımlaşmanın güçlenmesine ve çocukların Vakfın olanaklarından yararlanmasına katkıda bulunmayı amaçlar. İstanbul Erkek Liseliler Eğitim Vakfı, İstanbul Erkek Lisesi'ne ve ülkeye olan katkılarıyla önemli bir kurumdur. Vakıf, yıllar içinde açtığı eğitim kurumlarıyla ülkemizin geleceği olan çocukların ve gençlerin modern bir eğitim anlayışıyla yetişmelerini sağlamıştır.",
@@ -63,13 +63,12 @@
     "sponsor-content-ozata": "Özata Shipyard, 1985 yılında kurulmuş, tanınmış bir gemi inşa şirketidir. Altınova'da güçlü bir varlığa sahip olan şirket, yatlar, yolcu gemileri ve karbon fiber katamaran feribotlar da dahil olmak üzere 63 başarılı proje teslim etmiştir. Çelik, alüminyum ve karbon konstrüksiyon alanlarında uzmanlaşan Özata, Türkiye'de ve dünyada seçkin bir oyuncu haline gelmiştir. İnovasyon ve kaliteye olan bağlılıkları onları sektörde farklı kılmaktadır.",
     "sponsor-title-pemaks": "Pemaks Pnömatik",
     "sponsor-content-pemaks": "Erdoğan ve Mehmet BEŞER, cıvata ve somunla başladıkları Pemaks'ta pnömatik silindir üretiminin öncülerine dönüştüler. Bugün, önde gelen üreticiler tarafından tercih edilerek dünyaya ihracat yapmaktadırlar. TSEK ve ISO 9001 belgeleri ile Pemaks, en yüksek kaliteyi ve uzun ömürlü ortaklıkları garanti ediyor. Pemaks, en son teknolojiyi, modern üretimi ve müşteri odaklı odaklanmayı harmanlayarak gelişmekte ve kendilerini dünya çapında pnömatik silindirler için en iyi seçenek olarak konumlandırmaktadır.",
-   
-    "team-titles-cap": "KAPTANLARIMIZ",
-    "team-titles-mem": "ÜYELERİMİZ",
-    "team-titles-alu": "MEZUNLARIMIZ",
 
-    "achi-titles-1":"YARIŞMA PORTFOLYOMUZ",
-    "achi-titles-2":"SOSYAL SORUMLULUK",
+    "team-titles-mem": "Üyelerimi",
+    "team-titles-alu": "Mezunlarımız",
+
+    "achi-titles-1":"Yarışma Portfolyomuz",
+    "achi-titles-2":"Sosyal Sorumluluk",
 
     "achi-button-1":"Yarışmalar",
     "achi-button-2":"Sosyal",
@@ -86,9 +85,5 @@
     "team-roles-mechanic": "Mekanik",
     "team-roles-electronic": "Elektronik",
     "team-roles-pr": "PR Üyesi",
-    "team-roles-design": "Tasarımcı",
-
-    "achi-title": "YARIŞMA GEÇMİŞİMİZ",
-
-    "dümen": "bla bla"
+    "team-roles-design": "Tasarımcı"
 }

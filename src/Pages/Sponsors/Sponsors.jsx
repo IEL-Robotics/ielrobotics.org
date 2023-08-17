@@ -24,17 +24,8 @@ export const Sponsors = () => {
         <div className="SponsorPage" style={{marginTop: "5rem"}}> 
             <TheImage source={sponsor_image} text={getTranslation("sponsor-slogan")}/>
             <div className='team-title-holder'>
-                <h1 className='team-title'> OUR SPONSORS </h1>
+                <h1 className='team-title'>{ getTranslation("sponsor-title")} </h1>
             </div>
-            {/* <ContentBox image={qmark} title={"sponsor-title-why"} content={"sponsor-content-why"} type={0}/>
-            <ContentBox image={ielev} title={"sponsor-title-ielev"} content={"sponsor-content-ielev"}type={1}/>
-            <ContentBox image={birikim} title={"sponsor-title-birikim"} content={"sponsor-content-birikim"}type={0}/>
-            <ContentBox image={bulutistan} title={"sponsor-title-bulutistan"} content={"sponsor-content-bulutistan"}type={1}/>
-            <ContentBox image={ergin} title={"sponsor-title-ergin"} content={"sponsor-content-ergin"}type={0}/>
-            <ContentBox image={hastavuk} title={"sponsor-title-hastavuk"} content={"sponsor-content-hastavuk"}type={1}/>
-            <ContentBox image={idealpak} title={"sponsor-title-idealpak"} content={"sponsor-content-idealpak"}type={0}/>
-            <ContentBox image={ozata} title={"sponsor-title-ozata"} content={"sponsor-content-ozata"}type={1}/>
-            <ContentBox image={pemaks} title={"sponsor-title-pemaks"} content={"sponsor-content-pemaks"}type={0}/> */}
             <div className="temp-holder">
                 <RedirectBox img={ielev} title1={"IELEV"} title2={""} link={"https://www.ielev.k12.tr/"}/>
                 <RedirectBox img={birikim} title1={"Birikim"} title2={""} link={"https://birikimmuhendislik.com.tr"}/>
