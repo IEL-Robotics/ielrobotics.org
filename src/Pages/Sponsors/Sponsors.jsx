@@ -1,6 +1,7 @@
 import '../Sponsors/Sponsors.css'
 
 import { useContext } from "react";
+import { Helmet } from 'react-helmet';
 import LanguageContext from "../../Context/LanguageContext"
 import { ContentBox } from "../../Components/ContentBox/ContentBox";
 import { TheImage } from "../../Components/TheImage/TheImage";
@@ -17,11 +18,20 @@ import ielev from '../../Media/Images/Sponsors/ielev.webp'
 import ozata from '../../Media/Images/Sponsors/ozata.webp'
 import pemaks from '../../Media/Images/Sponsors/pemaks.webp'
 
+const title = "Sponsors - 8058";
+
 export const Sponsors = () => {
     const { language, getTranslation } = useContext(LanguageContext);
 
+    // useEffect(() => {
+    //     document.title = 'Sponsors - 8058';
+    //   }, []);
+
     return(
         <div className="SponsorPage" style={{marginTop: "5rem"}}> 
+            <Helmet>
+                <title> {getTranslation("helmet-sponsor")} </title>
+            </Helmet>
             <TheImage source={sponsor_image} text={getTranslation("sponsor-slogan")}/>
             <div className='team-title-holder'>
                 <h1 className='team-title'>{ getTranslation("sponsor-title")} </h1>

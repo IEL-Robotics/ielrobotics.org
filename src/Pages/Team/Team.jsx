@@ -1,6 +1,7 @@
 import '../Team/Team.css'
 
 import { useContext, useEffect, useState } from "react";
+import { Helmet } from 'react-helmet';
 
 import { TheImage } from "../../Components/TheImage/TheImage";
 import { SmallBox } from "../../Components/SmallBox/SmallBox";
@@ -34,6 +35,9 @@ export const Team = () => {
 
     return (
         <div className="TeamPage" style={{ marginTop: "5rem" }}>
+            <Helmet>
+                <title> {getTranslation("helmet-team")} </title>
+            </Helmet>
             <TheImage source={team_image} text={getTranslation("team-slogan")} />
 
             <div className='team-title-holder'>

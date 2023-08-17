@@ -1,7 +1,7 @@
 import { useContext } from "react";
 
 import '../News/News.css'
-
+import { Helmet } from "react-helmet";
 import { TheImage } from "../../Components/TheImage/TheImage";
 import LanguageContext from "../../Context/LanguageContext"
 
@@ -12,6 +12,9 @@ export const News = () => {
 
     return(
         <div className="NewsPage" style={{marginTop: "5rem"}}> 
+            <Helmet>
+                <title> {getTranslation("helmet-news")} </title>
+            </Helmet>
             <TheImage source={news_image} text={getTranslation("news-slogan")}/>
             <div className="oopsie">
                 <p className="oopsie-text">This Page is still on production</p>

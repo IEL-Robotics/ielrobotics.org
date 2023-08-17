@@ -3,6 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import "../Achievements/Achievements.css"
 
 import { TheImage } from "../../Components/TheImage/TheImage";
+import { Helmet } from "react-helmet";
 import { TimelineHolder } from "./Timeline/TimelineHolder";
 import LanguageContext from "../../Context/LanguageContext"
 
@@ -47,6 +48,9 @@ export const Achievements = () => {
 
     return(
         <div className="AchievePage" style={{marginTop: "5rem"}}> 
+            <Helmet>
+                <title> {getTranslation("helmet-achi")} </title>
+            </Helmet>
             <TheImage source={success_image} text={getTranslation("success-slogan")}/> 
             <div className='team-title-holder'>
                 {/* <h1 className='team-title'> {getTranslation("achi-title")} </h1> */}
