@@ -23,10 +23,6 @@ const title = "Sponsors - 8058";
 export const Sponsors = () => {
     const { language, getTranslation } = useContext(LanguageContext);
 
-    // useEffect(() => {
-    //     document.title = 'Sponsors - 8058';
-    //   }, []);
-
     return(
         <div className="SponsorPage" style={{marginTop: "5rem"}}> 
             <Helmet>
