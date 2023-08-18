@@ -5,6 +5,8 @@ import './NewTimelineItem.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import placeholder from '/OtherImages/Loading/load-t.webp'
+
 import LanguageContext from '../../../Context/LanguageContext';
 
 const CustomPrevArrow = ({ onClick }) => {
@@ -37,6 +39,12 @@ export const NewTimelineItem = ({ data, scrollToItem, lan}) => {
         slidesToShow: 1,
         slidesToScroll: 1
     };
+
+    const [imageLoaded, setImageLoaded] = useState(false);
+
+    const handleImageLoad = () => {
+      setImageLoaded(true);
+    };
     
     return (
         <div className='new-achieve-main-container'>
@@ -45,7 +53,13 @@ export const NewTimelineItem = ({ data, scrollToItem, lan}) => {
                     <Slider {...settings} className='slider'>
                         {images.map((event_image, index) => (
                             <div key={index}>
-                                <img className='slider-image' src={event_image} style={{ width: '100%', zIndex: '9999' }} alt="" />
+                                <img 
+                                    className='slider-image' 
+                                    src={imageLoaded? event_image : placeholder} 
+                                    style={{ width: '100%', zIndex: '9999' }} 
+                                    alt="" 
+                                    onLoad={handleImageLoad}
+                                />
                             </div>
                         ))}
                     </Slider>
