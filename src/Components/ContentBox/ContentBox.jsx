@@ -4,6 +4,10 @@ import { useContext } from 'react';
 
 import LanguageContext from '../../Context/LanguageContext';
 
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 export const ContentBox = (Props) => {
     const imageAdress = Props.image;
     const boxTitle = Props.title;
@@ -58,3 +62,5 @@ export const ContentBox = (Props) => {
     }
 
 }
+
+//LATER TO BE DELETED

@@ -1,7 +1,7 @@
 import '../Team/Team.css'
 
 import { useContext, useEffect, useState } from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 import { TheImage } from "../../Components/TheImage/TheImage";
 import { SmallBox } from "../../Components/SmallBox/SmallBox";

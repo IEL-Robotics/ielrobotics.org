@@ -11,6 +11,8 @@ import { Team } from "./Pages/Team/Team.jsx"
 import { News } from "./Pages/News/News.jsx"
 import { Footer } from "./Components/Footer/Footer.jsx"
 
+import { Helmet, HelmetProvider } from "react-helmet-async"
+
 import scrollIntoView from "scroll-into-view"
 
 import './App.css'
@@ -20,9 +22,9 @@ function App() {
   const scrollRef = useRef(null);
 
   // const handleScroll = () => {
-  //   scrollRef.current.scrollIntoView({ 
-  //     behavior: 'smooth', 
-    
+  //   scrollRef.current.scrollIntoView({
+  //     behavior: 'smooth',
+
   //   });
   // };
 
@@ -37,6 +39,7 @@ function App() {
   }
 
   return (
+    <HelmetProvider>
     <div className='App'>
       <BR>
         <Navbar handleScroll={handleScroll}/>
@@ -51,6 +54,7 @@ function App() {
         <Footer scrollRef={scrollRef}/>
       </BR>
     </div>
+    </HelmetProvider>
   )
 }
 

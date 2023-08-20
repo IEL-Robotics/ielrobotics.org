@@ -3,7 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import "../Achievements/Achievements.css"
 
 import { TheImage } from "../../Components/TheImage/TheImage";
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 import { TimelineHolder } from "./Timeline/TimelineHolder";
 import LanguageContext from "../../Context/LanguageContext"
 

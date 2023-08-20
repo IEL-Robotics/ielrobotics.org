@@ -1,7 +1,7 @@
 import '../Sponsors/Sponsors.css'
 
 import { useContext } from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import LanguageContext from "../../Context/LanguageContext"
 import { ContentBox } from "../../Components/ContentBox/ContentBox";
 import { TheImage } from "../../Components/TheImage/TheImage";

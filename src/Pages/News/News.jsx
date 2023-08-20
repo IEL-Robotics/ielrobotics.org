@@ -1,7 +1,7 @@
 import { useContext } from "react";
 
 import '../News/News.css'
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 import { TheImage } from "../../Components/TheImage/TheImage";
 import LanguageContext from "../../Context/LanguageContext"
 

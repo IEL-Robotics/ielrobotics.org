@@ -2,10 +2,11 @@ import { useContext, useEffect, useState } from "react";
 import '../Home/Home.css'
 
 import { TheImage } from "../../Components/TheImage/TheImage";
-import { ContentBox, TemporaryNewsBox } from "../../Components/ContentBox/ContentBox";
+import { ContentBox} from "../../Components/ContentBox/ContentBox";
+import { TemporaryNewsBox } from "../../Components/ContentBox/TemporaryNewsBox";
 import { VerticalBox } from "../../Components/VerticalBox/VerticalBox";
 import {RedirectBox} from '../../Components/RedirectBox/RedirectBox'
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet-async';
 import LanguageContext from "../../Context/LanguageContext"
 
 import home_image from "../../Media/Images/Home/8058.webp"
@@ -60,7 +61,7 @@ export const Home = () => {
             <div className='team-title-holder'>
                 <h1 className='team-title'> {getTranslation("home-section-news") } </h1>
             </div>
-            {/* <TemporaryNewsBox/> */}
+            <TemporaryNewsBox/>
             <div className='team-title-holder'>
                 <h1 className='team-title'> {getTranslation("home-section-competetions") } </h1>
             </div>
