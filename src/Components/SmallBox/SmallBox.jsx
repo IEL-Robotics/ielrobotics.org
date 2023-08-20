@@ -2,7 +2,7 @@ import '../SmallBox/SmallBox.css'
 import { useContext, useState } from 'react';
 
 import LanguageContext from '../../Context/LanguageContext';
-import placeholder from "/OtherImages/Loading/load-pfp.webp"
+import placeholder from "/OtherImages/Loading/pfpload11.webp"
 
 export const SmallBox = (Props) => {
     const profilePic = Props.image;
