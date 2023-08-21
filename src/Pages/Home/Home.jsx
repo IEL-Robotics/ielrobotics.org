@@ -9,14 +9,14 @@ import {RedirectBox} from '../../Components/RedirectBox/RedirectBox'
 import { Helmet } from 'react-helmet-async';
 import LanguageContext from "../../Context/LanguageContext"
 
-import home_image from "../../Media/Images/Home/8058.webp"
-import logo from '../../Media/Images/Home/logo.webp'
-import iel from '../../Media/Images/Home/iellogo.webp'
-import award1 from '../../Media/Images/Home/award1.webp'
-import award2 from '../../Media/Images/Home/award2.webp'
-import award3 from '../../Media/Images/Home/award3.webp'
-import sponsor from '../../Media/Images/Home/sponsor-image.webp'
-import team from '../../Media/Images/Home/team.webp'
+import home_image from "../../Media/Images/Home/8058s.webp"
+import logo from '../../Media/Images/Home/logos.webp'
+import iel from '../../Media/Images/Home/iellogos.webp'
+import award1 from '../../Media/Images/Home/award1s.webp'
+import award2 from '../../Media/Images/Home/award2s.webp'
+import award3 from '../../Media/Images/Home/award3s.webp'
+import sponsor from '../../Media/Images/Home/sponsor-images.webp'
+import team from '../../Media/Images/Home/teams.webp'
 
 export const Home = () => {
     const { language, getTranslation } = useContext(LanguageContext);
