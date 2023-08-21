@@ -44,9 +44,9 @@ function App() {
       <BR>
         <Navbar handleScroll={handleScroll}/>
         <Routes>
-          <Route path='/' element={<Home/>}></Route>
+          <Route path='/' element={<Achievements/>}></Route>
           <Route path='/sponsors' element={<Sponsors/>}></Route>
-          <Route path='/achievements' element={<Achievements/>}></Route>
+          <Route path='/achievements' element={<Home/>}></Route>
           <Route path='/team' element={<Team/>}></Route>
           <Route path='/news' element={<News/>}></Route>
           <Route></Route>
