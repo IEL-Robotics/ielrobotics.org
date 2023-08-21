@@ -7,16 +7,17 @@ import { ContentBox } from "../../Components/ContentBox/ContentBox";
 import { TheImage } from "../../Components/TheImage/TheImage";
 import { RedirectBox } from "../../Components/RedirectBox/RedirectBox";
 
-import sponsor_image from '../../Media/Images/Sponsor.webp'
+// import sponsor_image from '../../Media/Images/Sponsor.webp'
+import sponsor_image from '/OtherImages/FastLoadImg/Sponsors.webp'
 
-import birikim from '../../Media/Images/Sponsors/birikim.webp'
-import bulutistan from '../../Media/Images/Sponsors/bulutistan.webp'
-import ergin from '../../Media/Images/Sponsors/ergin.webp'
-import hastavuk from '../../Media/Images/Sponsors/hastavuk.webp'
-import idealpak from '../../Media/Images/Sponsors/idealpak.webp'
-import ielev from '../../Media/Images/Sponsors/ielev.webp'
-import ozata from '../../Media/Images/Sponsors/ozata.webp'
-import pemaks from '../../Media/Images/Sponsors/pemaks.webp'
+import birikim from '/OtherImages/FastLoadImg/birikim.webp'
+import bulutistan from '/OtherImages/FastLoadImg/bulutistan.webp'
+import ergin from '/OtherImages/FastLoadImg/ergin.webp'
+import hastavuk from '/OtherImages/FastLoadImg/hastavuk.webp'
+import idealpak from '/OtherImages/FastLoadImg/idealpak.webp'
+import ielev from '/OtherImages/FastLoadImg/ielev.webp'
+import ozata from '/OtherImages/FastLoadImg/ozata.webp'
+import pemaks from '/OtherImages/FastLoadImg/pemaks.webp'
 
 const title = "Sponsors - 8058";
 

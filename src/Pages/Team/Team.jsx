@@ -9,7 +9,9 @@ import LanguageContext from "../../Context/LanguageContext"
 
 import jsonfile from '../Team/TeamMembers.json'
 
-import team_image from '../../Media/Images/Team/team.webp'
+// import team_image from '../../Media/Images/Team/team.webp'
+
+import team_image from '/OtherImages/FastLoadImg/teams.webp'
 
 export const Team = () => {
     const { language, getTranslation } = useContext(LanguageContext);

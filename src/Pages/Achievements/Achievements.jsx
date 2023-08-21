@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet-async';
 import { TimelineHolder } from "./Timeline/TimelineHolder";
 import LanguageContext from "../../Context/LanguageContext"
 
-import success_image from '../../Media/Images/Success.webp'
+import success_image from '/OtherImages/FastLoadImg/Successs.webp'
 
 export const Achievements = () => {
     const { language, getTranslation } = useContext(LanguageContext);

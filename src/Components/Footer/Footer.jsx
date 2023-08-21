@@ -3,16 +3,16 @@ import { useContext, useRef } from 'react';
 
 import LanguageContext from '../../Context/LanguageContext'
 
-import Insta from '../../Media/Images/Footer-Icons/insta.webp'
-import TikTok from '../../Media/Images/Footer-Icons/tiktok.webp'
-import Twitter from '../../Media/Images/Footer-Icons/twitter.webp'
-import Linkedin from '../../Media/Images/Footer-Icons/linkedin.webp'
-import TBA from '../../Media/Images/Footer-Icons/tba.webp'
-import Youtube from '../../Media/Images/Footer-Icons/youtube.webp'
+import Insta from '/OtherImages/FastLoadImg/instas.webp'
+import TikTok from '/OtherImages/FastLoadImg/tiktok.webp'
+import Twitter from '/OtherImages/FastLoadImg/twitter.webp'
+import Linkedin from '/OtherImages/FastLoadImg/linkedin.webp'
+import TBA from '/OtherImages/FastLoadImg/tba.webp'
+import Youtube from '/OtherImages/FastLoadImg/youtube.webp'
 
-import sponsor_tr from '../../Media/PDF/sponsorfileTR.pdf'
-import sponsor_en from '../../Media/PDF/sponsorfileEN.pdf'
-import sponsor_de from '../../Media/PDF/sponsorfileDE.pdf'
+import sponsor_tr from '/Docs/sponsorfileTR.pdf'
+import sponsor_en from '/Docs/sponsorfileEN.pdf'
+import sponsor_de from '/Docs/sponsorfileDE.pdf'
 
 export const Footer = ({scrollRef}) => {
 
