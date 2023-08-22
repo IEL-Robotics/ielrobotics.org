@@ -58,8 +58,7 @@ export const TemporaryNewsBox = () => {
                 <button className="redirect-button">
                     <a
                         draggable="true"
-                        href={"www.wikipedia.com"}
-                        target="_blank"
+                        href={"/news"}
                         rel="noopener noreferrer"
                     >
                         &gt; {getTranslation("more")}
