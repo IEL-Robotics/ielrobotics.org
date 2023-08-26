@@ -1,4 +1,5 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState, useRef } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import "../Achievements/Achievements.css"
 
@@ -45,9 +46,8 @@ export const Achievements = () => {
         }
     }, [displayComp, language]);
 
-
     return(
-        <div className="AchievePage" style={{marginTop: "5rem"}}> 
+        <div className="AchievementsPage" style={{marginTop: "5rem"}}> 
             <Helmet>
                 <title> {getTranslation("helmet-achi")} </title>
             </Helmet>

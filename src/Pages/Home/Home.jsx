@@ -17,6 +17,9 @@ import award2 from '/OtherImages/HomeImages/award2s.webp'
 import award3 from '/OtherImages/HomeImages/award3s.webp'
 import sponsor from '/OtherImages/HomeImages/sponsor-images.webp'
 import team from '/OtherImages/HomeImages/teams.webp'
+import { useNavigate, Link } from "react-router-dom";
+
+//import { scrollToComponent } from '../Achievements/Achievements.jsx'
 
 export const Home = () => {
     const { language, getTranslation } = useContext(LanguageContext);
@@ -78,9 +81,9 @@ export const Home = () => {
             </div>
             {/* <ContentBox image={frc} title={"home-awards-title"} content={"home-awards-1"} type={1} /> */}
             <div className="temp-holder">
-                <RedirectBox img={award1} title1={"Bosphorus 2022"} title2={"Winner"} link={"/achievements"}/>
-                <RedirectBox img={award3} title1={"JF Biology 2023"} title2={"1st Place"} link={"/achievements"}/>
-                <RedirectBox img={award2} title1={"Izmir 2021"} title2={"Winner"} link={"/achievements"}/>
+                <RedirectBox img={award1} title1={"Bosphorus 2022"} title2={"Winner"} link={"componentId4"}/>
+                <RedirectBox img={award3} title1={"JF Biology 2023"} title2={"1st Place"} link={"componentId0"}/>
+                <RedirectBox img={award2} title1={"Izmir 2021"} title2={"Winner"} link={"componentId8"}/>
             </div>
             <div className='team-title-holder'>
                 <h1 className='team-title'> {getTranslation("home-section-partners") } </h1>

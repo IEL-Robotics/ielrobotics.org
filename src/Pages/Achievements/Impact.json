@@ -1,5 +1,6 @@
 [
     {
+        "id":300,
         "titles": ["TAI Briefing","TUSAŞ Söyleşisi", "TAI Almanası neyse işte"],
         "descriptions": [
         "On June 1st, with the help of TAI, we gave presentations and briefings throughout our school, explaining the importance and functioning of the defense industry to young engineer minds. We helped nearly 50 students (or students of our school) shape the path ahead of them with our information on both Internship and Career development programs and high-level project procedures.",
@@ -24,6 +25,7 @@
         ]
     },
     {
+        "id":301,
         "titles": ["Leukaemia", "Lösemi", "Leukämie"],
         "descriptions": [
         "As IELROBOTICS; in this project, which we did to show that we are with our brothers and sisters with leukaemia and to make people hear our voice together with the existing volunteers, we left colorful handprints on a white fabric our signature under it. We combined all the fabrics we received and organised a walk for children with leukaemia. Thanks to this project, which is both low-cost and easy for everyone to get involved in, we included a lot of people in the LÖSEV family and delivered this fabric to LÖSANTE hospital to exhibit the meaning of the project.",
@@ -36,6 +38,7 @@
         ]
     },
     {
+        "id":302,
         "titles": ["STEP Project", "STEP Projesi", "STEP Projekt"],
         "descriptions": [
         "In November 2022, thanks to our STEP project, we gave information on social sciences and positive sciences to the relevant secondary school students and showed them the fun face of science. In this project, which we organised in our school, our friends taught the students in the best way they could. From algorithm design to the properties of the planets, we organised our event free of charge.",
@@ -50,6 +53,7 @@
         ]
     },
     {
+        "id":304,
         "titles": ["Nature Disasters Magazine", "Doğal Afetler Dergisi", "Naturkatastophen Zeitschrift"],
         "descriptions": [
         "In 2022, we participated in the Sneaky Snakes Natural Disaster Project #7285, where they were turned into a magazine in 7 regions of our country and Azerbaijan and presented in classes. As IELROBOTICS, we have shown our support by writing an analysis for the Marmara region and translating two previous issues of the magazine into German. We are aware of the importance of drawing attention to disasters, which will occupy an important place on our agenda, especially as of 2023, and we are honored to be a part of this project.Thanks #7285!",

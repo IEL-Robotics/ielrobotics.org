@@ -1,9 +1,10 @@
 [
     {
+        "id":100,
         "titles": ["Jugendforscht 2023", "Jugendforscht 2023", "Jugendforscht 2023"],
         "descriptions": [
-        "In 2023, we participated in JugendForscht, Europe's largest youth science and technology competition with 6 teams. In the regional competition, we won 4 first prizes and 2 special jury awards. In the provincial finals, where our 4 teams competed in the second stage, one team won a special award in the technical branch and one team won the first prize in the biology branch. With their bioinformatics project, our first place team won the German finals in the biology category, as well as the special prize of the German Research Society. They are one of the three teams that will represent Germany at the EUCYS.",
-        "2023 yılında 6 takımla Avrupa'nın en büyük gençlik bilim ve teknoloji yarışması olan JugendForscht’a katılım gösterdik. Bölgesel yarışmada 4 tane birincilik ödülünün yanında 2 tane de jüri özel ödülü kazandık. İkinci aşamaya geçen 4 takımımızın yarıştığı eyalet finallerinde teknik dalında bir özel ödül alırken biyoloji dalında bir takımımız ise birinci oldu. Birinci olan takımımız biyoenformetik projeleriyle 1 ay sonraki Almanya finallerinde biyoloji dalında Almanya birincisi olmanın yanında Alman Araştırma Cemiyeti’nin özel ödülünü de kazandı. Böylece Almanya’yı EUCYS’de temsil edecek üç takımdan bir oldular.",
+        "In 2023, we participated in JugendForscht, Europe's largest youth science and technology competition with 6 teams. In the regional competition, we won 4 first prizes and 2 special jury awards. In the provincial finals, where our 4 teams competed in the second stage, one team won a special award in the technical branch and one team won the first prize in the biology branch. With their bioinformatics project, our first place team won the German finals in the biology category, as well as the special prize of DFG. They became one of the three teams that will represent Germany at the EUCYS.",
+        "2023 yılında 6 takımla Avrupa'nın en büyük gençlik bilim ve teknoloji yarışması olan JugendForscht’a katılım gösterdik. Bölgesel yarışmada 4 tane birincilik ödülünün yanında 2 tane de jüri özel ödülü kazandık. İkinci aşamaya geçen 4 takımımızın yarıştığı eyalet finallerinde teknik dalında bir özel ödül alırken biyoloji dalında bir takımımız ise birinci oldu. Birinci olan takımımız biyoenformetik projeleriyle 1 ay sonraki Almanya finallerinde biyoloji dalında Almanya birincisi olmanın yanında DFG’nin özel ödülünü de kazandı. Böylece Almanya’yı EUCYS’de temsil edecek üç takımdan bir oldular.",
         "Im Jahr 2023 nahmen wir mit 6 Teams an JugendForscht teil. Beim Regionalwettbewerb haben wir 4 erste Preise und 2 Sonderpreise der Jury gewonnen. Beim Landesfinale, an dem unsere 4 Teams in der zweiten Phase teilnahmen, gewann ein Team einen Sonderpreis im technischen Bereich und ein Team den ersten Preis im Bereich Biologie. Unsere Erstplatzierten gewannen mit ihrem Bioinformatik-Projekt das Deutschlandfinale in der Kategorie Biologie sowie den Sonderpreis der Deutschen Forschungsgemeinschaft. Damit sind sie eines der drei Teams, die Deutschland bei den EUCYS vertreten werden."
         ],
         "images": [
@@ -16,6 +17,7 @@
         ]
     },
     {
+        "id":101,
         "titles": ["FRC 2023", "FRC 2023", "FRC 2023"],
         "descriptions": [
         "During the FRC 2023 'Charged Up' season, we competed in two Regionals, Bosphorus (March 27-29) and Haliç (March 31-April 2), held at the Volkswagen Arena. In the Haliç Regional, we ranked 22nd out of 52 teams in the qualifying matches. Thus, we joined the 7th alliance, which was formed by #8079 River Robotics and #7576 FMWill, and competed in the quarterfinal matches.",
@@ -33,6 +35,7 @@
         ]
     },
     {
+        "id":102,
         "titles": ["Teknofest 2022", "Teknofest 2022", "Teknofest 2022"],
         "descriptions": [
         "We submitted two projects to Teknofest 2022, in the categories of biotechnology and technologies for the benefit of humanity. Both of our projects made it to the finals among a total of 424 projects that applied in these categories. We had the opportunity to present the biochip we produced in the biotechnology category in Trabzon on August 5-7, and our autonomous cargo drone we built in the Technology for the Benefit of Humanity Competition in Rize on August 12-14",
@@ -45,6 +48,7 @@
         ]
     },
     {
+        "id":103,
         "titles": ["Urfa MEB Robot", "Urfa MEB Robot", "Urfa MEB Robot"],
         "descriptions": [
         "In June of 2022, we participated in the 14th Ministry of National Education Robot Competition held in Urfa, Turkey, competing in various categories. With our project titled 'Multitherapy', we secured fourth place in the 'Free Project' category.",
@@ -59,6 +63,7 @@
         ]
     },
     {
+        "id":104,
         "titles": ["FRC 2022", "FRC 2022", "FRC 2022"],
         "descriptions": [
         "In the Bosphorus Regional held at the Volkswagen Arena between 17-20 March within the scope of the 'Rapid React' season, together with #7285 Sneaky Snakes and #6838 X-Sharc, with whom we formed an alliance after the qualifying rounds, we passed the final rounds one by one and took the victory rope. Thanks to this success, we were entitled to compete in the 'FIRST Championship', which means, the FRC World Finals, which will be held in Houston Texas between 20-23 April. Unfortunately, we could not experience this feeling due to bureaucratic problems and delayed visas.",
@@ -77,6 +82,7 @@
         ]
     },
     {
+        "id":105,
         "titles": ["Riders.ai", "Riders.ai", "Riders.ai"],
         "descriptions": [
         "In the year 2022, at Riders.ai, Turkey's first online robotics competition, we secured the top position in two categories: 'Line Follower' and 'Industrial Robot', while achieving third place in the 'Drone Racing' category, ultimately claiming the overall championship. As a reward, we earned a $1000 Amazon gift voucher.",
@@ -90,11 +96,12 @@
         ]
     },
     {
+        "id":106,
         "titles": ["BL4S", "BL4S", "BL4S"],
         "descriptions": [
         "'Beamline for Schools' is a competition, organized by CERN, the European Center for Nuclear Research, encourages high school students from all over the world to build their own particle physics experimental setups to learn particle physics, engineering and technological knowledge. In this competition, which we participated in 2022 under the name of 'IEL Physics', we qualified as one of the 24 teams that made it to the finals (shortlist) among 304 teams with our experimental setup named 'Comparison of Møller Scattering and Electron-Muon Scattering' based on the contact of electron and muon particles with metals.",
         "Avrupa Nükleer Araştırma Merkezi CERN tarafından organize edilen 'Beamline for Schools' yarışması, dünyanın her yerinden lise öğrencilerine kendi parçacık fiziği deney düzeneklerini kurdurarak onları parçacık fiziği, mühendislik ve teknolojik bilgilerin öğrenmelerine teşvik eder. Biz de “İEL Physics” adıyla 2022 yılında katıldığımız bu yarışmada elektron ve muon parçacıklarının metallerle temasını temel alan “Comparison of Møller Scattering and Electron-Muon Scattering” isimli deney düzeneğimizle 304 takım arasından finallere çıkan 24 takımdan biri olmaya hak kazandık.",
-        "Dieser vom Europäischen Kernforschungszentrum CERN organisierte Wettbewerb 'Beamline for Schools' ermutigt Schüler*innen aus der ganzen Welt, ihre eigenen Versuchsaufbauten für die Teilchenphysik zu bauen, um Teilchenphysik, Ingenieurwesen und technologisches Wissen zu erlernen. Bei diesem Wettbewerb, an dem wir 2022 unter dem Namen 'IEL Physics' teilgenommen haben, waren wir eines der 24 Teams, die es unter 304 Teams mit unserem Versuchsaufbau namens 'Comparison of Møller Scattering and Electron-Muon Scattering', der auf dem Kontakt von Elektronen- und Myonen-Teilchen mit Metallen beruht, ins Finale geschafft haben."
+        "Dieser vom CERN organisierte Wettbewerb 'Beamline for Schools' ermutigt Schüler*innen aus der ganzen Welt, ihre eigenen Versuchsaufbauten für die Teilchenphysik zu bauen, um Teilchenphysik zu erlernen. Bei diesem Wettbewerb, an dem wir 2022 unter dem Namen 'IEL Physics' teilgenommen haben, waren wir eines der 24 Teams, die es unter 304 Teams mit unserem Versuchsaufbau namens 'Comparison of Møller Scattering and Electron-Muon Scattering', der auf dem Kontakt von Elektronen- und Myonen-Teilchen mit Metallen beruht, ins Finale geschafft haben."
         ],
         "images": [
             "/OtherImages/AchiImages/BL4S/bl4s1.webp",
@@ -103,6 +110,7 @@
         ]
     },
     {
+        "id":107,
         "titles": ["Daniel Düsentrieb", "Daniel Düsentrieb", "Daniel Düsentrieb"],
         "descriptions": [
         "The Hamburg Daniel Düsentrieb Competition, organized by Hamburger Behörde für Schule und Berufsbildung (BSB), den Verein Deutscher Ingenieure e.V. (VDI e.V.) - Landesverband Hamburg and die Technische Universität Hamburg (TUHH), ,s a STEM competition aims to find solutions to different problems every year. In 2021, as İstanbul Erkek Lisesi Robotics Club, we participated in the competition and won the 1st place prize in the SKS1 category.",
@@ -116,6 +124,7 @@
         ]
     },
     {
+        "id":108,
         "titles": ["Izmir Off-Season 2021", "İzmir Off-Season 2021", "Izmir Off-Season 2021"],
         "descriptions": [
         "After the 2020 Off-Season and 2021 Regionals, which couldn't be organized due to the global pandemic, Izmir was a little bit like the skipped Off-Season from last years' 'Infinite Recharge' season. from October 15th to 17th, all the teams worked hard to win in the previous year's game. But in the end, we and our alliance partners #7285 Sneaky Snakes and #6838 X-Sharc emerged victorious. This success was very joyful and motivating for us, who had competed in just one Regional at the time.",
@@ -131,6 +140,7 @@
         ]
     },
     {
+        "id":109,
         "titles": ["FRC 2020", "FRC 2020", "FRC 2020"],
         "descriptions": [
         "FRC 2020 Istanbul Regional was the first big organization we participated in as a whole club under the name of IEL Robotics. After a 2-month intensive robot building season, we represented our school as one of 53 teams from 6 countries at Ülker Sports and Event Hall on March 5-8, 2020. In this competition, we had the opportunity to learn the technical details of robots, as well as gain invaluable experience in organization and teamwork, and we had the opportunity to improve our team with the experiences we gained.",
@@ -145,6 +155,7 @@
         ]
     },
     {
+        "id":110,
         "titles": ["Space Apps 2019", "Space Apps 2019", "Space Apps 2019"],
         "descriptions": [
         "NASA Space Apps Challange, organized by NASA every year since 2012, is a global hackathon organized to reach the minds that combine creativity with talent in the field of space technologies. In 2019, as Istanbul Erkek Lisesi Robotics Club, we participated in the Ankara branch of this competition organized by ODTÜ with a team of 6 people on October 19-21 with 549 applicants. We learned space and air technologies in depth and had an exciting experience.",
@@ -158,6 +169,7 @@
         ]
     },
     {
+        "id":111,
         "titles": ["Jugendforscht 2017","Jugendforscht 2017", "Jugendforscht 2017"],
         "descriptions": [
         "Within the scope of Jugend Forscht, Europe's largest science and technology competition held in Germany, the t-shirt named ‘POSTURIZE’, developed by our club members to correct posture disorders, won the first place in the Regionalwettbewerb (regional competition) held in the German state of Thuringia in 2017 and qualified for the second stage. Our team won the second stage of the competition, the Landeswettbewerb (state competition), and won the right to represent our club and school at the Bundeswettbewerb (national competition) in May 2017.",

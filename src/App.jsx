@@ -21,19 +21,15 @@ function App() {
 
   const scrollRef = useRef(null);
 
-  // const handleScroll = () => {
-  //   scrollRef.current.scrollIntoView({
-  //     behavior: 'smooth',
-
-  //   });
-  // };
-
   const handleScroll = () => {
+    let wi = window.innerWidth
+    let scrollConstant = 14 - (0.01 * wi) + (0.000002075 * wi * wi); //little bir of curve fitting
+    if(wi > 2500){ scrollConstant = 1.5;}
     scrollIntoView(scrollRef.current, {
       time: 1750,
       align: {
         top: 0,
-        topOffset: window.innerWidth > 700 ? 10 : 50
+        topOffset: window.innerWidth > 700 ? ((scrollConstant * wi) / 100) : 60
       }
     })
   }
