@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'UniSans';
-    src: url('../../Media/Fonts/uni-sans.heavy-italic-caps.woff2') format('woff2')
+    src: url('/Docs/uni-sans.heavy-italic-caps.ttf')
 }
 
 .redirect-box-container {
