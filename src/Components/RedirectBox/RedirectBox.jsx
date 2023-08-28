@@ -11,7 +11,7 @@ export const RedirectBox = (Props) => {
     const link = Props.link;
 
     useEffect(() => {
-         console.log(link.includes("https"))
+         //console.log(link.includes("https"))
     }, [])
 
     if(link.includes("https") === false){

@@ -18,7 +18,7 @@ export const Navbar = ({ handleScroll }) => {
         const nextIndex = (currentIndex + 1) % languages.length;
         setCurrentLanguage(languages[nextIndex]);
         handleLanguageChange(languages[nextIndex]);
-        console.log(language);
+        //console.log(language);
     };
 
     const navigate = useNavigate();

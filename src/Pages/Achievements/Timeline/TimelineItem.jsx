@@ -20,9 +20,9 @@ export const TimelineItem = ({ data, scrollToItem }) => {
   const { language, getTranslation } = useContext(LanguageContext);
 
   const handleClick = () => {
-    console.log("NİYE LA");
+    //console.log("NİYE LA");
     scrollToItem(itemRef.current);
-    console.log("IN THE TIMELINE LAN: ", language);
+    //console.log("IN THE TIMELINE LAN: ", language);
   };
 
   const images = data.images;
