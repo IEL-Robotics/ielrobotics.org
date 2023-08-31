@@ -1,6 +1,7 @@
 import '../ContentBox/ContentBox.css'
 
 import { useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import LanguageContext from '../../Context/LanguageContext';
 
@@ -18,6 +19,20 @@ export const ContentBox = (Props) => {
 
     const { language, getTranslation } = useContext(LanguageContext);
 
+    const navigate = useNavigate();
+
+    const handleNavigation = () => {
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 0);
+    };
+
+    const handleClick = (loc) => {
+        handleNavigation();
+        navigate(loc);
+        closeAfterUsed();
+    };
+
     if(type === 0){
         return (
         <div className="content-holder-yellow">
@@ -29,9 +44,10 @@ export const ContentBox = (Props) => {
                 {getTranslation(boxContent)}
                 <button className="redirect-button">
                     <a draggable="true"
-                        href={link}
+                        // href={link}
                         target="_blank"
-                        rel="noopener noreferrer">
+                        rel="noopener noreferrer"
+                        onClick={() => handleClick(link)}>
                         &gt; {getTranslation("more")}
                     </a>
                 </button>
@@ -47,9 +63,10 @@ export const ContentBox = (Props) => {
                 {getTranslation(boxContent)}
                 <button className="redirect-button">
                     <a draggable="true"
-                        href={link}
+                        // href={link}
                         target="_blank"
-                        rel="noopener noreferrer">
+                        rel="noopener noreferrer"
+                        onClick={() => handleClick(link)}>
                         &gt; {getTranslation("more")}
                     </a>
                 </button>

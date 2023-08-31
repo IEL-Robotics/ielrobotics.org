@@ -3,6 +3,7 @@ import { useContext } from 'react';
 
 import LanguageContext from '../../Context/LanguageContext';
 import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const RedirectBox = (Props) => {
     const imgSrc = Props.img;
@@ -14,9 +15,11 @@ export const RedirectBox = (Props) => {
          //console.log(link.includes("https"))
     }, [])
 
+    const navigate = useNavigate(); // href={`/achievements?scrollToComponentId=${link}`} 
+
     if(link.includes("https") === false){
         return (
-            <a href={`/achievements?scrollToComponentId=${link}`} rel="noopener noreferrer">
+            <a onClick={() => navigate(`/achievements?scrollToComponentId=${link}`)} rel="noopener noreferrer">
             <div className='redirect-box-container'>
                 <img className='redirect-image' src={imgSrc} alt="Redirect Image" />
                 <p className='redirect-image-text'>{titleSecond}</p>
