@@ -1,0 +1,9 @@
+User-agent: *
+
+Allow: /
+Allow: /news
+Allow: /sponsors
+Allow: /achievements
+Allow: /team
+
+Sitemap: https://www.ielrobotics.org/sitemap.xml

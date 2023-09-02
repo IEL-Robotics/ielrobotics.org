@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.ielrobotics.org/</loc>
+        <lastmod>2023-09-02T14:06:10+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.ielrobotics.org/news</loc>
+        <lastmod>2023-09-02T14:06:10+01:00</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://www.ielrobotics.org/team</loc>
+        <lastmod>2023-09-02T14:06:10+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.ielrobotics.org/sponsors</loc>
+        <lastmod>2023-09-02T14:06:10+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.ielrobotics.org/achievements</loc>
+        <lastmod>2023-09-02T14:06:10+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+</urlset>
