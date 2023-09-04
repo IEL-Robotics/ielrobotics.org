@@ -63,7 +63,7 @@ export const Navbar = ({ handleScroll }) => {
                         </li>
                         <li className="list-item">
                             <Link to='/sponsors' onClick={handleNavigation}>
-                                {getTranslation("ssponsors")}
+                                {getTranslation("sponsor")}
                             </Link>
                         </li>
                         <li className="list-item">
