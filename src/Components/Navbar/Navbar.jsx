@@ -52,27 +52,32 @@ export const Navbar = ({ handleScroll }) => {
                 <div className="menu" id="menu">
                     <ul className="list">
                         <li className="list-item">
-                            <a onClick={() => handleClick2("/")}>
+                            <a onClick={() => handleNavigation()} href='/'>
                                 {getTranslation("home")}
                             </a>
                         </li>
                         <li className="list-item">
-                            <a onClick={() => handleClick2("/news")}>
+                            <a onClick={() => handleNavigation()} href='/news'>
                                 {getTranslation("news")}
                             </a>
                         </li>
                         <li className="list-item">
+                            {/* <a onClick={() => handleNavigation()} href='/sponsors'> */}
                             <a onClick={() => handleClick2("/sponsors")}>
                                 {getTranslation("sponsor")}
                             </a>
                         </li>
                         <li className="list-item">
-                            <a onClick={() => handleClick2("/achievements")}>
+                            {/* <a onClick={() => handleNavigation()} href='/achievements'>
                                 {getTranslation("success")}
-                            </a>
+                            </a> */}
+                            <Link to='/achievements' onClick={handleNavigation}>
+                                {getTranslation("success")}
+                                A
+                            </Link>
                         </li>
                         <li className="list-item">
-                            <a onClick={() => handleClick2("/team")}>
+                            <a onClick={() => handleNavigation()} href='/team'>
                                 {getTranslation("team")}
                             </a>
                         </li>

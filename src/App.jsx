@@ -29,7 +29,7 @@ function App() {
       time: 1750,
       align: {
         top: 0,
-        topOffset: window.innerWidth > 700 ? ((scrollConstant * wi) / 100) : 60
+        topOffset: window.innerWidth > 700 ? ((scrollConstant * wi - 2500) / 100) : 60
       }
     })
   }
