@@ -1,7 +1,7 @@
 import '../ContentBox/ContentBox.css'
 
 import { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 import LanguageContext from '../../Context/LanguageContext';
 
@@ -43,13 +43,13 @@ export const ContentBox = (Props) => {
                 <h1 className='content-box-title'> {getTranslation(boxTitle)} </h1>
                 {getTranslation(boxContent)}
                 <button className="redirect-button">
-                    <a draggable="true"
-                        // href={link}
+                    <Link draggable="true"
+                        to={link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => handleClick(link)}>
+                        onClick={() => handleNavigation()}>
                         &gt; {getTranslation("more")}
-                    </a>
+                    </Link>
                 </button>
             </div>
         </div>

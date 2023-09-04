@@ -52,34 +52,29 @@ export const Navbar = ({ handleScroll }) => {
                 <div className="menu" id="menu">
                     <ul className="list">
                         <li className="list-item">
-                            <a onClick={() => handleNavigation()} href='/'>
+                            <Link to='/' onClick={handleNavigation}>
                                 {getTranslation("home")}
-                            </a>
-                        </li>
-                        <li className="list-item">
-                            <a onClick={() => handleNavigation()} href='/news'>
-                                {getTranslation("news")}
-                            </a>
-                        </li>
-                        <li className="list-item">
-                            {/* <a onClick={() => handleNavigation()} href='/sponsors'> */}
-                            <a onClick={() => handleClick2("/sponsors")}>
-                                {getTranslation("sponsor")}
-                            </a>
-                        </li>
-                        <li className="list-item">
-                            {/* <a onClick={() => handleNavigation()} href='/achievements'>
-                                {getTranslation("success")}
-                            </a> */}
-                            <Link to='/achievements' onClick={handleNavigation}>
-                                {getTranslation("success")}
-                                A
                             </Link>
                         </li>
                         <li className="list-item">
-                            <a onClick={() => handleNavigation()} href='/team'>
+                            <Link to='/news' onClick={handleNavigation}>
+                                {getTranslation("news")}
+                            </Link>
+                        </li>
+                        <li className="list-item">
+                            <Link to='/sponsors' onClick={handleNavigation}>
+                                {getTranslation("ssponsors")}
+                            </Link>
+                        </li>
+                        <li className="list-item">
+                            <Link to='/achievements' onClick={handleNavigation}>
+                                {getTranslation("success")}
+                            </Link>
+                        </li>
+                        <li className="list-item">
+                            <Link to='/team' onClick={handleNavigation}>
                                 {getTranslation("team")}
-                            </a>
+                            </Link>
                         </li>
                         <li className="list-item">
                             <Link onClick={contactClicked}>
