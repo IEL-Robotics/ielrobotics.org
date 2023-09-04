@@ -43,7 +43,7 @@ export const TimelineItem = ({ data, scrollToItem }) => {
           <Slider {...settings}>
             {images.map((event_image, index) => (
               <div key={index}>
-                <img src={event_image} style={{ width: '100%', marginBottom: '5px', zIndex: '9999' }} alt="" />
+                <img src={event_image} style={{ width: '100%', marginBottom: '5px', zIndex: '9999' }} alt="timg" />
               </div>
             ))}
           </Slider>

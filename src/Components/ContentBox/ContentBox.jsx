@@ -1,7 +1,7 @@
 import '../ContentBox/ContentBox.css'
 
 import { useContext } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import LanguageContext from '../../Context/LanguageContext';
 
@@ -37,19 +37,22 @@ export const ContentBox = (Props) => {
         return (
         <div className="content-holder-yellow">
             <div className="image-container">
-                <img src={imageAdress} className="image"/>
+                <img src={imageAdress} className="image" alt='content-img'/>
             </div>
             <div className="text-content">
                 <h1 className='content-box-title'> {getTranslation(boxTitle)} </h1>
                 {getTranslation(boxContent)}
                 <button className="redirect-button">
-                    <Link draggable="true"
-                        to={link}
-                        target="_blank"
+                {
+                    link.includes("https") ? (<a draggable="true"
+                        href={link}
+                        target='_blank'
                         rel="noopener noreferrer"
                         onClick={() => handleNavigation()}>
                         &gt; {getTranslation("more")}
-                    </Link>
+                        </a>) : (<Link to={link} onClick={handleNavigation}> 
+                        &gt; {getTranslation("more")} </Link>)
+                }
                 </button>
             </div>
         </div>
@@ -62,17 +65,20 @@ export const ContentBox = (Props) => {
                 <h1 className='content-box-title'> {getTranslation(boxTitle)} </h1>
                 {getTranslation(boxContent)}
                 <button className="redirect-button">
-                    <a draggable="true"
-                        // href={link}
-                        target="_blank"
+                {
+                    link.includes("https") ? (<a draggable="true"
+                        href={link}
+                        target='_blank'
                         rel="noopener noreferrer"
-                        onClick={() => handleClick(link)}>
+                        onClick={() => handleNavigation()}>
                         &gt; {getTranslation("more")}
-                    </a>
+                        </a>) : (<Link to={link} onClick={handleNavigation}> 
+                        &gt; {getTranslation("more")} </Link>)
+                }
                 </button>
             </div>
             <div className="image-container">
-                <img src={imageAdress} className="image"/>
+                <img src={imageAdress} className="image" alt='content-img'/>
             </div>
         </div>
     )

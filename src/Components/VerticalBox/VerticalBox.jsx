@@ -18,8 +18,8 @@ export const VerticalBox = (Props) => {
     return (
         <div className="vertical-holder">
             <div className="vertical-image-container">
-                <img src={imageAdress2} className='vertical-image-front'/>
-                <img src={imageAdress} className="vertical-image-back" />
+                <img src={imageAdress2} className='vertical-image-front' alt='verticalimg'/>
+                <img src={imageAdress} className="vertical-image-back" alt='verticalimg'/>
             </div>
                 
                 

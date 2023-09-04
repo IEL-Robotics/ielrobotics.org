@@ -18,7 +18,7 @@ export const TheImage = (props) => {
                 <p> {props.text} </p>
                 <img 
                     src={imageLoaded ? props.source : placeholder} 
-                    alt="" 
+                    alt="theimg" 
                     onLoad={handleImageLoad}
                 />
             </div>

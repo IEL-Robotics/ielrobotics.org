@@ -57,7 +57,7 @@ export const NewTimelineItem = ({ data, scrollToItem, lan}) => {
                                     className='slider-image' 
                                     src={imageLoaded? event_image : placeholder} 
                                     style={{ width: '100%', zIndex: '9999' }} 
-                                    alt="" 
+                                    alt="ntimg" 
                                     onLoad={handleImageLoad}
                                 />
                             </div>

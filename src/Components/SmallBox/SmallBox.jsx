@@ -74,6 +74,7 @@ export const SmallBox = (Props) => {
                         src={imageLoaded ? profilePic: placeholder} 
                         id="smallbox-pic" 
                         className="smallbox-image"
+                        alt='smallbox-image'
                         onLoad={handleImageLoad}
                     />
                 </a>
