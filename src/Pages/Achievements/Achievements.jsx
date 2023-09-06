@@ -50,6 +50,7 @@ export const Achievements = () => {
         <div className="AchievementsPage" style={{marginTop: "5rem"}}> 
             <Helmet>
                 <title> {getTranslation("helmet-achi")} </title>
+                <link rel="shortcut icon" href="morsari-01.ico" type="image/x-icon"/>
                 <meta name="description" content="Here's what we have achieved in all types of competetions over the years"/>
                 <link rel="canonical" href="https://www.ielrobotics.org/achievements"/>
                 <meta name="robots" content="index, follow"/>

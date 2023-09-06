@@ -39,9 +39,10 @@ export const Team = () => {
         <div className="TeamPage" style={{ marginTop: "5rem" }}>
             <Helmet>
                 <title> {getTranslation("helmet-team")} </title>
+                <link rel="shortcut icon" href="morsari-01.ico" type="image/x-icon"/>
                 <meta name="description" content="Our wonderful team where every single individual is important
                 and works together in harmony"/>
-                <link rel="canonical" href="https://www.ielrobotics.org/achievements"/>
+                <link rel="canonical" href="https://www.ielrobotics.org/team"/>
                 <meta name="robots" content="index, follow"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <meta charset="UTF-8"/>

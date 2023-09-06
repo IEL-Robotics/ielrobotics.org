@@ -54,10 +54,10 @@ export const Home = () => {
         <div className="HomePage" style={{marginTop: "5rem"}}>
             <Helmet>
                 <title> {getTranslation("helmet-home")}</title>
+                <link rel="shortcut icon" href="morsari-01.ico" type="image/x-icon"/>
                 <meta name="description" content="Take a look at the renewed website of IEL Robotics #8058.
-                We are a student club dedicated to creating new innovations and compete at the highest level. 
-                Especially on worldwide prestigious competetions such as FIRST Robotics Competetion, JugendForscht and Teknofest."/>
-                <link rel="canonical" href="https://www.ielrobotics.org/achievements"/>
+                We are a student club dedicated to creating new innovations and compete at the highest level."/>
+                <link rel="canonical" href="https://www.ielrobotics.org"/>
                 <meta name="robots" content="index, follow"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <meta charset="UTF-8"/>

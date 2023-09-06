@@ -1,12 +1,12 @@
-// LanguageProvider.js
+
 import React, { useState } from 'react';
 import LanguageContext from './Context/LanguageContext';
-import en from './Languages/en.json'; // Import your language files
+import en from './Languages/en.json';
 import tr from './Languages/tr.json';
 import de from './Languages/de.json';
 
 const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('en'); // Default language
+  const [language, setLanguage] = useState('en');
 
   const handleLanguageChange = (selectedLanguage) => {
     setLanguage(selectedLanguage);
@@ -19,7 +19,7 @@ const LanguageProvider = ({ children }) => {
       de
     };
 
-    return translations[language][key] || key; // Return the translated value or the key itself
+    return translations[language][key] || key;
   };
 
   return (
