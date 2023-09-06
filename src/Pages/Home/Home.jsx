@@ -54,6 +54,14 @@ export const Home = () => {
         <div className="HomePage" style={{marginTop: "5rem"}}>
             <Helmet>
                 <title> {getTranslation("helmet-home")}</title>
+                <meta name="description" content="Take a look at the renewed website of IEL Robotics #8058.
+                We are a student club dedicated to creating new innovations and compete at the highest level. 
+                Especially on worldwide prestigious competetions such as FIRST Robotics Competetion, JugendForscht and Teknofest."/>
+                <link rel="canonical" href="https://www.ielrobotics.org/achievements"/>
+                <meta name="robots" content="index, follow"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta charset="UTF-8"/>
+                <meta name="author" content="contact@ielrobotics.org"/>
             </Helmet>
             <TheImage source={home_image} text={getTranslation("home-slogan")}/>
             <div className='team-title-holder'>

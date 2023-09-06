@@ -14,6 +14,12 @@ export const News = () => {
         <div className="NewsPage" style={{marginTop: "5rem"}}> 
             <Helmet>
                 <title> {getTranslation("helmet-news")} </title>
+                <meta name="description" content="Do not miss a single thing happening. There's a lot going on here :)"/>
+                <link rel="canonical" href="https://www.ielrobotics.org/achievements"/>
+                <meta name="robots" content="index, follow"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta charset="UTF-8"/>
+                <meta name="author" content="contact@ielrobotics.org"/>
             </Helmet>
             <TheImage source={news_image} text={getTranslation("news-slogan")}/>
             <div className="oopsie">
