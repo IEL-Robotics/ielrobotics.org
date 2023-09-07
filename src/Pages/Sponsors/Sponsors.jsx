@@ -28,7 +28,6 @@ export const Sponsors = () => {
         <div className="SponsorPage" style={{marginTop: "5rem"}}> 
             <Helmet>
                 <title> {getTranslation("helmet-sponsor")} </title>
-                <link rel="shortcut icon" href="morsari-01.ico" type="image/x-icon"/>
                 <meta name="description" content="Meet the people who support innovation, technology and young fresh talents
                 in the field of STEM"/>
                 <link rel="canonical" href="https://www.ielrobotics.org/sponsors"/>

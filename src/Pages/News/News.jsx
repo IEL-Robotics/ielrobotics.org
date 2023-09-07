@@ -14,7 +14,6 @@ export const News = () => {
         <div className="NewsPage" style={{marginTop: "5rem"}}> 
             <Helmet>
                 <title> {getTranslation("helmet-news")} </title>
-                <link rel="shortcut icon" href="morsari-01.ico" type="image/x-icon"/>
                 <meta name="description" content="Do not miss a single thing happening. There's a lot going on here :)"/>
                 <link rel="canonical" href="https://www.ielrobotics.org/news"/>
                 <meta name="robots" content="index, follow"/>
