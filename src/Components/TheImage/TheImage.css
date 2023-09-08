@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "UniSans";
+  font-family: 'UniSans';
   src: url('/Docs/uni-sans.heavy-italic-caps-subset.woff2') format('woff2'), local('Impact');
   font-display: swap;
 }
@@ -35,7 +35,7 @@
   z-index: 1;
   color: white;
   text-align: center;
-  font-family: 'UniSans', sans-serif;
+  font-family: 'UniSans', 'Impact', sans-serif;
   /* font-family: 'Barlow', sans-serif; */
   text-shadow: 0.4vw 0.6vw 0.7vw rgba(0, 0, 0, 0.85);
   font-size: 13.5vw;

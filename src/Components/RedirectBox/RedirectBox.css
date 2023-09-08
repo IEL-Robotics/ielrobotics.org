@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "UniSans";
-  src: url('/Docs/uni-sans.heavy-italic-caps-subset.woff2') format('woff2'), local('Impact');
-  font-display: swap;
-}
-
 .redirect-box-container {
     position: relative; /* Ensure the parent container acts as the positioning reference */
     display: flex;
@@ -51,7 +45,7 @@
     font-size: 2rem;
     /* visibility: visible; */
     opacity: 1;
-    font-family: 'UniSans', sans-serif;
+    font-family: 'UniSans', Impact, sans-serif;
     text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.85);
     font-size: 5rem;
     overflow: hidden;
