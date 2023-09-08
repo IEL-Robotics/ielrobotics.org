@@ -1,63 +1,7 @@
-.HomePage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+.HomePage {display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.home-comp-holder {display: grid;grid-template-columns: 100%;margin: 30px 25px 30px 25px;padding: 1%;column-gap: 25px;row-gap: 25px;}
+.temp-holder {width: 90vw;margin: 15px 25px 15px 25px;row-gap: 10px;display: grid;grid-template-columns: 100%;justify-content: center;padding: 1%;}
 
-.home-comp-holder {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(calc(50% - 20px), 1fr));
-    margin: 25px 30px 25px 30px;
-    padding: 1%;
-    column-gap: 25px;
-    row-gap: 25px;
-}
-
-
-.temp-holder {
-    margin: 10px 30px 10px 30px;
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    column-gap: 1%;
-    justify-content: center;
-    padding: 1%;
-}
-
- 
-@media screen and (max-width: 700px) {
-    .home-comp-holder {
-        grid-template-columns: 100%;
-        margin: 30px 25px 30px 25px;
-    }
-
-    .temp-holder {
-        grid-template-columns: 100%;
-        width: 90vw;
-        margin: 15px 25px 15px 25px;
-        row-gap: 10px;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 1200px) {
-    
-}
-
-@media screen and (min-width: 1200px) {
-    .home-comp-holder {
-        grid-template-columns: repeat(auto-fit, minmax(calc(50% - 2vw), 1fr));
-        margin: 0vw 1vw 0vw 1vw;
-        padding: 2.5vw;
-        column-gap: 2.4vw;
-        row-gap: 2.4vw;
-    }
-
-    .temp-holder {
-        margin: 1vw 3vw 1vw 3vw;
-        /* column-gap: 0vw; */
-        column-gap: 1.25vw;
-        row-gap: 1.25vw;
-        width: 94vw;
-    }
-    
-}
+@media screen and (min-width: 700px) {
+.home-comp-holder {grid-template-columns: repeat(auto-fit, minmax(calc(50% - 2vw), 1fr));margin: 0vw 1vw 0vw 1vw;padding: 2.5vw;column-gap: 2.4vw;row-gap: 2.4vw;}
+.temp-holder {grid-template-columns: 33.3% 33.3% 33.3%;margin: 1vw 3vw 1vw 3vw;column-gap: 1.25vw;row-gap: 1.25vw;width: 94vw;}}

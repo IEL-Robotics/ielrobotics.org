@@ -1,7 +1,9 @@
 @font-face {
-  font-family: 'UniSans';
-  src: url('/Docs/uni-sans.heavy-italic-caps.ttf')
+  font-family: "UniSans";
+  src: url('/Docs/uni-sans.heavy-italic-caps-subset.woff2') format('woff2'), local('Impact');
+  font-display: swap;
 }
+
 * {
     box-sizing: border-box;
   }
