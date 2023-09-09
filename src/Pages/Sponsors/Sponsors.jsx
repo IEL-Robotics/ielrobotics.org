@@ -10,6 +10,7 @@ import { RedirectBox } from "../../Components/RedirectBox/RedirectBox";
 // import sponsor_image from '../../Media/Images/Sponsor.webp'
 import sponsor_image from '/OtherImages/FastLoadImg/Sponsors.webp'
 
+import boeing from '/OtherImages/FastLoadImg/boeing.webp'
 import birikim from '/OtherImages/FastLoadImg/birikim.webp'
 import bulutistan from '/OtherImages/FastLoadImg/bulutistan.webp'
 import ergin from '/OtherImages/FastLoadImg/ergin.webp'
@@ -42,6 +43,7 @@ export const Sponsors = () => {
             </div>
             <div className="temp-holder">
                 <RedirectBox img={ielev} title1={"IELEV"} title2={""} link={"https://www.ielev.k12.tr/"}/>
+                <RedirectBox img={boeing} title1={"Boeing"} title2={""} link={"https://www.boeing.com.tr"}/>
                 <RedirectBox img={birikim} title1={"Birikim"} title2={""} link={"https://birikimmuhendislik.com.tr"}/>
                 <RedirectBox img={bulutistan} title1={"Bulutistan"} title2={""} link={"https://bulutistan.com/"}/>
                 <RedirectBox img={ergin} title1={"Ergin Makine"} title2={""} link={"https://erginmakine.com.tr/"}/>

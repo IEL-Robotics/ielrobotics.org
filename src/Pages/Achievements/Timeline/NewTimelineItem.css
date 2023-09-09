@@ -55,11 +55,19 @@
     object-fit: cover;
 }
 
-.new-achieve-main-container:nth-child(even) .new-achieve-textbox {
+/* .new-achieve-main-container:nth-child(even) .new-achieve-textbox {
     order: -1;
 }
 
 .new-achieve-main-container:nth-child(even) .new-slideshow-container {
+    order: 1;
+} */
+
+.new-achieve-main-container.even .new-achieve-textbox {
+    order: -1;
+}
+
+.new-achieve-main-container.even .new-slideshow-container {
     order: 1;
 }
 

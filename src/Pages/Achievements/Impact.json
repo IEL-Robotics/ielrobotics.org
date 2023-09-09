@@ -1,7 +1,7 @@
 [
     {
-        "id":300,
-        "titles": ["TAI Briefing","TUSAŞ Söyleşisi", "TAI Almanası neyse işte"],
+        "id":299,
+        "titles": ["TAI Briefing","TUSAŞ Söyleşisi", "TAI Briefing"],
         "descriptions": [
         "On June 1st, with the help of TAI, we gave presentations and briefings throughout our school, explaining the importance and functioning of the defense industry to young engineer minds. We helped nearly 50 students (or students of our school) shape the path ahead of them with our information on both Internship and Career development programs and high-level project procedures.",
         "1 Haziran'da TUSAŞ'ın yardımıyla okulumuz çapında yaptığımız sunum ve bilgilendirmelerle genç mühendis zihinlere savunma sanayiinin önemini ve işleyişini anlattık. Hem Stajyerlik ve Kariyer geliştirme programları hem de üst düzey proje prosedürleri konusundaki bilgilendirmelerimizle 50'ye yakın öğrenciye (veya okulumuz öğrencilerine) önlerindeki yolu şekillendirmelerine yardımcı olduk.",
@@ -13,15 +13,18 @@
         ]
     },
     {
+        "id":300,
         "titles": ["Science Week", "Bilim Haftası", "Wissenschaftswoche"],
         "descriptions": [
-        "We organized an award-winning design competition during the Science Week held on January 16-18 within the scope of our school and surrounding high schools. We gave a beginner level electronic component set as a gift to the friend who drew the sample 3D model we gave to the participants in the shortest time using Fusion360. In this way, we offered an activity that will form the basis of engineering by providing 3D Design and robotics information to our new high school students.",
-        "Okulumuz ve çevre liseler kapsamında 16-18 Ocak tarihinde gerçekleştirilen Bilim Haftası'nda ödüllü bir tasarım yarışması düzenledik. Katılımcılara verdiğimiz örnek 3D modeli Fusion360 kullanarak en kısa sürede çizen arkadaşımıza başlangıç seviyesi elektronik komponent seti hediye ettik. Bu sayede liseye yeni geçen kardeşlerimize de 3D Tasarım ve robotik bilgileri vererek mühendisliğin temelini oluşturacak bir etkinlik sunmuş olduk.",
-        "Während der Wissenschaftswoche, die vom 16. bis 18. Januar in unserer Schule und den umliegenden Gymnasien stattfand, organisierten wir einen preisgekrönten Designwettbewerb. Wir schenkten dem Freund, der das 3D-Beispielmodell, das wir den Teilnehmern zur Verfügung stellten, in kürzester Zeit mit Fusion360 zeichnete, ein Set mit elektronischen Bauteilen für Anfänger. Auf diese Weise boten wir eine Aktivität an, die die Grundlage für das Ingenieurwesen bildet, indem wir unseren neuen Oberstufenschülern Informationen über 3D-Design und Robotik vermittelten."
+        "Since our establishment in 2019, our club has been one of the active groups within the context of the 'Istanbul Erkek Lisesi Science Days', a 3-day science adventure organized annually at our school. This event, open to high school students in Istanbul, has allowed us to contribute not only through various Arduino and robotics workshops, experiment setup exhibitions, and open robot driving trials but also in directing the interest of many individuals towards technology.",
+        "Kulübümüz, 2019 yılındaki kuruluşumuzdan beri okulumuzda her yıl düzenlenen 3 günlük bilim serüveni “İstanbul Erkek Lisesi Bilim Günleri” kapsamında aktif rol oynayan gruplardan biri olmuştur. İstanbul’daki lise öğrencilerinin katılımına açık olan bu etkinlik boyunca her yıl çeşitli Arduino ve robotik workshop’ları, deney düzeneği sergileri ve katılımcılara açık robot sürüş denemeleriyle etkinliğe katkı sağlamakla kalmayıp pek çok insanın ilgisini teknolojiye yönlendirmeye devam ediyoruz.",
+        "Seit unserer Gründung im Jahr 2019 ist unser Club eine der aktiven Gruppen im Rahmen der 'Istanbul Erkek Lisesi Science Days', einem jährlich an unserer Schule stattfindenden 3-tägigen Wissenschaftsveranstaltung. Dieses Event, das für Schülerinnen und Schüler weiterführender Schulen in Istanbul offen ist, hat es uns ermöglicht, nicht nur durch verschiedene Arduino- und Robotik-Workshops, Experimentaufbauten und offene Robotik-Fahrversuche beizutragen, sondern auch das Interesse vieler Personen an der Technologie zu lenken."
         ], 
         "images": [
-            "/ProfilePics/manzara.webp",
-            "/ProfilePics/manzara2.webp"
+            "/OtherImages/AchiImages/BILIM/b1.webp",
+            "/OtherImages/AchiImages/BILIM/b2.webp",
+            "/OtherImages/AchiImages/BILIM/b3.webp",
+            "/OtherImages/AchiImages/BILIM/b4.webp"
         ]
     },
     {
@@ -33,17 +36,68 @@
         "Als IELROBOTICS; in diesem Projekt, das wir durchgeführt haben, um zu zeigen, dass wir mit unseren Geschwistern mit Leukämie zusammen sind und um unsere Stimme gemeinsam mit den vorhandenen Freiwilligen hören zu lassen, haben wir bunte Handabdrücke und Unterschrifte auf einem weißen Stoff hinterlassen. Wir kombinierten alle Stoffe und organisierten einen Spaziergang für Kinder mit Leukämie. Durch dieses Projekt haben wir viele Menschen in die LÖSEV-Familie aufgenommen und diesen Stoff an das LÖSANTE-Krankenhaus geliefert, um die Bedeutung des Projekts zu demonstrieren."
         ], 
         "images": [
-            "/ProfilePics/manzara.webp",
-            "/ProfilePics/manzara2.webp"
+            "/OtherImages/AchiImages/SS/losev.webp"
         ]
     },
     {
         "id":302,
+        "titles": ["FIRST Inspires", "FIRST Inspires", "FIRST Inspires"],
+        "descriptions": [
+        "FIRST Inspires is a project and video series that we created during the challenging pandemic period with the goal of 'inspiring' people. In this video series we invited and interviewed experts in various fields, with a primary focus on technology and engineering. We had computer science and medical professors, CEOs, engineers, and a motorsport racer among our guests. Through these 13 videos, we had the opportunity to meet inspiring individuals, both for ourselves and for many people of our age. We shared their thoughts and experiences with approximately 1500 viewers through our YouTube channel.",
+        "FIRST Inspires, insanlara ulaşmanın oldukça zorlaştığı pandemi dönemi boyunca 'ilham olmak' amacıyla oluşturduğumuz bir proje ve video serisinin adıdır. Bu video serisi kapsamında teknoloji ve mühendislik başta gelmek üzere alnında uzman pek çok ismi videolarımıza davet ettik ve sorular yönelttik. İçerisinde bilgisayar bilimleri ve tıp profesörü, CEO’lar, mühendisler ve bir motor sporları yarışçısı ağırladığımız bu 13 videoda hem bize hem de bizim yaşımızdaki pek çok insana ilham olacak isimlerle tanıştık, bu kişilerin düşünce ve deneyimlerini YouTube kanalımız aracılığıyla yaklaşık 1500 kişiye ulaştırmış olduk.",
+        "FIRST Inspires ist ein Projekt und eine Videoserie, die wir während der herausfordernden Zeit der Pandemie mit dem Ziel der 'Inspiration' ins Leben gerufen haben. In dieser Videoserie haben wir Experten in verschiedenen Bereichen eingeladen und interviewt, wobei der Schwerpunkt auf Technologie und Ingenieurwesen lag. Zu unseren Gästen gehörten Informatik- und Medizinprofessoren, CEOs, Ingenieure und ein Motorsportrennfahrer. Durch diese 13 Videos hatten wir die Gelegenheit, inspirierende Persönlichkeiten kennenzulernen, sowohl für uns selbst als auch für viele Menschen in unserem Alter. Wir haben ihre Gedanken und Erfahrungen mit etwa 1500 Zuschauern über unseren YouTube-Kanal geteilt."
+        ], 
+        "images": [
+            "/OtherImages/AchiImages/INSPIRE/inspire2.webp",
+            "/OtherImages/AchiImages/INSPIRE/inspire1.webp",
+            "/OtherImages/AchiImages/INSPIRE/inspire3.webp"
+        ]
+    },
+    {
+        "id":303,
         "titles": ["STEP Project", "STEP Projesi", "STEP Projekt"],
         "descriptions": [
-        "In November 2022, thanks to our STEP project, we gave information on social sciences and positive sciences to the relevant secondary school students and showed them the fun face of science. In this project, which we organised in our school, our friends taught the students in the best way they could. From algorithm design to the properties of the planets, we organised our event free of charge.",
-        "2022 yılının kasım ayında gerçekleştirdiğimiz STEP projemiz sayesinde ilgili ortaokul ögrencilerine sosyal bilimler ve pozitif bilimler üzerine bilgi verip onlara bilimin eğlenceli yüzünü gösterdik. Okulumuzda organize ettiğimiz bu projede, arkadaşlarımız ögrencilere ellerinden gelen en iyi şekilde eğitim verdiler. Algoritma tasarlımından gezegenlerin özelliklerine kadar bir sürü dersin bulunduğu etkinliğimizi ücretsiz olarak gerçekleştirdik.",
-        "Im November 2022 informierten wir im Rahmen unseres STEP-Projekts, die betreffenden Schüler der Sekundarstufe über die Sozial- und positiven Wissenschaften und zeigten ihnen die lustige Seite der Wissenschaft. In diesem Projekt, das wir in unserer Schule organisiert haben, haben unsere Freunde den Schülern die bestmögliche Ausbildung gegeben. Wir haben unsere Veranstaltung kostenlos organisiert, mit vielen Lektionen vom Algorithmusdesign bis zu den Eigenschaften der Planeten."
+        "The STEP Project (Virtual Contact Education Project), which is one of our most comprehensive social projects, was initiated in November 2020. Within this project, we provided lessons in various subjects such as robotics, coding, English, German, chess, elocution, and debate to ca. 50 middle school students from all over Turkey. Our aim was to inspire these students to the best of our ability. Over approximately 7 months, with 150 hours of lessons provided each week for a total of 5 hours, we both improved ourselves and encouraged the future generation in various fields.",
+        "En kapsamlı sosyal projelerimizden olan STEP Projesi (Sanal Temas Eğitim Projesi) 2020 Kasım ayında başlattığımız bir online eğitim programdır. Bu proje dahilinde Türkiye'nin her yerinden 50 kadar ortaokul öğrencisine robotik ve kodlama başta olmak üzere İngilizce, Almanca, Satranç, Diksiyon ve Münazara gibi dersler verdik ve bizden sonra öğrencilerimize en iyi şekilde ilham olmayı amaçladık. Her hafta 5 saat olmak üzere yaklaşık 7 ay boyunca sağladığımız 150 saat dersle hem kendimizi geliştirdik hem de gelecek nesili çeşitli alanlarda teşvik ettik.",
+        "Das STEP-Projekt (Virtuelles Kontaktbildungsprojekt), eines unserer umfassendsten sozialen Projekte, wurde im November 2020 gestartet. Im Rahmen dieses Projekts haben wir etwa 50 Mittelschülern aus der ganzen Türkei Unterricht in verschiedenen Fächern wie Robotik, Englisch, Deutsch, Schach, Redekunst und Debattieren angeboten. Unser Ziel war, diese Schülerinnen und Schüler nach bestem Wissen und Gewissen zu inspirieren. Über einen Zeitraum von etwa 7 Monaten haben wir insgesamt etwa 150 Stunden Unterricht pro Woche gegeben, verteilt auf 5 Stunden pro Tag. Dabei haben wir uns sowohl selbst verbessert als auch die zukünftige Generation in verschiedenen Bereichen gefördert."
+        ], 
+        "images": [
+            "/OtherImages/AchiImages/DODO/dodo2.webp"
+        ]
+    },
+    {
+        "id":304,
+        "titles": ["naturaldisasterss", "naturaldisasterss", "naturaldisasterss"],
+        "descriptions": [
+        "In 2022, we participated in the Sneaky Snakes Natural Disaster Project #7285, where they were turned into a magazine in 7 regions of our country and Azerbaijan and presented in classes. As IELROBOTICS, we have shown our support by writing an analysis for the Marmara region and translating two previous issues of the magazine into German. We are aware of the importance of drawing attention to disasters, which will occupy an important place on our agenda, especially as of 2023, and we are honored to be a part of this project.Thanks #7285!",
+        "2022 yılında Sneaky Snakes #7285'in, ülkemizin 7 bölgesi ve Azerbaycan' da yaşanan doğal afetleri dergi haline getirip ders olarak sunduğu, doğal afetler projesinde bulunduk. IELROBOTICS olarak Marmara Bölgesi afet analizi yazıp, derginin eski iki yayımını Almanca'ya çevirerek desteğimizi gösterdik. Özellikle 2023 yılı itibariyle gündemimizde önemli bir yer kaplayan deprem, yangın benzeri afetlere dikkat çekmenin öneminin farkındayız ve bu projenin parçası olmaktan onur duyuyoruz. Teşekkürler #7285!",
+        "Im Jahr 2022 nahmen wir an dem Naturkatastrophenprojekt von Sneaky Snakes #7285 teil, bei dem sie in 7 Regionen unseres Landes und Aserbaidschans in ein Magazin verwandelt und im Unterricht präsentiert wurden. Als IELROBOTICS haben wir unsere Unterstützung gezeigt, indem wir eine Analyse für die Marmara-Region verfasst und zwei frühere Ausgaben des Magazins ins Deutsche übersetzt haben. Wir sind uns bewusst, wie wichtig es ist, die Aufmerksamkeit auf Katastrophen zu lenken, die vor allem ab 2023 einen wichtigen Platz auf unserer Agenda einnehmen. Vielen Dank, #7285!"
+        ], 
+        "images": [
+            "/OtherImages/AchiImages/SS/ss.webp"
+        ]
+    },
+    {
+        "id":305,
+        "titles": ["El Ver", "El Ver", "El Ver"],
+        "descriptions": [
+        "In this project, in collaboration with the 'All Children Are Ours Association', our target audience for education was middle school students who were facing financial difficulties. Throughout the month of February 2020, we assisted enthusiastic middle school students from various schools with their lessons and provided Arduino training alongside.",
+        "Bütün Çocuklar Bizim Derneği’yle ortak çalışmamız olan bu projede eğitim kitlemiz maddi durumu sıkıntılı ortaokul öğrencileriydi. 2020 Şubat ayı boyunca birkaç farklı okuldan gelen istekli ortaokul öğrencilerinin derslerine ve beraberinde Arduino eğitimlerine yardımcı olduk.",
+        "In diesem Projekt haben wir in Zusammenarbeit mit der 'All Children Are Ours Association' gezielt Mittelschülerinnen und Mittelschüler ins Visier genommen, die finanzielle Schwierigkeiten hatten. Während des gesamten Monats Februar 2020 haben wir engagierte Mittelschülerinnen und Mittelschüler aus verschiedenen Schulen bei ihren Unterrichtsfächern unterstützt und gleichzeitig Arduino-Schulungen angeboten."
+        ], 
+        "images": [
+            "/OtherImages/AchiImages/ELVER/elver1.webp",
+            "/OtherImages/AchiImages/ELVER/elver2.webp",
+            "/OtherImages/AchiImages/ELVER/elver3.webp"
+        ]
+    },
+    {
+        "id":306,
+        "titles": ["IELEV Sessions", "İELEV Dersleri", "IELEV-Bildungssitzungen"],
+        "descriptions": [
+        "As one of our club's most significant missions, inspiring future generations and preparing them for the future, our next project was providing robotics training to 6th-grade students at IELEV Middle School. Starting from January 6, 2020, and every Monday thereafter, we delivered 6 electronic and Arduino training sessions. We had a lot of fun during these sessions and received positive feedback.",
+        "Kulübümüzün en büyük misyonlarından bir tanesi olan bizden sonraki nesillere ilham olmak ve onları gelecek için hazırlamak gayesiyle bir sonraki projemiz İELEV Ortaokulu’nda 6. sınıf öğrencilerine verdiğimiz robotik eğitimleri oldu. 6 Ocak 2020 tarihinden başlayıp her hafta pazartesi verdiğimiz 6 elektronik ve Arduino eğitiminde çok eğlendik ve pozitif dönüşler aldık.",
+        "Als eine der wichtigsten Missionen unseres Clubs, die zukünftige Generationen inspirieren und sie auf die Zukunft vorbereiten soll, war unser nächstes Projekt die Bereitstellung von Robotikunterricht für Schüler der 6. Klasse an der IELEV-Mittelschule. Beginnend ab dem 6. Januar 2020 und an jedem folgenden Montag haben wir insgesamt 6 elektronische und Arduino-Unterrichtseinheiten durchgeführt. Wir hatten viel Spaß während dieser Sitzungen und erhielten positive Rückmeldungen."
         ], 
         "images": [
             "/OtherImages/AchiImages/STEP/step1.webp",
@@ -53,16 +107,41 @@
         ]
     },
     {
-        "id":304,
-        "titles": ["Nature Disasters Magazine", "Doğal Afetler Dergisi", "Naturkatastophen Zeitschrift"],
+        "id":307,
+        "titles": ["DODO Reads", "DODO Kitap Okuyor", "DODO Liest"],
         "descriptions": [
-        "In 2022, we participated in the Sneaky Snakes Natural Disaster Project #7285, where they were turned into a magazine in 7 regions of our country and Azerbaijan and presented in classes. As IELROBOTICS, we have shown our support by writing an analysis for the Marmara region and translating two previous issues of the magazine into German. We are aware of the importance of drawing attention to disasters, which will occupy an important place on our agenda, especially as of 2023, and we are honored to be a part of this project.Thanks #7285!",
-        "2022 yılında Sneaky Snakes #7285'in, ülkemizin 7 bölgesi ve Azerbaycan' da yaşanan doğal afetleri dergi haline getirip ders olarak sunduğu, doğal afetler projesinde bulunduk. IELROBOTICS olarak Marmara Bölgesi afet analizi yazıp, derginin eski iki yayımını Almanca'ya çevirerek desteğimizi gösterdik. Özellikle 2023 yılı itibariyle gündemimizde önemli bir yer kaplayan deprem, yangın benzeri afetlere dikkat çekmenin öneminin farkındayız ve bu projenin parçası olmaktan onur duyuyoruz. Teşekkürler #7285!",
-        "Im Jahr 2022 nahmen wir an dem Naturkatastrophenprojekt von Sneaky Snakes #7285 teil, bei dem sie in 7 Regionen unseres Landes und Aserbaidschans in ein Magazin verwandelt und im Unterricht präsentiert wurden. Als IELROBOTICS haben wir unsere Unterstützung gezeigt, indem wir eine Analyse für die Marmara-Region verfasst und zwei frühere Ausgaben des Magazins ins Deutsche übersetzt haben. Wir sind uns bewusst, wie wichtig es ist, die Aufmerksamkeit auf Katastrophen zu lenken, die vor allem ab 2023 einen wichtigen Platz auf unserer Agenda einnehmen. Vielen Dank, #7285!"
+        "We collaborated with the 'All Children Are Ours Association' in the DODO Reads Books project, where we contributed to the afternoon classes of 1st-grade students at Harmantepe Primary School. We read books to them, engaged in activities together, and introduced the concept of 'robotics' to our little friends. Starting from December 20, 2019, for 6 weeks, we visited this primary school every Friday, making a contribution to the education of the future children of our country.",
+        "Bütün Çocuklar Bizim Derneği’yle ortak çalışmamız olan DODO Kitap Okuyor projesinde Harmantepe İlkokulu’ndaki 1. sınıf öğrencilerinin öğleden sonraki derslerine katkıda bulunduk, onlara kitap okuduk ve birlikte etkinlikler yaptık, minik dostlarımıza “robotik” konseptini tanıttık. 20 Aralık 2019 tarihinden itibaren 6 hafta boyunca her cuma bu ilkokulu ziyaret ederek ülkemizin geleceği çocukların eğitimine katkıda bulunduk.",
+        "Wir haben mit der 'All Children Are Ours Association' im DODO Reads Books-Projekt zusammengearbeitet, bei dem wir zu den Nachmittagsstunden der Erstklässler an der Harmantepe Grundschule beigetragen haben. Wir haben ihnen vorgelesen, gemeinsam Aktivitäten unternommen und das Konzept der 'Robotik' unseren kleinen Freunden vorgestellt. Ab dem 20. Dezember 2019 haben wir für 6 Wochen, jeden Freitag, diese Grundschule besucht und einen Beitrag zur Bildung der zukünftigen Kinder unseres Landes geleistet."
         ], 
         "images": [
-            "/ProfilePics/manzara.webp",
-            "/ProfilePics/manzara2.webp"
+            "/OtherImages/AchiImages/DODO/dodo3.webp",
+            "/OtherImages/AchiImages/DODO/dodo1.webp"
+        ]
+    },
+    {
+        "id":308,
+        "titles": ["MÜSİAD Visionary'19", "MÜSİAD Vizyoner'19", "MÜSİAD Visionaer'19"],
+        "descriptions": [
+        "As Istanbul Erkek Lisesi Robotics Club, we participated in the MÜSİAD Vizyoner'19 program held on November 27, 2019, under the theme #DigitalFuture. This program extensively covered topics such as the digital economy, the digital ecosystem of commerce, the national technology initiative, and the digital transformation in Turkey. During this seminar program, we had the opportunity to familiarize ourselves with the technological advancements in our country and to represent our school and club in this digital arena.",
+        "İstanbul Erkek Lisesi Robotik kulübü olarak #DijitalGelecek temasıyla 27 Kasım 2019 tarihinde düzenlenen, dijital ekonomi, ticaretin dijital ekosistemi, milli teknoloji hamlesi ve dijital Türkiye gibi konuların kapsamlı bir şekilde ele alındığı MÜSİAD Vizyoner'19 programına katıldık. Bu seminer programı dahilinde gerek ülkemizin teknolojik adımlarını tanıdık, gerekse okulumuzun ve kulübümüzün adını bu mecrada temsil etmiş olduk.",
+        "Als IELRobotics haben wir am MÜSİAD Vizyoner'19 Programm teilgenommen, das am 27. November 2019 unter dem Motto #DigitalFuture stattfand. Dieses Programm behandelte ausführlich Themen wie die digitale Wirtschaft, das digitale Ökosystem des Handels, die nationale Technologieinitiative und die digitale Transformation in der Türkei. Während dieses Seminarprogramms hatten wir die Gelegenheit, uns mit den technologischen Fortschritten in unserem Land vertraut zu machen und unsere Schule und unseren Club in diesem digitalen Umfeld zu vertreten."
+        ], 
+        "images": [
+            "/OtherImages/AchiImages/SS/musiad.webp"
+        ]
+    },
+    {
+        "id":309,
+        "titles": ["Mersin OffSeason 2019", "Mersin OffSeason 2019", "Mersin OffSeason 2019"],
+        "descriptions": [
+        "Our FRC team made its very first appearance under the name 'IEL Robotics' and the number #8058, at an event during the 2019 Mersin Off-Season competition held on October 18-20, 2019, in the province of Mersin. Over the course of these three days, we took on roles in both the field and pit areas, assisting participating teams, getting to know FRC better, and contributing to the organization of the competition. Our journey began with 8 team members.",
+        "FRC takımımızın #8058 takım numarası ve İEL Robotics adıyla gönüllü olarak katıldığı ilk etkinlik 18-20 Ekim 2019 tarihlerinde Mersin ilinde gerçekleştirilen 2019 Mersin Off-season yarışmasıydı. 8 kişi ile başlayan serüvenimizde bu 3 gün boyunca saha ve pitte yarışmanın organizasyon kısmında görevler üstelenerek hem yarışan takımlara yardım etmiş, FRC’yi daha yakından tanımış ve bir off-season etkinliğinin gerçekleştirilmesinde katkıda bulunmuş olduk.",
+        "Unser FRC-Team trat erstmals bei einer Veranstaltung mit der Teamnummer #8058 und dem Namen 'IEL Robotics', während des Mersin Off-Season-Wettbewerbs 2019 vom 18. bis 20. Oktober 2019 in der Provinz Mersin auf. Im Laufe dieser drei Tage übernahmen wir Aufgaben sowohl auf dem Spielfeld als auch in der Pit-Area, halfen teilnehmenden Teams, lernten FRC besser kennen und trugen zur Organisation des Wettbewerbs bei. Unsere Reise begann mit 8 Teammitgliedern."
+        ], 
+        "images": [
+            "/OtherImages/AchiImages/MERSIN/mersin2.webp",
+            "/OtherImages/AchiImages/MERSIN/mersin1.webp"
         ]
     }
 

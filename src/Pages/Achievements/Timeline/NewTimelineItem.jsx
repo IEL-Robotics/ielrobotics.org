@@ -17,12 +17,13 @@ const CustomNextArrow = ({ onClick }) => {
     return <div className="next" style={{ zIndex: '2', marginRight:"-1px"}} onClick={onClick}>&#10095;</div>;
 };
 
-export const NewTimelineItem = ({ data, scrollToItem, lan}) => {
+export const NewTimelineItem = ({ data, scrollToItem, lan, markIndex}) => {
     const itemRef = useRef(null);
 
     const { language, getTranslation } = useContext(LanguageContext);
 
     useEffect(() => {
+        //console.log(markIndex)
     }, [lan])
 
     const handleClick = () => {
@@ -47,7 +48,7 @@ export const NewTimelineItem = ({ data, scrollToItem, lan}) => {
     };
     
     return (
-        <div className='new-achieve-main-container'>
+        <div className={markIndex % 2 === 0 ? 'new-achieve-main-container even' : 'new-achieve-main-container odd'} >
             <div className='new-achieve-sub-container' ref={itemRef}>
                 <div className="new-slideshow-container" style={{ width: '100%' }}>
                     <Slider {...settings} className='slider'>

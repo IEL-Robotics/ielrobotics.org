@@ -27,12 +27,6 @@ export const ContentBox = (Props) => {
         }, 0);
     };
 
-    const handleClick = (loc) => {
-        handleNavigation();
-        navigate(loc);
-        closeAfterUsed();
-    };
-
     if(type === 0){
         return (
         <div className="content-holder-yellow">

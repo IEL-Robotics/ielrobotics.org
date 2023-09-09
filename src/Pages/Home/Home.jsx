@@ -9,7 +9,7 @@ import {RedirectBox} from '../../Components/RedirectBox/RedirectBox'
 import { Helmet } from 'react-helmet-async';
 import LanguageContext from "../../Context/LanguageContext"
 
-import home_image from "/OtherImages/HomeImages/8058s.webp"
+import home_image from "/OtherImages/HomeImages/8058.webp"
 import logo from '/OtherImages/HomeImages/logos.webp'
 import iel from '/OtherImages/HomeImages/iellogos.webp'
 import award1 from '/OtherImages/HomeImages/award1s.webp'
@@ -78,8 +78,8 @@ export const Home = () => {
             <div className="home-comp-holder">
                 <VerticalBox image1={"/OtherImages/HomeImages/frcback2.webp"} image2={"/OtherImages/HomeImages/first-logo-vector.svg"} title={"FRC"} content={"home-competetion-frc"} type={0} link={"https://www.firstinspires.org/robotics/frc"} />
                 <VerticalBox image1={"/OtherImages/AchiImages/JF23/jf230.webp"} image2={"/OtherImages/HomeImages/jf-logo-vector.svg"} title={"JugendForscht"} content={"home-competetion-jf"} type={1} link={"https://www.jugend-forscht.de/"} />
-                <VerticalBox image1={"/OtherImages/AchiImages/TF22/tf221.webp"} title={"Teknofest"} image2={"/OtherImages/HomeImages/tflogo.webp"} content={"home-competetion-tekno"} type={2} link={"https://www.teknofest.org/tr/"}  />
-                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.webp"} title={"home-competetion-other-title"} image2={"/OtherImages/HomeImages/other-logos.webp"} content={"home-competetion-other"} type={3} link={"https://www.firstinspires.org/robotics/frc"} />
+                <VerticalBox image1={"/OtherImages/HomeImages/tfbackdy.webp"} title={"Teknofest"} image2={"/OtherImages/HomeImages/tflogo.webp"} content={"home-competetion-tekno"} type={2} link={"https://www.teknofest.org/tr/"}  />
+                <VerticalBox image1={"/OtherImages/HomeImages/urfaback.webp"} title={"home-competetion-other-title"} image2={"/OtherImages/HomeImages/other-logos.webp"} content={"home-competetion-other"} type={3} link={"/achievements"} />
 
             </div>
 

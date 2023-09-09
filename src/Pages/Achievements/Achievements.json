@@ -1,5 +1,19 @@
 [
     {
+        "id": 99,
+        "titles": ["DeneYap Teknofest", "DeneYap Teknofest", "DeneYap Teknofest"],
+        "descriptions": [
+        "On August 30, 2023, during the second Teknofest of the year held in Ankara, our team of four competed in the Dene-Yap Kart Robolig Competition in the high school category. After four days of intense competition, we emerged as champions, securing a significant lead over our closest competitor. Congratulations, team!",
+        "2023 yılının 30 Ağustos'unda da Ankara'da düzenlenen yılın ikinci Teknofest'inde 4 kişilik ekibimizle Dene-Yap Kart Robolig Yarışması'nda lise kategorisinde yarıştık. 4 gün süren yarışma sonunda en yakın rakibimize ciddi bir puan farkı atarak şampiyon olduk. Tebrikler takım!",
+        "Am 30. August 2023 nahm unser Team aus Vier während des zweiten Teknofests des Jahres in Ankara am Dene-Yap Kart Robolig Wettbewerb in der Kategorie für Gymnasiasten teil. Nach vier intensiven Wettkampftagen wurden wir zum Champion gekürt und konnten einen signifikanten Vorsprung vor unserem nächsten Konkurrenten erzielen. Herzlichen Glückwunsch an das Team!"
+        ],
+        "images": [
+            "/OtherImages/AchiImages/DENEYAP/dy3.webp",
+            "/OtherImages/AchiImages/DENEYAP/dy2.webp",
+            "/OtherImages/AchiImages/DENEYAP/dy1.webp"
+        ]
+    },
+    {
         "id":100,
         "titles": ["Jugendforscht 2023", "Jugendforscht 2023", "Jugendforscht 2023"],
         "descriptions": [
@@ -125,7 +139,7 @@
     },
     {
         "id":108,
-        "titles": ["Izmir Off-Season 2021", "İzmir Off-Season 2021", "Izmir Off-Season 2021"],
+        "titles": ["Izmir OffSeason 2021", "İzmir OffSeason 2021", "Izmir OffSeason 2021"],
         "descriptions": [
         "After the 2020 Off-Season and 2021 Regionals, which couldn't be organized due to the global pandemic, Izmir was a little bit like the skipped Off-Season from last years' 'Infinite Recharge' season. from October 15th to 17th, all the teams worked hard to win in the previous year's game. But in the end, we and our alliance partners #7285 Sneaky Snakes and #6838 X-Sharc emerged victorious. This success was very joyful and motivating for us, who had competed in just one Regional at the time.",
         "Global pandemi nedeniyle yapılanamayan 2020 Off-Season ve 2021 Regional'larının ardından 2020 'Infinite Recharge' sezonunun Off-Season'u tadında geçti İzmir. 15-17 Ekim tarihleri arasında takımlar bir önceki senenin oyununda galip gelmek adında çabaladı. Fakat bu mücadelenin sonunda biz ve ittifak ortaklarımız #7285 Sneaky Snakes ve #6838 X-Sharc kazanan taraf oldu. Elde ettiğimiz bu başarı, o gün itibariyle sadece bir Regional'da yarışmış bizler için oldukça neşe verici ve motive ediciydi.",

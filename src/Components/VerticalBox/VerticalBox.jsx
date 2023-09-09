@@ -1,5 +1,6 @@
 import '../VerticalBox/VerticalBox.css'
 import { useContext } from 'react';
+import { Link } from 'react-router-dom';
 
 import LanguageContext from '../../Context/LanguageContext';
 
@@ -15,6 +16,12 @@ export const VerticalBox = (Props) => {
 
     const { language, getTranslation } = useContext(LanguageContext);
 
+    const handleNavigation = () => {
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 0);
+    };
+
     return (
         <div className="vertical-holder">
             <div className="vertical-image-container">
@@ -28,12 +35,16 @@ export const VerticalBox = (Props) => {
             <div className="vertical-text-content">
                 {getTranslation(boxContent)}
                 <button className="vertical-redirect-button">
-                    <a draggable="true"
+                    {
+                    link.includes("https") ? (<a draggable="true"
                         href={link}
-                        target="_blank"
-                        rel="noopener noreferrer">
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        onClick={() => handleNavigation()}>
                         &gt; {getTranslation("more")}
-                    </a>
+                        </a>) : (<Link to={link} onClick={handleNavigation}> 
+                        &gt; {getTranslation("more")} </Link>)
+                    }
                 </button>
             </div>
         </div>

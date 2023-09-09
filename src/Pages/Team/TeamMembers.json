@@ -67,8 +67,8 @@
          "id": 10,
          "name": "Gökay Barış",
          "role": "team-roles-design",
-         "pfp": "/ProfilePics/hahayt.webp",
-         "linkedin": "https://www.instagram.com/ielrobotics/"
+         "pfp": "/ProfilePics/gokay.webp",
+         "linkedin": "https://www.linkedin.com/in/g%C3%B6kay-bar%C4%B1%C5%9F-551866275/"
       },
       {
          "id": 11,
@@ -96,7 +96,7 @@
          "name": "Irmak Akıncıoğlu",
          "role": "team-roles-pr",
          "pfp": "/ProfilePics/irmak.webp",
-         "linkedin": "https://www.instagram.com/ielrobotics/"
+         "linkedin": "https://www.linkedin.com/in/irmak-akincio%C4%9Flu-a26112255/"
       },
       {
          "id": 15,
@@ -185,13 +185,6 @@
          "linkedin": "https://www.linkedin.com/in/ahmet-dursun-umut-%C3%B6zdemir-687a821b5"
       },
       {
-         "id": 27,
-         "name": "Tunahan Karatay",
-         "role": "team-roles-programmer",
-         "pfp": "/ProfilePics/hahayt.webp",
-         "linkedin": "https://www.instagram.com/ielrobotics/"
-      },
-      {
          "id": 28,
          "name": "Mesrur Onat Çarak",
          "role": "team-roles-mechanic",
@@ -210,7 +203,7 @@
          "name": "Oğuzhan Özkır",
          "role": "team-roles-programmer",
          "pfp": "/ProfilePics/oguzhan.webp",
-         "linkedin": "https://www.instagram.com/ielrobotics/"
+         "linkedin": "https://www.linkedin.com/in/o%C4%9Fuzhan-%C3%B6zk%C4%B1r/"
       },
       {
          "id": 31,

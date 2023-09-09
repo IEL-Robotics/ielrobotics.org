@@ -68,24 +68,24 @@ export const TimelineHolder = (Props) => {
           if (data.id === 100) {
             return (
               <div ref={componentRefs.componentId0} id="componentId0" key={key}>
-                <NewTimelineItem data={data} lan={lanIndex} scrollToItem={scrollToItem} />
+                <NewTimelineItem data={data} lan={lanIndex} scrollToItem={scrollToItem} markIndex={data.id}/>
               </div>
             );
           } else if (data.id === 104) {
             return (
               <div ref={componentRefs.componentId4} id="componentId4" key={key}>
-                <NewTimelineItem data={data} lan={lanIndex} scrollToItem={scrollToItem} />
+                <NewTimelineItem data={data} lan={lanIndex} scrollToItem={scrollToItem} markIndex={data.id} />
               </div>
             );
           } else if (data.id === 108) {
             return (
               <div ref={componentRefs.componentId8} id="componentId8" key={key}>
-                <NewTimelineItem data={data} lan={lanIndex} scrollToItem={scrollToItem} />
+                <NewTimelineItem data={data} lan={lanIndex} scrollToItem={scrollToItem} markIndex={data.id} />
               </div>
             );
           } else {
             return (
-                <NewTimelineItem data={data} lan={lanIndex} scrollToItem={scrollToItem} key={key} />
+                <NewTimelineItem data={data} lan={lanIndex} scrollToItem={scrollToItem} key={key} markIndex={data.id} />
             );
           }
         })}
@@ -97,7 +97,7 @@ export const TimelineHolder = (Props) => {
     return (
       <div className="timelineHolder">
         {socialData.map((data, index) => (
-          <NewTimelineItem key={index + 50} data={data} lan={lanIndex} scrollToItem={scrollToItem} />
+          <NewTimelineItem key={index + 50} data={data} lan={lanIndex} scrollToItem={scrollToItem} markIndex={data.id} />
         ))}
       </div>
     )
