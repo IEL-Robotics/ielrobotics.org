@@ -27,6 +27,7 @@ export const Navbar = ({ handleScroll }) => {
         setTimeout(() => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }, 0);
+        closeAfterUsed();
     };
 
     const handleClick2 = (loc) => {
@@ -74,6 +75,11 @@ export const Navbar = ({ handleScroll }) => {
                         <li className="list-item">
                             <Link to='/team' onClick={handleNavigation}>
                                 {getTranslation("team")}
+                            </Link>
+                        </li>
+                        <li className="list-item">
+                            <Link to='/kickoff' onClick={handleNavigation}>
+                                Kick-Off
                             </Link>
                         </li>
                         <li className="list-item">

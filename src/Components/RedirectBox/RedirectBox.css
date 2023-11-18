@@ -31,7 +31,7 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     filter: brightness(40%);
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 100 / 60;
     object-fit: cover;
     transition: filter 0.3s ease-in-out;
   }

@@ -80,7 +80,7 @@ export const Footer = ({scrollRef}) => {
                 <div className="wrapper" id='tiktokID'>
                     <a
                         draggable="true"
-                        href="https://twitter.com/ielrobotics"
+                        href="https://www.tiktok.com/@ielrobotics"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

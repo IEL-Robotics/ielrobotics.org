@@ -19,6 +19,7 @@ import idealpak from '/OtherImages/FastLoadImg/idealpak.webp'
 import ielev from '/OtherImages/FastLoadImg/ielev.webp'
 import ozata from '/OtherImages/FastLoadImg/ozata.webp'
 import pemaks from '/OtherImages/FastLoadImg/pemaks.webp'
+import ielder from '/OtherImages/FastLoadImg/ielder3.webp'
 
 const title = "Sponsors - 8058";
 
@@ -45,7 +46,7 @@ export const Sponsors = () => {
                 <RedirectBox img={ielev} title1={"IELEV"} title2={""} link={"https://www.ielev.k12.tr/"}/>
                 <RedirectBox img={boeing} title1={"Boeing"} title2={""} link={"https://www.boeing.com.tr"}/>
                 <RedirectBox img={birikim} title1={"Birikim"} title2={""} link={"https://birikimmuhendislik.com.tr"}/>
-                <RedirectBox img={bulutistan} title1={"Bulutistan"} title2={""} link={"https://bulutistan.com/"}/>
+                <RedirectBox img={ielder} title1={"IELDER"} title2={""} link={"https://www.ielder.org.tr/"}/>
                 <RedirectBox img={ergin} title1={"Ergin Makine"} title2={""} link={"https://erginmakine.com.tr/"}/>
                 <RedirectBox img={hastavuk} title1={"HasTavuk"} title2={""} link={"https://www.hastavuk.com.tr/tr/"}/>
                 <RedirectBox img={idealpak} title1={"İdeal-Pak"} title2={""} link={"https://idealpase.com/"}/>
