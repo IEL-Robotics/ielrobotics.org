@@ -126,17 +126,17 @@ export const Kickoff = () => {
                             )}
                             className="kickoffslidertemp"
                         >
-                            <div>
-                                {/* <div className="kickoff-image-text">İstanbul Erkek Lisesi'ne Nasıl Gelinir?</div> */}
-                                <img src={"/OtherImages/kickoff/iel.webp"} id="kickoffnewsimage" alt="News" />
+                            <div className="kickoff-slider-container">
+                                <div className="kickoff-image-text">İstanbul Erkek Lisesi'ne Nasıl Gelinir?</div>
+                                <img src={"/OtherImages/kickoff/iel.webp"} className="kickoffnewsimage" alt="News" />
                             </div>
-                            <div>
-                                {/* <div className="kickoff-image-text">Marmaray</div> */}
-                                <img src={"/OtherImages/kickoff/sirkeci.webp"} id="kickoffnewsimage" alt="News" />
+                            <div className="kickoff-slider-container">
+                                <div className="kickoff-image-text">Sirkeci'de indikten sonra Cağaloğlu çıkışından çıkın ve yokuş yukarı tırmanın</div>
+                                <img src={"/OtherImages/kickoff/sirkeci.webp"} className="kickoffnewsimage" alt="News" />
                             </div>
-                            <div>
-                                {/* <div className="kickoff-image-text">Tramvay</div> */}
-                                <img src={"/OtherImages/kickoff/tramvay.webp"} id="kickoffnewsimage" alt="News" />
+                            <div className="kickoff-slider-container">
+                                <div className="kickoff-image-text">T1 Çemberlitaş durağında inin ve Babıali yokuşundan aşağı ilerleyin</div>
+                                <img src={"/OtherImages/kickoff/tramvay.webp"} className="kickoffnewsimage" alt="News" />
                             </div>
                     </Carousel>
                     </div>
