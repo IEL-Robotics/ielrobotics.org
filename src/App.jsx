@@ -10,7 +10,6 @@ import { Achievements } from "./Pages/Achievements/Achievements.jsx"
 import { Team } from "./Pages/Team/Team.jsx"
 import { News } from "./Pages/News/News.jsx"
 import { Footer } from "./Components/Footer/Footer.jsx"
-import { Kickoff } from "./Pages/Kickoff/Kickoff.jsx"
 import {NotFound} from './Pages/NotFound/NotFound.jsx'
 
 import { Helmet, HelmetProvider } from "react-helmet-async"
@@ -47,7 +46,6 @@ function App() {
           <Route path='/achievements' element={<Achievements/>}></Route>
           <Route path='/team' element={<Team/>}></Route>
           <Route path='/news' element={<News/>}></Route>
-          <Route path='/kickoff' element={<Kickoff/>}></Route>
           <Route path="*" element={<NotFound />} />
           <Route></Route>
         </Routes>

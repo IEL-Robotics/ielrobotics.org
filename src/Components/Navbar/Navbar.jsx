@@ -78,11 +78,6 @@ export const Navbar = ({ handleScroll }) => {
                             </Link>
                         </li>
                         <li className="list-item">
-                            <Link to='/kickoff' onClick={handleNavigation}>
-                                Kick-Off
-                            </Link>
-                        </li>
-                        <li className="list-item">
                             <Link onClick={contactClicked}>
                                 {getTranslation("contact")}
                             </Link>
