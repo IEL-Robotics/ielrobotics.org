@@ -8,17 +8,25 @@ import LanguageContext from "../../Context/LanguageContext"
 import news_image from '/OtherImages/FastLoadImg/Newss.webp'
 
 export const News = () => {
-    const [pdfName, setPdfLan] = useState("/Docs/Blick_december_(eng).pdf");
+    const [pdfName, setPdfName] = useState("/Docs/Blick_december_(eng).pdf");
     const { language, getTranslation } = useContext(LanguageContext);
 
     useEffect(() => {
-        if(language === 'en'){setPdfLan("/Docs/Blick_december_(eng).pdf")}
-        if(language === 'de'){setPdfLan("/Docs/Blick_dezember_(de).pdf")}
-        if(language === 'tr'){setPdfLan("/Docs/Blick_aralik_(tr).pdf")}
-    }, [language])
+        if (language === 'en') {
+            setPdfName("/Docs/Blick_december_(eng).pdf");
+        } else if (language === 'de') {
+            setPdfName("/Docs/Blick_dezember_(de).pdf");
+        } else if (language === 'tr') {
+            setPdfName("/Docs/Blick_aralik_(tr).pdf");
+        }
+    }, [language]);
 
-    return(
-        <div className="NewsPage" style={{marginTop: "5rem"}}> 
+    const isInlinePDFSupported = () => {
+        return navigator.mimeTypes && navigator.mimeTypes['application/pdf'];
+    };
+
+    return (
+        <div className="NewsPage" style={{ marginTop: "5rem" }}>
             <Helmet>
                 <title> {getTranslation("helmet-news")} </title>
                 <meta name="description" content="Do not miss a single thing happening. There's a lot going on here :)"/>
@@ -33,10 +41,15 @@ export const News = () => {
                 <h1 className='team-title'> {getTranslation("magazine-title1")} </h1>
             </div>
             <div className="oopsie">
-                <p className="oopsie-text">{ getTranslation("magazine-text")}</p>
-                <iframe className="magazine-pdf" src={pdfName} frameBorder={5}></iframe>
+                <p className="oopsie-text">{getTranslation("magazine-text")}</p>
+                {isInlinePDFSupported() ? (
+                    <iframe className="magazine-pdf" src={pdfName} frameBorder={5}></iframe>
+                ) : (
+                    <a href={pdfName} target="_blank" rel="noopener noreferrer" style={{marginLeft: "10%", marginRight: "10%",textAlign:"center"}}>
+                        {getTranslation("download-pdf")}
+                    </a>
+                )}
             </div>
         </div>
-        
-    )
+    );
 }
