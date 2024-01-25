@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 
 import '../News/News.css'
 import { Helmet } from 'react-helmet-async';
@@ -8,7 +8,14 @@ import LanguageContext from "../../Context/LanguageContext"
 import news_image from '/OtherImages/FastLoadImg/Newss.webp'
 
 export const News = () => {
+    const [pdfName, setPdfLan] = useState("/Docs/Blick_december_(eng).pdf");
     const { language, getTranslation } = useContext(LanguageContext);
+
+    useEffect(() => {
+        if(language === 'en'){setPdfLan("/Docs/Blick_december_(eng).pdf")}
+        if(language === 'de'){setPdfLan("/Docs/Blick_dezember_(de).pdf")}
+        if(language === 'tr'){setPdfLan("/Docs/Blick_aralik_(tr).pdf")}
+    }, [language])
 
     return(
         <div className="NewsPage" style={{marginTop: "5rem"}}> 
@@ -22,10 +29,12 @@ export const News = () => {
                 <meta name="author" content="contact@ielrobotics.org"/>
             </Helmet>
             <TheImage source={news_image} text={getTranslation("news-slogan")}/>
+            <div className='team-title-holder'>
+                <h1 className='team-title'> {getTranslation("magazine-title1")} </h1>
+            </div>
             <div className="oopsie">
-                <p className="oopsie-text">This Page is still on production</p>
-                <p className="oopsie-text">But don't worry 🙌</p> 
-                <p className="oopsie-text">It's coming soon 😇</p>
+                <p className="oopsie-text">{ getTranslation("magazine-text")}</p>
+                <iframe className="magazine-pdf" src={pdfName} frameBorder={5}></iframe>
             </div>
         </div>
         
