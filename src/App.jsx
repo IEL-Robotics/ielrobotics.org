@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import {BrowserRouter as BR, Route, Routes} from "react-router-dom"
 
 import { useRef } from "react"
@@ -51,6 +53,7 @@ function App() {
         </Routes>
         <Footer scrollRef={scrollRef}/>
       </BR>
+      <Analytics/>
     </div>
     </HelmetProvider>
   )
