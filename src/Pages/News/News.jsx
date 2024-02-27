@@ -41,11 +41,32 @@ export const News = () => {
                 <h1 className='team-title'> {getTranslation("magazine-title1")} </h1>
             </div>
             <div className="oopsie">
-                <p className="oopsie-text">{getTranslation("magazine-text")}</p>
+                <p className="oopsie-text">Second Edition Arrived!</p>
+                {isInlinePDFSupported() ? (
+                    <iframe className="magazine-pdf" src={"/Docs/blick(eng)_jan.pdf"} frameBorder={5}></iframe>
+                ) : (
+                    <a href={"/Docs/blick(eng)_jan.pdf"} target="_blank" rel="noopener noreferrer" style={{marginLeft: "10%", marginRight: "10%",textAlign:"center"}}>
+                        {getTranslation("download-pdf")}
+                    </a>
+                )}
+                <p className="oopsie-text" style={{"marginTop": "30px"}}>{getTranslation("magazine-text")}</p>
                 {isInlinePDFSupported() ? (
                     <iframe className="magazine-pdf" src={pdfName} frameBorder={5}></iframe>
                 ) : (
                     <a href={pdfName} target="_blank" rel="noopener noreferrer" style={{marginLeft: "10%", marginRight: "10%",textAlign:"center"}}>
+                        {getTranslation("download-pdf")}
+                    </a>
+                )}
+            </div>
+            <div className='team-title-holder'>
+                <h1 className='team-title'> Published Resources </h1>
+            </div>
+            <div className="oopsie">
+                <p className="oopsie-text">Want to check our presentations from Kickoff 2024?</p>
+                {isInlinePDFSupported() ? (
+                    <iframe className="magazine-pdf" src={"/Docs/yazilim101-atolyesunumu.pdf"} frameBorder={5}></iframe>
+                ) : (
+                    <a href={"/Docs/yazilim101-atolyesunumu.pdf"} target="_blank" rel="noopener noreferrer" style={{marginLeft: "10%", marginRight: "10%",textAlign:"center"}}>
                         {getTranslation("download-pdf")}
                     </a>
                 )}
