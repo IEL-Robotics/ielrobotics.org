@@ -1,67 +1,53 @@
 {
    "members": [
       {
-         "id": 1,
-         "name": "Emel Karahan",
+         "id": 13,
+         "name": "Naz Sözen",
          "role": "team-roles-captain-emel",
-         "pfp": "/ProfilePics/emel.webp",
-         "linkedin": "https://www.linkedin.com/in/emel-karahan-614900223/"
+         "pfp": "/ProfilePics/naz.webp",
+         "linkedin": "https://www.linkedin.com/in/naz-s%C3%B6zen-a71723253"
       },
       {
          "id": 2,
-         "name": "Furkan Taner Gül",
+         "name": "Tunç Alansu",
          "role": "team-roles-captain-furkan",
-         "pfp": "/ProfilePics/furkan.webp",
+         "pfp": "/OtherImages/Loading/load-pfp.webp",
          "linkedin": "https://www.linkedin.com/in/furkan-taner-g%C3%BCl-9ab088225"
       },
       {
          "id": 3,
-         "name": "Eren Okumuş",
+         "name": "Yiğit Akagündüz",
          "role": "team-roles-captain-design",
-         "pfp": "/ProfilePics/eren.webp",
+         "pfp": "/OtherImages/Loading/load-pfp.webp",
          "linkedin": "https://www.linkedin.com/in/eren-okumu%C5%9F-b596a1225/"
       },
       {
          "id": 4,
-         "name": "Fatih Alperen İbiş",
+         "name": "Mete Merken",
          "role": "team-roles-captain-mechanic",
-         "pfp": "/ProfilePics/alperen.webp",
+         "pfp": "/OtherImages/Loading/load-pfp.webp",
          "linkedin": "https://www.instagram.com/ielrobotics/"
       },
       {
-         "id": 5,
-         "name": "İbrahim Göktuğ Alhan",
-         "role": "team-roles-captain-pr",
-         "pfp": "/ProfilePics/igalhan.webp",
-         "linkedin": "https://www.linkedin.com/in/ibrahim-g%C3%B6ktu%C4%9F-alhan-628b86217"
-      },
-      {
-         "id": 6,
-         "name": "Ömer Hasanov",
-         "role": "team-roles-captain-electronic",
-         "pfp": "/ProfilePics/homerow.webp",
-         "linkedin": "https://www.linkedin.com/in/%C3%B6mer-hasanov-652132211"
-      },
-      {
-         "id": 7,
-         "name": "Umut Erdem",
+         "id": 12,
+         "name": "İbrahim Metin Dönmez",
          "role": "team-roles-captain-software",
-         "pfp": "/ProfilePics/umutjr.webp",
-         "linkedin": "https://www.linkedin.com/in/umut-erdem-3b1735275/"
+         "pfp": "/ProfilePics/imetin.webp",
+         "linkedin": "https://www.linkedin.com/in/ibrahim-metin-d%C3%B6nmez-015349244"
       },
       {
-         "id": 8,
-         "name": "Erkan Torlak",
-         "role": "team-roles-pr",
-         "pfp": "/ProfilePics/erkan.webp",
-         "linkedin": "https://www.linkedin.com/in/erkan-torlak-391814254"
+         "id": 14,
+         "name": "Irmak Akıncıoğlu",
+         "role": "team-roles-captain-electronic",
+         "pfp": "/ProfilePics/irmak.webp",
+         "linkedin": "https://www.linkedin.com/in/irmak-akincio%C4%9Flu-a26112255/"
       },
       {
-         "id": 9,
-         "name": "Miray Topaloğlu",
-         "role": "team-roles-pr",
-         "pfp": "/ProfilePics/miray.webp",
-         "linkedin": "https://www.linkedin.com/in/miray-topalo%C4%9Flu-764804225"
+         "id": 21,
+         "name": "Eda Cihanoğlu",
+         "role": "team-roles-captain-pr",
+         "pfp": "/ProfilePics/eda.webp",
+         "linkedin": "https://www.linkedin.com/in/eda-cihano%C4%9Flu-5145ba254/"
       },
       {
          "id": 10,
@@ -78,41 +64,6 @@
          "linkedin": "https://drive.google.com/open?id=1-NRzKUlVHt33FO3J7Ux9YYynHWudsVbY"
       },
       {
-         "id": 12,
-         "name": "İbrahim Metin Dönmez",
-         "role": "team-roles-programmer",
-         "pfp": "/ProfilePics/imetin.webp",
-         "linkedin": "https://www.linkedin.com/in/ibrahim-metin-d%C3%B6nmez-015349244"
-      },
-      {
-         "id": 13,
-         "name": "Naz Sözen",
-         "role": "team-roles-pr",
-         "pfp": "/ProfilePics/naz.webp",
-         "linkedin": "https://www.linkedin.com/in/naz-s%C3%B6zen-a71723253"
-      },
-      {
-         "id": 14,
-         "name": "Irmak Akıncıoğlu",
-         "role": "team-roles-pr",
-         "pfp": "/ProfilePics/irmak.webp",
-         "linkedin": "https://www.linkedin.com/in/irmak-akincio%C4%9Flu-a26112255/"
-      },
-      {
-         "id": 15,
-         "name": "Merdan Güler",
-         "role": "team-roles-mechanic",
-         "pfp": "/ProfilePics/merdan.webp",
-         "linkedin": "https://www.linkedin.com/in/merdan-g%C3%BCler-24177b254"
-      },
-      {
-         "id": 16,
-         "name": "Koray Değirmenci",
-         "role": "team-roles-pr",
-         "pfp": "/ProfilePics/koray.webp",
-         "linkedin": "https://www.linkedin.com/in/koray-de%C4%9Firmenci-b12123254/"
-      },
-      {
          "id": 17,
          "name": "Muhammed Salih Arpacı",
          "role": "team-roles-pr",
@@ -120,32 +71,11 @@
          "linkedin": "https://www.linkedin.com/in/muhammed-salih-arpac%C4%B1-732681267"
       },
       {
-         "id": 18,
-         "name": "Kayra Deniz Durak",
-         "role": "team-roles-pr",
-         "pfp": "/ProfilePics/kayra.webp",
-         "linkedin": "https://www.linkedin.com/in/kayra-deniz-durak-07a438262"
-      },
-      {
-         "id": 19,
-         "name": "Yusuf Emir Eraslan",
-         "role": "team-roles-pr",
-         "pfp": "/ProfilePics/yusuf.webp",
-         "linkedin": "https://www.linkedin.com/in/yusuf-emir-eraslan-97b790257"
-      },
-      {
          "id": 20,
          "name": "Elif Zehra Yıldız",
          "role": "team-roles-pr",
          "pfp": "/ProfilePics/elif.webp",
          "linkedin": "https://www.linkedin.com/in/elifzehrayildiz"
-      },
-      {
-         "id": 21,
-         "name": "Eda Cihanoğlu",
-         "role": "team-roles-pr",
-         "pfp": "/ProfilePics/eda.webp",
-         "linkedin": "https://www.linkedin.com/in/eda-cihano%C4%9Flu-5145ba254/"
       }
    ],
    "alumnis": [
@@ -246,6 +176,62 @@
          "role": "team-roles-pr",
          "pfp": "/ProfilePics/ahmetkurt.webp",
          "linkedin": "https://drive.google.com/open?id=1BDvbx-DxRyD_FbCCpCRNsobuz5Kk8emB"
+      },
+      {
+         "id": 1,
+         "name": "Emel Karahan",
+         "role": "team-roles-pr",
+         "pfp": "/ProfilePics/emel.webp",
+         "linkedin": "https://www.linkedin.com/in/emel-karahan-614900223/"
+      },
+      {
+         "id": 2,
+         "name": "Furkan Taner Gül",
+         "role": "team-roles-mechanic",
+         "pfp": "/ProfilePics/furkan.webp",
+         "linkedin": "https://www.linkedin.com/in/furkan-taner-g%C3%BCl-9ab088225"
+      },
+      {
+         "id": 3,
+         "name": "Eren Okumuş",
+         "role": "team-roles-design",
+         "pfp": "/ProfilePics/eren.webp",
+         "linkedin": "https://www.linkedin.com/in/eren-okumu%C5%9F-b596a1225/"
+      },
+      {
+         "id": 5,
+         "name": "İbrahim Göktuğ Alhan",
+         "role": "team-roles-programmer",
+         "pfp": "/ProfilePics/igalhan.webp",
+         "linkedin": "https://www.linkedin.com/in/ibrahim-g%C3%B6ktu%C4%9F-alhan-628b86217"
+      },
+      {
+         "id": 6,
+         "name": "Ömer Hasanov",
+         "role": "team-roles-electronic",
+         "pfp": "/ProfilePics/homerow.webp",
+         "linkedin": "https://www.linkedin.com/in/%C3%B6mer-hasanov-652132211"
+      },
+      {
+         "id": 7,
+         "name": "Umut Erdem",
+         "role": "team-roles-programmer",
+         "pfp": "/ProfilePics/umutjr.webp",
+         "linkedin": "https://www.linkedin.com/in/umut-erdem-3b1735275/"
+      },
+      {
+         "id": 9,
+         "name": "Miray Topaloğlu",
+         "role": "team-roles-pr",
+         "pfp": "/ProfilePics/miray.webp",
+         "linkedin": "https://www.linkedin.com/in/miray-topalo%C4%9Flu-764804225"
+      },
+      {
+         "id": 8,
+         "name": "Erkan Torlak",
+         "role": "team-roles-pr",
+         "pfp": "/ProfilePics/erkan.webp",
+         "linkedin": "https://www.linkedin.com/in/erkan-torlak-391814254"
       }
    ]
 }
